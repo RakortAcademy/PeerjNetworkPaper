@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use these analysis scripts or aggregate data, please cite the article."
+title: "Estate-structure analysis scripts and aggregate data for Learning-Assisted Exposure Assessment at Estate Scale"
+authors:
+  - family-names: "Kocaoğlu"
+    given-names: "Ramazan"
+    affiliation: "Ostim Technical University, Ankara, Turkey"
+  - family-names: "Bakırcı"
+    given-names: "Basma"
+    affiliation: "Ostim Technical University, Ankara, Turkey; Rakort Bilgi Teknoloji A.Ş., Ankara, Turkey"
+license: MIT
+version: "1.0.0"
+date-released: "2026-01-01"
+preferred-citation:
+  type: article
+  title: "Learning-Assisted Exposure Assessment at Estate Scale: Constraint Recovery, Inventory Redundancy, and Engine Placement in Managed Enterprise Networks"
+  authors:
+    - family-names: "Kocaoğlu"
+      given-names: "Ramazan"
+    - family-names: "Bakırcı"
+      given-names: "Basma"
+  journal: "PeerJ Computer Science"
+  year: 2026

@@ -1,0 +1,20 @@
+% Table 9: Feed maintenance.
+\begin{table}[htbp]
+\centering
+\caption{Feed maintenance. Initial acquisition is paid once at commissioning; steady-state cost is the incremental column. Six of the seven are enrichment: their failure is logged and scanning proceeds. Six of the seven also map to one indexed database and carry a citation in the Feed column; vendor update guides aggregate 190 first-party vendor documentation pages rather than one indexed source, which is why that row alone carries none.}
+\label{tab:feeds}
+\footnotesize
+\begin{tabular}{@{}p{3.4cm}p{2.6cm}rp{2.8cm}p{2.0cm}@{}}
+\hline
+\textbf{Feed} & \textbf{Contribution} & \textbf{Interval} & \textbf{Initial acquisition} & \textbf{Incremental} \\
+\hline\hline
+Advisory records~\cite{cvelist} & descriptions, affected products, ranges & 6 h & 4.0 GB clone & changed files \\
+\rowcolor{tblstripe} Exploitation signals~\cite{kev,epss} & observation and prediction & 6 h & 15 s & full, small \\
+Vendor update guides & fixed build and patch identifier & 24 h & 190 documents, 20 min & 24-month window \\
+\rowcolor{tblstripe} Ecosystem fix data~\cite{osv} & fixed version per maintenance branch & 24 h & one archive, 3 s & full, small \\
+Applicability analysis~\cite{nvd} & product/version mapping per advisory & 24 h & 80 min & incremental \\
+\rowcolor{tblstripe} Product dictionary~\cite{cpe} & canonical vendor and product names & 168 h & 896 pages, 535 MB & modified-since \\
+Support calendars~\cite{endoflife} & whether a branch is still maintained & 168 h & 230 s & full \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,20 @@
+% Table 10: Measurement platforms.
+\begin{table}[htbp]
+\centering
+\caption{Measurement platforms. P is the deployment target; A is the twelve-core appliance on which the concurrency and index experiments were run.}
+\label{tab:platforms}
+\footnotesize
+\begin{tabular}{@{}p{2.0cm}p{5.5cm}p{5.5cm}@{}}
+\hline
+ & Appliance (A) & Production node (P) \\
+\hline
+Processor & NVIDIA Jetson AGX Orin, 12$\times$ Arm Cortex-A78AE & Xeon E7-8890 v4, 2.20 GHz \\
+Architecture & aarch64 & x86-64 \\
+Cores & 12 physical, 1 thread per core & 32 physical, 64 hardware threads \\
+Memory & 61 GB, shared with store & 32 GB \\
+Store & co-located & separate host \\
+Accelerator & integrated GPU (unused in the deployed path) & none required \\
+Used for & Tables~\ref{tab:repeatability}, \ref{tab:single-product}, \ref{tab:phase}, \ref{tab:engine}, \ref{tab:throughput}, \ref{tab:latency}; Figs.~\ref{fig:scaling-a}, \ref{fig:latency} & Tables~\ref{tab:index}, \ref{tab:footprint}; Fig.~\ref{fig:scaling-p}; end-to-end scan (\S\ref{sec:e2e}) \\
+\hline
+\end{tabular}
+\end{table}

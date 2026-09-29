@@ -1,0 +1,24 @@
+% Table 19: Estate scan time under three scheduling policies (projections).
+\begin{table}[htbp]
+\centering
+\caption{Estate scan time under three scheduling policies, at the conservative 1.6 items/s load-test rate. These are projections: measured throughput applied to measured workload, not end-to-end estate measurements. Section~\ref{sec:e2e} reports a measured scan at 2.4 times this rate.}
+\label{tab:projected}
+\footnotesize
+\begin{tabular}{l r r r r r}
+\hline
+ & \multicolumn{2}{c}{Workload} & \multicolumn{3}{c}{Projected time} \\
+Estate & $R$ & $U$ & per row & per item & per group \\
+\hline
+E1 & 9,271 & 1,510 & 1.6 h & 16 min & 40 min \\
+E3 & 81,368 & 4,741 & 14.1 h & 49 min & 1.9 h \\
+E4 & 5,940 & 721 & 62 min & 8 min & 17 min \\
+E5 & 13,120 & 2,377 & 2.3 h & 25 min & 60 min \\
+E6 & 34,779 & 4,632 & 6.0 h & 48 min & 2.1 h \\
+E7 & 5,417 & 1,629 & 56 min & 17 min & 48 min \\
+E8 & 23,282 & 3,316 & 4.0 h & 35 min & 86 min \\
+E9 & 6,311 & 1,635 & 66 min & 17 min & 41 min \\
+\hline
+Pooled & 179,488 & 20,561 & 31.2 h & 3.6 h & 8.9 h \\
+\hline
+\end{tabular}
+\end{table}

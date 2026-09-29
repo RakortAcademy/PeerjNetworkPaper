@@ -1,0 +1,9 @@
+# Table 7: CPE-dictionary route on eight estates (Section 4.7)
+# Share of scannable product strings and rows that resolve at each tier
+# Resolution tiers are cumulative
+stage,by_name_pct,by_row_pct
+Case and punctuation only,2.6,8.1
++ architecture and packaging,2.9,8.8
++ locale and edition and year,4.9,10.5
++ embedded version stripped,13.0,16.2
+Resolved and version-bounded,11.7,13.2

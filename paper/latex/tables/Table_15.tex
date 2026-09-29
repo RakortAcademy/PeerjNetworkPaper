@@ -1,0 +1,21 @@
+% Table 15: Engine comparison on platform A.
+\begin{table}[htbp]
+\centering
+\caption{Engine comparison on platform A. Upper block: the controlled 24-product workload under different concurrency strategies; the 9.6$\times$ figure is the ratio of the first row to the last. Lower block: a 146-item production inventory, run to establish verdict parity rather than to derive a speed-up. Single runs.}
+\label{tab:engine}
+\footnotesize
+\begin{tabular}{l r r}
+\hline
+Configuration & Total & Per product \\
+\hline
+Interpreted, 1 thread & 52.0 s & 2.17 s \\
+Interpreted, 4 threads & 79.0 s & --- \\
+Interpreted, 8 processes & 12.5 s & 0.52 s \\
+Compiled, 1 worker & 27.1 s & 1.13 s \\
+Compiled, 8 workers & 5.4 s & 0.22 s \\
+\multicolumn{3}{l}{\textit{146-item production inventory}} \\
+Interpreted & $\approx$6 min & --- \\
+Compiled & 20.3 s & --- \\
+\hline
+\end{tabular}
+\end{table}

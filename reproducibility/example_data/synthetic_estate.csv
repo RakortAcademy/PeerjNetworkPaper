@@ -1,0 +1,15 @@
+endpoint_id,name,version,vendor,architecture,client_deleted,os_family
+1001,Google Chrome,126.0.6478.127,Google LLC,x64,0,windows
+1002,Google Chrome,126.0.6478.127,Google LLC,x64,0,windows
+1003,Google Chrome,125.0.6422.142,Google LLC,x64,0,windows
+1001,Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.40.33810,14.40.33810.0,Microsoft Corporation,x64,0,windows
+1002,Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.40.33810,14.40.33810.0,Microsoft Corporation,x64,0,windows
+1003,7-Zip 23.01 (x64),23.01,Igor Pavlov,x64,0,windows
+1004,7-Zip 23.01 (x64),23.01,Igor Pavlov,x64,0,windows
+1004,Mozilla Firefox (x64 tr),127.0.1,Mozilla,x64,0,windows
+1005,Mozilla Firefox (x64 tr),127.0.1,Mozilla,x64,1,windows
+1005,Microsoft Office Professional Plus 2016,16.0.4266.1001,Microsoft Corporation,32-bit,0,windows
+1002,Notepad++ (64-bit x64),8.6.8,Notepad++ Team,x64,0,windows
+1003,Internal Tool,,,x64,0,windows
+1004,,1.0,,x64,0,windows
+1005,Adobe Acrobat Reader DC MUI,24.002.20759,Adobe Systems Incorporated,32-bit,0,windows

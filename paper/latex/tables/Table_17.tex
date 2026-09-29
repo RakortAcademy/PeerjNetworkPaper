@@ -1,0 +1,21 @@
+% Table 17: Measured end-to-end service performance.
+\begin{table}[htbp]
+\centering
+\caption{Measured end-to-end service performance. All rows are platform A except the final row, which is the production node (P).}
+\label{tab:throughput}
+\footnotesize
+\begin{tabular}{l r}
+\hline
+Scenario & Value \\
+\hline
+Cold scan, single item & 1.5--3.1 s \\
+Cache hit & $\approx$12 ms \\
+Same product, five versions & 8.2 s $\rightarrow$ 2.1 s (3.9$\times$) \\
+29-item inventory, 20 duplicates & 9.9 s (0.34 s/item) \\
+40-item request, cold then warm & 81.2 s $\rightarrow$ 10.2 s \\
+300 items, cold cache & 188 s (1.6 items/s) \\
+300 items, warm cache & 10.1 s (29.7 items/s) \\
+1,443 items, production inventory & 368.1 s (3.9 items/s) \\
+\hline
+\end{tabular}
+\end{table}

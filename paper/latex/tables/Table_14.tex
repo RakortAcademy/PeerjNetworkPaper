@@ -1,0 +1,18 @@
+% Table 14: Effect of the in-memory index on the fixed 400-item scan.
+\begin{table}[htbp]
+\centering
+\caption{Effect of the in-memory index on the fixed 400-item scan, on the appliance (A) and the production node (P). Every configuration produces the same 11,005 findings.}
+\label{tab:index}
+\footnotesize
+\begin{tabular}{l l r r}
+\hline
+Platform & Candidate source & Time & Speed-up \\
+\hline
+A & store, serial & 158.8 s & 1.00 \\
+A & memory, serial & 117.2 s & 1.36 \\
+A & memory, parallel & 78.7 s & 2.02 \\
+P & memory, serial & 121.1 s & 1.31 \\
+P & memory, parallel & 37.6 s & 4.22 \\
+\hline
+\end{tabular}
+\end{table}

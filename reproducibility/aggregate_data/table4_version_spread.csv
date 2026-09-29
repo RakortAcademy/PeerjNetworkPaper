@@ -1,0 +1,10 @@
+# Table 4: Version spread - products present at multiple versions (Section 4.4)
+estate,products_G,multi_version_count,multi_version_pct,widest_spread
+E1,1011,166,16.4,31
+E3,2946,486,16.5,69
+E4,432,121,28.0,16
+E5,1524,294,19.3,69
+E6,3123,566,18.1,70
+E7,1200,169,14.1,27
+E8,2162,430,19.9,77
+E9,1026,201,19.6,53

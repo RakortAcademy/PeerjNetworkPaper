@@ -1,0 +1,23 @@
+% Table 3: Two-level redundancy in production estates.
+\begin{table}[htbp]
+\centering
+\caption{Two-level redundancy in production estates. $R$ is scannable rows, $U$ distinct scan items, $G$ distinct products. The pooled row sums each column over the eight estates rather than de-duplicating across them, because each estate is scanned as a separate workload: a product present in five estates is five preparation units, not one.}
+\label{tab:redundancy}
+\footnotesize
+\begin{tabular}{l r r r r r r}
+\hline
+Estate & $R$ & $U$ & $G$ & $\rho_{\text{item}}$ & $\rho_{\text{group}}$ & Reduction \\
+\hline
+E1 & 9,271 & 1,510 & 1,011 & 6.1 & 1.49 & 83.7\% \\
+E3 & 81,368 & 4,741 & 2,946 & 17.2 & 1.61 & 94.2\% \\
+E4 & 5,940 & 721 & 432 & 8.2 & 1.67 & 87.9\% \\
+E5 & 13,120 & 2,377 & 1,524 & 5.5 & 1.56 & 81.9\% \\
+E6 & 34,779 & 4,632 & 3,123 & 7.5 & 1.48 & 86.7\% \\
+E7 & 5,417 & 1,629 & 1,200 & 3.3 & 1.36 & 69.9\% \\
+E8 & 23,282 & 3,316 & 2,162 & 7.0 & 1.53 & 85.8\% \\
+E9 & 6,311 & 1,635 & 1,026 & 3.9 & 1.59 & 74.1\% \\
+\hline
+Pooled & 179,488 & 20,561 & 13,424 & 8.7 & 1.53 & 88.5\% \\
+\hline
+\end{tabular}
+\end{table}

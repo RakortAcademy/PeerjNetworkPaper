@@ -1,0 +1,12 @@
+# Table 6: Lexical features of inventory product strings (Section 4.6)
+# Over 13,424 product strings summed across eight estates (7,604 distinct after cross-estate deduplication)
+# Classes are not mutually exclusive
+feature,example_fragment,share_pct
+Vendor prefix,Microsoft...; Google...,55.4
+Embedded version,...14.40.33810,46.2
+Architecture marker,(x64); 32-bit,40.8
+Year designator,...2016,24.7
+Packaging vocabulary,Redistributable; Click-to-Run,21.8
+Non-ASCII characters,Çalışma Zamanı,5.9
+Locale qualifier,MUI (Turkish); Deutsch,5.0
+Edition qualifier,Professional; Enterprise,3.3

@@ -1,0 +1,20 @@
+# Figure 7 / Table 18: interactive single-item latency, platform A, warm, n=200.
+# (a) percentile CDF
+percentile,latency_s
+min,0.0046
+p25,0.320
+p50,0.765
+p75,1.16
+mean,0.888
+p90,1.71
+p95,3.20
+p99,3.69
+max,3.89
+
+# (b) median latency per decade of adjudicated findings
+finding_bucket,n,median_latency_s
+0,29,0.0085
+1-9,7,3.245
+10-99,50,0.328
+100-999,68,0.828
+>=1000,46,1.598

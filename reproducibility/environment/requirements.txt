@@ -1,0 +1,6 @@
+# Pinned dependencies for the Section-4 analysis scripts
+# (analysis/estate_structure.py, lexical_features.py, cpe_route.py).
+# Requires Python >= 3.10; the scripts use only the standard library beyond
+# the one pinned package below (a .csv export needs nothing extra; openpyxl
+# is required only for .xlsx input).
+openpyxl==3.1.5

@@ -1,0 +1,11 @@
+# Table 2: Version coverage of live application rows (Section 4.2)
+estate,endpoints,live_rows,no_version_pct
+E1,176,15006,38.2
+E3,957,198835,59.1
+E4,88,5979,0.7
+E5,183,14125,7.1
+E6,526,52583,33.9
+E7,79,6447,16.0
+E8,361,37336,37.6
+E9,155,6607,4.5
+Pooled,2525,336918,46.7

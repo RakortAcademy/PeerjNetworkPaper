@@ -1,0 +1,27 @@
+% Table 16: Resource footprint of the production node.
+\begin{table}[htbp]
+\centering
+\caption{Resource footprint of the production node (P) during a production scan. Index load and resident size were also measured on the appliance (A), where the index loads in 25.8--29.0 s.}
+\label{tab:footprint}
+\footnotesize
+\begin{tabular}{l r}
+\hline
+Quantity & Value \\
+\hline
+Engine: start-up to listening & $<$ 1 s \\
+Engine: index load & 25.8--32.2 s \\
+Engine: resident, index loaded & 1.35--1.55 GB \\
+Engine: resident, prolonged idle & $\approx$4.04 GB \\
+Engine: resident during scan, mean & 5.34 GB \\
+Engine: resident during scan, peak & 8.40 GB \\
+Engine: threads at peak & 42 \\
+Service tier: resident & $\approx$70 MB \\
+Service tier: processor during scan & 0.3--0.6\% \\
+Store: resident (incl. shared buffers) & $\approx$4.01 GB \\
+Database on disk & 2,370 MB \\
+Feed working copy on disk & 4.0 GB \\
+Model files on disk & 170 MB \\
+Application image on disk & 210 MB \\
+\hline
+\end{tabular}
+\end{table}
