@@ -338,6 +338,16 @@ were analysed on infrastructure operated by the organisations themselves and the
 authors' institution/company; only derived aggregate statistics leave that boundary
 and are what this repository publishes.
 
+## Generative AI Use
+
+The public reproducibility scripts, the verification and figure tooling and the
+documentation in this repository were prepared with the assistance of Claude Code
+(Anthropic), including rerunning the authors' analysis scripts on the study exports and
+checking the regenerated outputs against the original analysis outputs and the submitted
+manuscript. The experimental design, the analysis definitions, the measurements and the
+conclusions are the authors' own; the authors reviewed all AI-assisted material and take
+responsibility for it.
+
 ## Citations
 
 If you use the scripts or the aggregate data, cite the manuscript (see

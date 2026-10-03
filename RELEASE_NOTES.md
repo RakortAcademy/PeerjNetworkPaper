@@ -30,4 +30,7 @@ Known limitations
 - Figure 7 is not reproducible (unreleased per-request observations); Figure 7(b) is
   drawn from released medians only.
 
+Generative AI: the repository tooling and documentation were prepared with Claude Code
+(Anthropic) assistance; see README, "Generative AI Use".
+
 Citation: see `CITATION.cff`. DOI: to be added when this release is archived.
