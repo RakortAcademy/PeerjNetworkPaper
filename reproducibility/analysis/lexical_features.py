@@ -9,7 +9,8 @@ Each lexical class is a transformation that normalisation must undo before an
 inventory name can be compared with an advisory product name. Classes are not
 mutually exclusive; a single string routinely exhibits several.
 
-Prevalence is computed per distinct product *name*, not per row, and summed
+Prevalence is computed per distinct scannable product *name* (a product with at
+least one versioned row), not per row, and summed
 across estates without cross-estate de-duplication -- so that a single widely
 deployed application does not dominate the figure, and so that the pooled
 denominator matches Table 3's pooled product-group count (Section 4.6 states
@@ -18,7 +19,7 @@ after cross-estate de-duplication).
 
 Usage
 -----
-    python3 lexical_features.py --export customer1.xlsx --export customer3.xlsx \\
+    python3 lexical_features.py --export estate1.xlsx --export estate3.xlsx \\
         --out out/
     python3 lexical_features.py --dir path/to/exports --out out/
 """
@@ -89,19 +90,24 @@ def main() -> None:
 
     noise_counts = Counter()
     total_names = 0
+    distinct_across_estates = set()
     skipped: List[str] = []
 
     for index, path in enumerate(paths, start=1):
         label = label_for(path, index)
         records = read_export(path)
         if not records:
-            skipped.append(f"{os.path.basename(path)} ({label})")
+            skipped.append(label)  # label only: the export file name is not part of the public output
             continue
         estate = reduce_estate(records)
-        # names_seen holds one display string per distinct normalised product
-        # name in this estate -- the per-estate distinct-name population the
-        # classes are measured over, matching Table 6's denominator.
-        for display_name in estate.names_seen.values():
+        # The population is the estate's distinct *scannable* product names
+        # (products with at least one versioned row), i.e. Table 3's G, which
+        # is Table 6's stated denominator; each name is represented by the
+        # first display string seen for it. Versionless-only names are not
+        # counted, matching the original study analysis.
+        distinct_across_estates.update(estate.products.keys())
+        for group in estate.products.values():
+            display_name = group["display"]
             total_names += 1
             for feature, pattern in NOISE.items():
                 if pattern.search(display_name):
@@ -118,7 +124,8 @@ def main() -> None:
     with open(out_path, "w", newline="", encoding="utf-8") as f:
         f.write("# Table 6: Lexical features of inventory product strings (Section 4.6)\n")
         f.write(f"# Over {total_names:,} product strings summed across the given estates "
-                "(classes are not mutually exclusive)\n")
+                f"({len(distinct_across_estates):,} distinct after cross-estate de-duplication); "
+                "classes are not mutually exclusive\n")
         if skipped:
             f.write(f"# Excluded (unreadable): {', '.join(skipped)}\n")
         writer = csv.writer(f)
@@ -127,7 +134,8 @@ def main() -> None:
             writer.writerow(row)
     print(f"wrote {out_path}")
 
-    print(f"\n{total_names:,} distinct product names, {len(paths) - len(skipped)} estates:")
+    print(f"\n{total_names:,} product names summed over {len(paths) - len(skipped)} estates "
+          f"({len(distinct_across_estates):,} distinct across estates):")
     for feature, count in ranked:
         print(f"  {feature:22s} {count:7,}  {100.0 * count / total_names:5.1f}%")
     if skipped:

@@ -1,6 +1,8 @@
-# Pinned dependencies for the Section-4 analysis scripts
-# (analysis/estate_structure.py, lexical_features.py, cpe_route.py).
-# Requires Python >= 3.10; the scripts use only the standard library beyond
-# the one pinned package below (a .csv export needs nothing extra; openpyxl
-# is required only for .xlsx input).
+# Pinned dependencies for the public reproducibility package.
+# Requires Python >= 3.10.
+#
+# analysis/*.py use only the standard library for .csv input; openpyxl is
+# needed only to read an .xlsx export.
 openpyxl==3.1.5
+# reproduce_figures.py (Figures 1 and 6 from the released datapoints).
+matplotlib==3.8.4

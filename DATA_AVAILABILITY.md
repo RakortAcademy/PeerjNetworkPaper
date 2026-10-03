@@ -4,91 +4,72 @@
 Recovery, Inventory Redundancy, and Engine Placement in Managed Enterprise Networks*
 **Authors:** Ramazan Kocaoğlu, Basma Bakırcı
 **Target journal:** PeerJ Computer Science (AI Application)
+**Repository:** https://github.com/RakortAcademy/PeerjNetworkPaper (DOI: not yet assigned)
 
 PeerJ requires that raw data and/or code be made available whenever possible, and
-that where third-party data cannot be shared for confidentiality or security reasons,
-the authors provide an explanation. This document records the public/restricted split
-for the **data** side of this submission. The corresponding split for **code** —
-including which production components discussed in the manuscript are not publicly
-releasable — is recorded separately in `CODE_AVAILABILITY.md`.
+that where third-party data cannot be shared for confidentiality or security reasons
+the authors explain why. This document records the split for the **data** side; the
+corresponding split for **code** is in `CODE_AVAILABILITY.md`.
 
-## What is public
+## PUBLIC — in this repository
 
-Provided in this repository, and as supplemental files with the submission (see
-`reproducibility/`):
+| Data | Location | What it is |
+|---|---|---|
+| Derived aggregate statistics, Tables 2–7 | `reproducibility/aggregate_data/*.csv` | Per-estate and pooled values exactly as printed in the manuscript; produced by the public scripts on the eight study estates |
+| Table reproduction data | same files | The reference an operator's rerun is compared against (`verify_release.py --operator-exports`) |
+| Figure reproduction data | `reproducibility/figure_data/figure1_fanout.csv`, `figure6_speedup.csv`, `figure7_latency.csv` | Plotted datapoints: Figure 1 curve points (60-sample curves plus Table 5 head-share points), Figure 6 medians, Figure 7 percentiles (= Table 18) and per-bucket medians/populations |
+| Synthetic / example data | `reproducibility/example_data/synthetic_estate.csv`, `example_data/cpe/*` | Hand-written, fictitious; shows the input formats and lets the pipeline run; no manuscript number derives from it |
+| Manuscript figures | `paper/latex/figures/Figure_1.pdf` … `Figure_7.pdf` | Vector PDF crops of the submitted figures; no TikZ/PGFPlots source exists |
 
-- **Analysis scripts** that reproduce the estate-structure measurement study
-  (Section 4): version coverage, two-level redundancy, fan-out concentration,
-  lexical-feature prevalence, and the CPE-dictionary coverage route. See
-  `CODE_AVAILABILITY.md` for the full accounting of what these scripts do and do
-  not reproduce.
-- **Derived, non-identifying aggregate statistics** — the per-estate and pooled
-  numbers that appear in Tables 2–7 and Figure 1 — as machine-readable CSV
-  (`reproducibility/aggregate_data/`).
-- **Figure source data** as CSV, for the three figures whose underlying datapoints
-  are tabular and recoverable: Figure 1 (fan-out concentration), Figure 6
-  (appliance core-count scaling) and Figure 7 (per-item latency)
-  (`reproducibility/figure_data/`). Figures 1–7 themselves are supplied as vector
-  PDF crops of the approved manuscript figures (`paper/latex/figures/Figure_1.pdf` –
-  `Figure_7.pdf`), not as TikZ/PGFPlots source; no such source files are part of
-  this package.
-- A **README** (`reproducibility/README.md`) describing how to regenerate the
-  figures and tables from a NAC installed-application export in the platform's
-  native format.
+The public figure data support Figures 1 and 6 only partially or fully as stated in
+`README.md` ("Reproducing Figures"); Figure 7 cannot be regenerated from them.
 
-Because the scripts consume an export in the platform's native format, any operator
-of a comparable NAC deployment can reproduce the Section 4 analysis against **their
-own** inventory.
+**Provenance.** The Table 2–6 CSVs and `figure1_fanout.csv` are the unmodified output
+of the public scripts on the study exports (2026-10-03), checked value by value against
+the original study analysis and the manuscript.
 
-## What is restricted (cannot be released)
+## RESTRICTED — cannot be released
 
-- **Raw customer inventories** — the eight production estate exports and the
-  end-to-end scan inventory.
-- **Endpoint-level customer data** of any kind.
-- **Internal customer-identifying exports.**
+| Data | Why |
+|---|---|
+| Raw inventory exports of the eight production estates (and the excluded ninth) | Confidential third-party data: each enumerates the complete software estate of an identifiable organisation, which §2.3 of the manuscript argues must not leave the network that produces it. Obtained under terms permitting analysis, not redistribution. |
+| The 6,129-row / 183-endpoint inventory of the end-to-end scan (§9.11) | Same |
+| Any endpoint-level or customer-identifying record | Same |
 
-## Why the raw inventories cannot be released
+The exports identify endpoints only by an opaque platform-internal number (no
+hostname, user, address or location), no organisation is named, and only derived
+aggregates are reported; even so the raw rows remain third-party confidential. This
+is the confidentiality/security exception PeerJ's policy provides for.
 
-The underlying customer inventories enumerate the complete software estate of
-identifiable organisations. That document is precisely the map of an organisation's
-attack surface which the manuscript itself (Section 2.3) argues should never leave
-the network that produces it. The exports were obtained during integration projects
-under confidentiality terms that permit **analysis** but not redistribution, and
-releasing them would disclose security-sensitive third-party data. This is the
-confidentiality/security exception PeerJ's data-availability policy provides for.
+## NOT INCLUDED — not data of this study
 
-The exports identify endpoints only by an opaque numeric identifier internal to the
-management platform (no hostname, user, address, or location), no organisation is
-named, and only derived aggregate statistics are reported — but even so the raw rows
-remain third-party confidential and are withheld.
+| Item | Note |
+|---|---|
+| Proprietary assessment engine, service tier, trained model weights | Code/model, not data; see `CODE_AVAILABILITY.md` |
+| Credentials, production databases, deployment configuration | Never part of any package |
+| Seven-feed advisory corpus (Table 9) and the applicability corpus used for Table 7 stage 2 | Operational feeds of the production service; not released. |
+| Production product dictionary used for Table 7 (NVD Products/CPE API 2.0, full acquisition 3 Aug 2026) and its 3 Aug 2026 deprecation state | Operational table of the production service; not released. The public NVD dictionary is obtainable from NIST, but the historical state behind the published key counts (43,706 / 138,158) is not recoverable exactly; see `CODE_AVAILABILITY.md`, "Table 7". |
+| The 200 individual latency observations behind Figure 7(a) and the per-bucket spread of Figure 7(b); run-to-run spread behind Figure 6 | Not released; only the summary values are |
 
 ## Third-party data source
 
-The data is software inventory exported from a **commercial network access control
+The data are software-inventory exports from a **commercial network access control
 (NAC) platform**, drawn from **eight production enterprise deployments**, obtained
-during integration projects with the operators' consent (manuscript Section 4.1,
-"Data and Method"). Each export is a dump of the platform's installed-application
-table, carrying per row an endpoint identifier, a product display name, a version
-string, a vendor string, an architecture marker and a deletion flag. The manuscript
-does not name the specific commercial platform, product, or database.
+during integration projects with the operators' consent (manuscript §4.1, "Ethics
+and Data Handling"). Each export is a dump of the platform's installed-application
+table with, per row, an endpoint identifier, product display name, version string,
+vendor string, architecture marker and deletion flag. The manuscript does not name
+the specific commercial platform, product or database, and no public database,
+accession number or URL exists for these exports.
 
-## What a comparable operator would need to reproduce the analysis
+## What a comparable operator needs to reproduce the Section 4 analysis
 
-1. An installed-application export from a NAC/asset-management platform, carrying per
-   row: endpoint identifier, product display name, version string, vendor string,
-   architecture marker, deletion flag, and (ideally) an operating-system-family join.
-2. For the Section 4.7 CPE-dictionary route (`cpe_route.py`): the published CPE
-   dictionary (always required), and, only for the optional stage-2 "resolved and
-   version-bounded" check, a small `cpe_product,version_bounded` CSV supplied via
-   `--advisory-corpus` (script-defined format, documented in the script's own
-   `--help`). This is a different, much smaller artefact than the seven-feed
-   advisory corpus of Table 9, which is not part of this public package.
-3. For an end-to-end scan reproducing Sections 8–9 (not something these scripts do —
-   see `CODE_AVAILABILITY.md`): the full advisory corpus of Table 9 and the
-   proprietary assessment engine itself.
-4. The public analysis scripts in `reproducibility/analysis/`.
+1. An installed-application export from a NAC/asset-management platform with the
+   columns above (operating-system family optional but recommended).
+2. For Table 7: the official CPE dictionary (tiers 1–4), and, only for the stage-2
+   row, a `cpe_product,version_bounded` CSV in the script's format.
+3. The public scripts in `reproducibility/analysis/`.
 
-The scripts regenerate every Section 4 table and Figure 1 from item (1) alone (Table
-7 additionally needs item (2)'s dictionary); nothing in this public package
-reproduces the Section 8–9 performance results, which required the deployed
-production service (item 3).
+The scripts regenerate Tables 2–6 and the Figure 1 curve file from item 1 alone and
+Table 7 from items 1–2; nothing in this repository regenerates the Section 8–9
+results, which required the deployed production service.

@@ -74,3 +74,30 @@ paper/latex/main.pdf
 *.export
 raw_data/
 customer_data/
+
+# Secrets / keys (never belong in this repository)
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Model weights (the trained tagger is proprietary and is not released)
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.safetensors
+
+# Raw NAC inventories, databases and dumps (customer data is never committed;
+# the public example input is a .csv under reproducibility/example_data/)
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+exports/
+
+# Internal working documents (not part of the public package)
+REVISION_REPORT.md

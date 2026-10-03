@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SYNTHETIC CPE dictionary excerpt for the smoke test of analysis/cpe_route.py.
+  Hand-written in the schema of the NVD "official-cpe-dictionary_v2.3.xml"
+  file (cpe-list / cpe-item / title / cpe-23:cpe23-item). It contains ten
+  illustrative entries for publicly known products and is NOT a copy of, or a
+  sample from, the official dictionary; none of the manuscript's Table 7
+  numbers were produced with it. Reproducing Table 7 requires the full
+  official dictionary from NIST (see README, "Reproducing Tables").
+-->
+<cpe-list xmlns="http://cpe.mitre.org/dictionary/2.0"
+          xmlns:cpe-23="http://scap.nist.gov/schema/cpe-extension/2.3"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <generator>
+    <product_name>synthetic example (not NVD)</product_name>
+    <product_version>0</product_version>
+    <schema_version>2.3</schema_version>
+    <timestamp>2026-01-01T00:00:00.000Z</timestamp>
+  </generator>
+  <cpe-item name="cpe:/a:google:chrome:126.0.6478.127">
+    <title xml:lang="en-US">Google Chrome 126.0.6478.127</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:google:chrome:126.0.6478.127:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:google:chrome:-">
+    <title xml:lang="en-US">Google Chrome</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:google:chrome:-:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:7-zip:7-zip:23.01">
+    <title xml:lang="en-US">7-Zip 23.01</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:7-zip:7-zip:23.01:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:mozilla:firefox:127.0.1">
+    <title xml:lang="en-US">Mozilla Firefox 127.0.1</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:mozilla:firefox:127.0.1:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:notepad-plus-plus:notepad%2b%2b:8.6.8">
+    <title xml:lang="en-US">Notepad++ 8.6.8</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:notepad-plus-plus:notepad\+\+:8.6.8:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:adobe:acrobat_reader_dc:24.002.20759">
+    <title xml:lang="en-US">Adobe Acrobat Reader DC 24.002.20759</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:adobe:acrobat_reader_dc:24.002.20759:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:microsoft:office:2016">
+    <title xml:lang="en-US">Microsoft Office 2016</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:microsoft:office:2016:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:microsoft:visual_c%2b%2b_redistributable:2015">
+    <title xml:lang="en-US">Microsoft Visual C++ Redistributable 2015</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:microsoft:visual_c\+\+_redistributable:2015:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/a:example:deprecated_product:1.0" deprecated="true" deprecation_date="2020-01-01T00:00:00.000Z">
+    <title xml:lang="en-US">Deprecated Example Product 1.0</title>
+    <cpe-23:cpe23-item name="cpe:2.3:a:example:deprecated_product:1.0:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/o:microsoft:windows_10:-">
+    <title xml:lang="en-US">Microsoft Windows 10</title>
+    <cpe-23:cpe23-item name="cpe:2.3:o:microsoft:windows_10:-:*:*:*:*:*:*:*"/>
+  </cpe-item>
+  <cpe-item name="cpe:/h:example:example_router:-">
+    <title xml:lang="en-US">Example Router</title>
+    <cpe-23:cpe23-item name="cpe:2.3:h:example:example_router:-:*:*:*:*:*:*:*"/>
+  </cpe-item>
+</cpe-list>

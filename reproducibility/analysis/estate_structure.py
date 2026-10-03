@@ -22,7 +22,7 @@ such excluded export among the nine held.
 
 Usage
 -----
-    python3 estate_structure.py --export customer1.xlsx --export customer3.xlsx \\
+    python3 estate_structure.py --export estate1.xlsx --export estate3.xlsx \\
         --out out/
     python3 estate_structure.py --dir path/to/exports --out out/
     python3 estate_structure.py --dir path/to/exports --out out/ \\
@@ -66,23 +66,35 @@ def fanout_table(estate: Estate) -> Dict[str, float]:
     }
 
 
+HEAD_FRACTIONS = (0.01, 0.05, 0.10)
+
+
 def concentration_points(counts_desc: List[int], samples: int = 60) -> List[Tuple[float, float]]:
     """Sampled (items_consumed_pct, rows_covered_pct) curve, descending
     fan-out order. Sampling rather than one point per item keeps the curve
     file small; ``samples`` points plus the two endpoints suffice to
     reconstruct the plotted shape.
+
+    The Table 5 head-share positions (top 1 %, 5 % and 10 % of items, with the
+    same ``k = round(n * fraction)`` as ``head_share``) are always included as
+    exact points, so the curve file and Table 5 agree by construction at those
+    three abscissae whatever the sampling step.
     """
     total = sum(counts_desc)
     n = len(counts_desc)
     if not total or not n:
         return []
-    points = [(0.0, 0.0)]
+    cumulative = []
     running = 0
+    for count in counts_desc:
+        running += count
+        cumulative.append(running)
     step = max(1, n // samples)
-    for index in range(n):
-        running += counts_desc[index]
-        if index % step == 0 or index == n - 1:
-            points.append((100.0 * (index + 1) / n, 100.0 * running / total))
+    wanted = {index for index in range(n) if index % step == 0 or index == n - 1}
+    wanted.update(max(1, int(round(n * f))) - 1 for f in HEAD_FRACTIONS)
+    points = [(0.0, 0.0)]
+    for index in sorted(wanted):
+        points.append((100.0 * (index + 1) / n, 100.0 * cumulative[index] / total))
     return points
 
 
@@ -141,8 +153,8 @@ def main() -> None:
         label = label_for(path, index)
         records = read_export(path)
         if not records:
-            skipped.append(f"{os.path.basename(path)} ({label})")
-            print(f"{label:6s} SKIPPED  {path}  (unreadable or empty export)")
+            skipped.append(label)  # label only: the export file name is not part of the public output
+            print(f"{label:6s} SKIPPED  (unreadable or empty export)")
             continue
         estates[label] = reduce_estate(records)
 
@@ -153,19 +165,30 @@ def main() -> None:
     header_note = [f"Excluded (unreadable): {s}" for s in skipped] if skipped else []
 
     # ---- Table 2: version coverage --------------------------------------
+    # The two extra columns (raw_rows, deleted_rows) are not part of Table 2 as
+    # printed; they carry the pre-reduction aggregates Section 4.1 quotes in
+    # prose (total rows held, share flagged deleted) so those figures are
+    # regenerated too rather than only the table.
     rows2 = []
     pooled_live = pooled_noversion = pooled_endpoints = 0
+    pooled_raw = pooled_deleted = 0
     for label in labels:
         e = estates[label]
-        rows2.append([label, len(e.endpoints), e.live_rows, round(e.no_version_pct, 1)])
+        rows2.append([label, len(e.endpoints), e.live_rows, round(e.no_version_pct, 1),
+                       e.raw_rows, e.dropped_deleted])
         pooled_live += e.live_rows
         pooled_noversion += e.dropped_noversion
         pooled_endpoints += len(e.endpoints)
+        pooled_raw += e.raw_rows
+        pooled_deleted += e.dropped_deleted
     pooled_no_version_pct = (100.0 * pooled_noversion / pooled_live) if pooled_live else 0.0
-    rows2.append(["Pooled", pooled_endpoints, pooled_live, round(pooled_no_version_pct, 1)])
+    rows2.append(["Pooled", pooled_endpoints, pooled_live, round(pooled_no_version_pct, 1),
+                   pooled_raw, pooled_deleted])
     write_csv(os.path.join(args.out, "table2_version_coverage.csv"),
-              ["Table 2: Version coverage of live application rows (Section 4.2)"] + header_note,
-              ["estate", "endpoints", "live_rows", "no_version_pct"], rows2)
+              ["Table 2: Version coverage of live application rows (Section 4.2)",
+               "raw_rows / deleted_rows: pre-reduction aggregates quoted in Section 4.1 "
+               "(not columns of the printed table)"] + header_note,
+              ["estate", "endpoints", "live_rows", "no_version_pct", "raw_rows", "deleted_rows"], rows2)
 
     # ---- Table 3: two-level redundancy (estate_structure.csv) -----------
     rows3 = []
@@ -210,7 +233,8 @@ def main() -> None:
                        round(f["top1pct"], 1), round(f["top5pct"], 1),
                        round(f["top10pct"], 1), round(f["singletons_pct"], 1)])
     write_csv(os.path.join(args.out, "table5_fanout_distribution.csv"),
-              ["Table 5: Fan-out distribution - how many endpoints share a scan item (Section 4.5)"] + header_note,
+              ["Table 5: Fan-out distribution - how many endpoints share a scan item (Section 4.5)",
+               "fan-out = inventory rows merged into the item (see common.Estate.fanout_counts)"] + header_note,
               ["estate", "p50", "p90", "p99", "max", "top1pct", "top5pct", "top10pct", "singletons_pct"], rows5)
 
     # ---- Figure 1: concentration curves -----------------------------------
@@ -245,6 +269,13 @@ def main() -> None:
     print(f"{'Pooled':6s} {pooled_endpoints:9,} {pooled_live:8,} {pooled_no_version_pct:7.1f} "
           f"{pooled_R:7,} {pooled_U:6,} {pooled_G:6,} {pooled_rho_item:6.1f} "
           f"{pooled_rho_group:6.2f} {pooled_reduction:8.1f}")
+    # Section 4.1 pre-reduction and per-endpoint aggregates.
+    deleted_pct = (100.0 * pooled_deleted / pooled_raw) if pooled_raw else 0.0
+    print(f"\nrows held: {pooled_raw:,}; flagged deleted: {pooled_deleted:,} ({deleted_pct:.1f}%)")
+    if pooled_endpoints:
+        print(f"per endpoint: {pooled_live / pooled_endpoints:.1f} live rows, "
+              f"{pooled_R / pooled_endpoints:.1f} scannable rows, "
+              f"{pooled_U / pooled_endpoints:.1f} distinct scan items")
     if skipped:
         print(f"\nexcluded (unreadable): {', '.join(skipped)}")
 

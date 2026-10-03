@@ -1,4 +1,5 @@
 # Table 4: Version spread - products present at multiple versions (Section 4.4)
+# Excluded (unreadable): E2
 estate,products_G,multi_version_count,multi_version_pct,widest_spread
 E1,1011,166,16.4,31
 E3,2946,486,16.5,69

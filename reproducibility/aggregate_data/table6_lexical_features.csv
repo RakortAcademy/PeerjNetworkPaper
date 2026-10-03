@@ -1,6 +1,6 @@
 # Table 6: Lexical features of inventory product strings (Section 4.6)
-# Over 13,424 product strings summed across eight estates (7,604 distinct after cross-estate deduplication)
-# Classes are not mutually exclusive
+# Over 13,424 product strings summed across the given estates (7,604 distinct after cross-estate de-duplication); classes are not mutually exclusive
+# Excluded (unreadable): E2
 feature,example_fragment,share_pct
 Vendor prefix,Microsoft...; Google...,55.4
 Embedded version,...14.40.33810,46.2

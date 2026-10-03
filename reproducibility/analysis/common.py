@@ -241,8 +241,9 @@ class Estate:
         self.items: Dict[Tuple[str, str, str], Dict[str, Any]] = {}
         # product_norm -> {"display": str, "versions": set(version_norm), "rows": int}
         self.products: Dict[str, Dict[str, Any]] = {}
-        # product_norm -> display name of every distinct product string seen
-        # (distinct *names*, not merged by normalisation, for the lexical study)
+        # product_norm -> first display string seen among *live, named* rows
+        # (includes versionless rows). The lexical study (Table 6) does NOT use
+        # this: it measures the scannable product population, i.e. ``products``.
         self.names_seen: Dict[str, str] = {}
 
     @property
@@ -282,7 +283,21 @@ class Estate:
         return (100.0 * (1 - self.unique_items / r)) if r else 0.0
 
     def fanout_counts(self) -> List[int]:
-        """Endpoint fan-out per scan item, descending."""
+        """Fan-out per scan item, descending: the number of inventory rows
+        merged into each (product, version) item.
+
+        This is the quantity behind Table 5 and Figure 1 (the original study
+        analysis counted rows per item, not distinct endpoints), so an item
+        installed more than once on the same endpoint counts once per row;
+        the manuscript notes exactly this for the largest E3 item, whose
+        fan-out exceeds the estate's endpoint count. ``endpoint_fanout_counts``
+        gives the distinct-endpoint variant, which no manuscript table uses.
+        """
+        return sorted((e["rows"] for e in self.items.values()), reverse=True)
+
+    def endpoint_fanout_counts(self) -> List[int]:
+        """Distinct endpoints per scan item, descending (not used by any
+        manuscript table; kept for operators who want the endpoint view)."""
         return sorted((len(e["endpoints"]) for e in self.items.values()), reverse=True)
 
     def versions_per_product(self) -> List[int]:
@@ -337,9 +352,10 @@ def reduce_estate(records: List[Dict[str, Any]]) -> Estate:
 
 
 def label_for(path: str, fallback_index: int) -> str:
-    """Estate label from the export's filename, matching the "customerN.xlsx
-    -> EN" convention used throughout the manuscript; falls back to
-    sequential numbering for exports that don't carry a trailing number.
+    """Estate label from the export's filename: a trailing number N in the
+    file stem gives the label EN (``estate3.xlsx`` -> ``E3``), matching the
+    arbitrary estate labels used in the manuscript; falls back to sequential
+    numbering for exports whose stem does not end in a number.
     """
     stem = os.path.splitext(os.path.basename(path))[0]
     m = re.search(r"(\d+)$", stem)

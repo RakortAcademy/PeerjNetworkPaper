@@ -1,3 +1,5 @@
+# Table 3: Two-level redundancy in production estates (Section 4.3)
+# Excluded (unreadable): E2
 estate,endpoints,live_rows,no_version_pct,R_scannable,U_items,G_products,rho_item,rho_group,reduction_pct
 E1,176,15006,38.2,9271,1510,1011,6.1,1.49,83.7
 E3,957,198835,59.1,81368,4741,2946,17.2,1.61,94.2

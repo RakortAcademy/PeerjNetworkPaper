@@ -48,7 +48,7 @@ Inputs
 
 Usage
 -----
-    python3 cpe_route.py --export customer1.xlsx --dir path/to/exports \\
+    python3 cpe_route.py --export estate1.xlsx --dir path/to/exports \\
         --cpe-dictionary official-cpe-dictionary_v2.3.xml --out out/
     python3 cpe_route.py --dir path/to/exports \\
         --cpe-dictionary dictionary.csv --advisory-corpus corpus.csv --out out/
@@ -268,7 +268,7 @@ def main() -> None:
         label = label_for(path, index)
         records = read_export(path)
         if not records:
-            skipped.append(f"{os.path.basename(path)} ({label})")
+            skipped.append(label)  # label only: the export file name is not part of the public output
             continue
         estate = reduce_estate(records)
         for product_key, group in estate.products.items():

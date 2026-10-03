@@ -9,8 +9,9 @@ authors:
     given-names: "Basma"
     affiliation: "Ostim Technical University, Ankara, Turkey; Rakort Bilgi Teknoloji A.Ş., Ankara, Turkey"
 license: MIT
+repository-code: "https://github.com/RakortAcademy/PeerjNetworkPaper"
 version: "1.0.0"
-date-released: "2026-01-01"
+# date-released and doi are added when the v1.0.0 release is archived (see reproducibility/docs/release_checklist.md)
 preferred-citation:
   type: article
   title: "Learning-Assisted Exposure Assessment at Estate Scale: Constraint Recovery, Inventory Redundancy, and Engine Placement in Managed Enterprise Networks"

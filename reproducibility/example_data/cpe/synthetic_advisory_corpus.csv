@@ -1,0 +1,5 @@
+cpe_product,version_bounded
+google:chrome,true
+7-zip:7-zip,true
+mozilla:firefox,false
+cpe:2.3:a:adobe:acrobat_reader_dc:*:*:*:*:*:*:*:*,true
