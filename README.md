@@ -359,7 +359,9 @@ release is archived (`reproducibility/docs/release_checklist.md`); none exists y
 
 The analysis scripts, verification and figure scripts, documentation and the
 aggregate/figure/synthetic CSV and XML data are released under the MIT License
-(`LICENSE`, and identically `reproducibility/LICENSE`). The manuscript text, figures
+(`LICENSE`, and identically `reproducibility/LICENSE`); the copyright holder is Rakort
+Bilgi Teknoloji A.Ş., Ankara, Turkey. The scientific authors of the work are Ramazan
+Kocaoğlu and Basma Bakırcı (`CITATION.cff`). The manuscript text, figures
 and tables under `paper/` are the authors' under-review submission and are not
 covered by the MIT License. `paper/latex/wlpeerj.cls` is PeerJ's template class file,
 included unmodified so the source builds.
