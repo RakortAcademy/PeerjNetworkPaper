@@ -125,8 +125,8 @@ subsection it implements; `../README.md` ("Methodology") lists the definitions.
 
 ## Citations
 
-Cite the manuscript via `../CITATION.cff`. A repository DOI will be added there
-when the release is archived (`docs/release_checklist.md`); none exists yet.
+Cite the manuscript and the archived software release via `../CITATION.cff`
+(v1.0.0, DOI 10.5281/zenodo.23122101).
 
 ## License & Contribution Guidelines
 

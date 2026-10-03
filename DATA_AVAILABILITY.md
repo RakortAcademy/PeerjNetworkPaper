@@ -4,7 +4,8 @@
 Recovery, Inventory Redundancy, and Engine Placement in Managed Enterprise Networks*
 **Authors:** Ramazan Kocaoğlu, Basma Bakırcı
 **Target journal:** PeerJ Computer Science (AI Application)
-**Repository:** https://github.com/RakortAcademy/PeerjNetworkPaper (DOI: not yet assigned)
+**Repository:** https://github.com/RakortAcademy/PeerjNetworkPaper (archived release v1.0.0,
+DOI https://doi.org/10.5281/zenodo.23122101; the archive contains the public files only)
 
 PeerJ requires that raw data and/or code be made available whenever possible, and
 that where third-party data cannot be shared for confidentiality or security reasons

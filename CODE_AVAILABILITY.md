@@ -3,8 +3,15 @@
 **Manuscript:** *Learning-Assisted Exposure Assessment at Estate Scale: Constraint
 Recovery, Inventory Redundancy, and Engine Placement in Managed Enterprise Networks*
 **Authors:** Ramazan Kocaoğlu, Basma Bakırcı
-**Repository:** https://github.com/RakortAcademy/PeerjNetworkPaper (DOI: not yet
-assigned; added at the v1.0.0 archive, see `reproducibility/docs/release_checklist.md`)
+**Repository:** https://github.com/RakortAcademy/PeerjNetworkPaper
+**Archived release:** v1.0.0 (commit `b51f048`), https://github.com/RakortAcademy/PeerjNetworkPaper/releases/tag/v1.0.0
+**Zenodo record:** https://zenodo.org/records/23122101
+**DOI:** https://doi.org/10.5281/zenodo.23122101
+
+The public reproducibility code and derived data described below are available from the
+repository and, in archived form, from the Zenodo record above. The archive contains
+exactly the repository at v1.0.0; the proprietary production components listed as
+"Not released" and the restricted data are not part of it.
 
 PeerJ's technical check flagged "Computer Code Required". This document states
 precisely which code is public and which is not, component by component, so the

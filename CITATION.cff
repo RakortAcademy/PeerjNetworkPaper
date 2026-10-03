@@ -11,7 +11,18 @@ authors:
 license: MIT
 repository-code: "https://github.com/RakortAcademy/PeerjNetworkPaper"
 version: "1.0.0"
-# date-released and doi are added when the v1.0.0 release is archived (see reproducibility/docs/release_checklist.md)
+date-released: "2026-10-03"
+doi: 10.5281/zenodo.23122101
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23122101
+    description: "Version DOI of the archived v1.0.0 release"
+  - type: doi
+    value: 10.5281/zenodo.23122100
+    description: "Concept DOI covering all versions"
+  - type: url
+    value: "https://github.com/RakortAcademy/PeerjNetworkPaper/releases/tag/v1.0.0"
+    description: "GitHub release v1.0.0"
 preferred-citation:
   type: article
   title: "Learning-Assisted Exposure Assessment at Estate Scale: Constraint Recovery, Inventory Redundancy, and Engine Placement in Managed Enterprise Networks"

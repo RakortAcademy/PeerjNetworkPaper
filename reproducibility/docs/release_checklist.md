@@ -1,5 +1,9 @@
 # Release checklist (v1.0.0, DOI)
 
+> Status 2026-10-03: steps 1–9 completed. v1.0.0 (commit `b51f048`) is published on
+> GitHub and archived by Zenodo, DOI 10.5281/zenodo.23122101. Step 10 (metadata) is
+> applied on `main`; steps 11–12 belong to the manuscript revision round.
+
 The public repository is released only after every step below is completed in
 order. Nothing is pushed, released or archived until the authors approve it.
 No DOI, URL or accession number is written into any file until it exists.

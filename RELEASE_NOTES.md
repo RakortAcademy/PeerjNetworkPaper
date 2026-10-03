@@ -1,6 +1,10 @@
 # Release notes
 
-## v1.0.0 (release candidate; not yet published, no DOI yet)
+## v1.0.0 — published 2026-10-03
+
+GitHub release: https://github.com/RakortAcademy/PeerjNetworkPaper/releases/tag/v1.0.0
+(commit `b51f048`). Archived by Zenodo: https://zenodo.org/records/23122101,
+DOI 10.5281/zenodo.23122101 (https://doi.org/10.5281/zenodo.23122101).
 
 First public release of the reproducibility package for *Learning-Assisted Exposure
 Assessment at Estate Scale: Constraint Recovery, Inventory Redundancy, and Engine
@@ -33,4 +37,4 @@ Known limitations
 Generative AI: the repository tooling and documentation were prepared with Claude Code
 (Anthropic) assistance; see README, "Generative AI Use".
 
-Citation: see `CITATION.cff`. DOI: to be added when this release is archived.
+Citation: see `CITATION.cff`. Software DOI: 10.5281/zenodo.23122101.

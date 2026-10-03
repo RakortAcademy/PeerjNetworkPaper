@@ -1,5 +1,7 @@
 # Learning-Assisted Exposure Assessment at Estate Scale — public reproducibility package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23122101.svg)](https://doi.org/10.5281/zenodo.23122101)
+
 ## Description
 
 Manuscript, analysis code and derived data for the estate-structure measurement
@@ -26,7 +28,11 @@ the manuscript (see [Restricted Components](#restricted-components)).
 |---|---|
 | Compiled manuscript (as submitted) | [`paper/PeerJ_Manuscript.pdf`](paper/PeerJ_Manuscript.pdf) |
 | LaTeX source, figures, tables | [`paper/latex/`](paper/latex/) · [build notes](paper/README.md) |
-| Journal | PeerJ Computer Science, under review; DOI not yet assigned |
+| Journal | PeerJ Computer Science, under review; article DOI not yet assigned |
+| Source repository | https://github.com/RakortAcademy/PeerjNetworkPaper |
+| Archived software release | v1.0.0 (commit `b51f048`), https://github.com/RakortAcademy/PeerjNetworkPaper/releases/tag/v1.0.0 |
+| Zenodo record | https://zenodo.org/records/23122101 |
+| Software DOI | 10.5281/zenodo.23122101 — https://doi.org/10.5281/zenodo.23122101 |
 | Corresponding author | Ramazan Kocaoğlu — ramazan.kocaoglu@ostimteknik.edu.tr |
 
 ## Repository Scope
@@ -351,9 +357,11 @@ responsibility for it.
 ## Citations
 
 If you use the scripts or the aggregate data, cite the manuscript (see
-`CITATION.cff`; GitHub's "Cite this repository" reads it). A repository DOI will be
-added to `CITATION.cff`, this section and `CODE_AVAILABILITY.md` when the v1.0.0
-release is archived (`reproducibility/docs/release_checklist.md`); none exists yet.
+`CITATION.cff`; GitHub's "Cite this repository" reads it) and the archived software
+release: Kocaoğlu, R. and Bakırcı, B. (2026). *Estate-structure analysis scripts and
+aggregate data for Learning-Assisted Exposure Assessment at Estate Scale* (v1.0.0).
+Zenodo. https://doi.org/10.5281/zenodo.23122101. The Zenodo archive contains this
+repository at v1.0.0 only; it holds no restricted production data.
 
 ## License
 
