@@ -7,7 +7,7 @@ Application article.
 
 | Path | What it is |
 |---|---|
-| [`PeerJ_Manuscript.pdf`](PeerJ_Manuscript.pdf) | The compiled manuscript (32 pages, peer-review layout with line numbers). Start here to read the paper. |
+| [`PeerJ_Manuscript.pdf`](PeerJ_Manuscript.pdf) | The compiled manuscript (32 pages, peer-review layout with line numbers), PeerJ compliance revision of 2026-10-03: Data Availability now cites the v1.0.0 release and its DOI, §4.1 states the data provenance, and the generative-AI declaration is complete. The version as originally submitted is preserved unchanged in release v1.0.0. Start here to read the paper. |
 | [`latex/main.tex`](latex/main.tex) | Full LaTeX source of the manuscript. |
 | [`latex/references.bib`](latex/references.bib) | Bibliography (BibTeX). |
 | [`latex/wlpeerj.cls`](latex/wlpeerj.cls) | PeerJ's LaTeX class file, from PeerJ's official template. |
@@ -24,7 +24,7 @@ latexmk -pdf main.tex
 ```
 
 This writes `paper/latex/main.pdf` (git-ignored, along with the intermediate build
-files). `PeerJ_Manuscript.pdf` in this directory is the version that was submitted.
+files). `PeerJ_Manuscript.pdf` in this directory is built from this source; the originally submitted version is in release v1.0.0.
 
 ## Where the numbers in the paper come from
 

@@ -26,7 +26,7 @@ the manuscript (see [Restricted Components](#restricted-components)).
 
 | Item | Location |
 |---|---|
-| Compiled manuscript (as submitted) | [`paper/PeerJ_Manuscript.pdf`](paper/PeerJ_Manuscript.pdf) |
+| Compiled manuscript (PeerJ compliance revision of 2026-10-03; the version as originally submitted is preserved in release v1.0.0) | [`paper/PeerJ_Manuscript.pdf`](paper/PeerJ_Manuscript.pdf) |
 | LaTeX source, figures, tables | [`paper/latex/`](paper/latex/) · [build notes](paper/README.md) |
 | Journal | PeerJ Computer Science, under review; article DOI not yet assigned |
 | Source repository | https://github.com/RakortAcademy/PeerjNetworkPaper |
