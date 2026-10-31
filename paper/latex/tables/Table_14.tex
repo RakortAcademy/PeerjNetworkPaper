@@ -1,18 +1,14 @@
-% Table 14: Effect of the in-memory index on the fixed 400-item scan.
+% Table 14: In-memory index on the fixed 400-item scan.
 \begin{table}[htbp]
 \centering
-\caption{Effect of the in-memory index on the fixed 400-item scan, on the appliance (A) and the production node (P). Every configuration produces the same 11,005 findings.}
+\caption{One scan with candidates served from the in-memory index, on the production node (P). Single run. The surviving records do not identify its workload and give its core setting inconsistently (32 cores in one document, 64 hardware threads in another); it corresponds to neither the 32- nor the 64-thread point of the 400-item curve of Figure~\ref{fig:scaling-p}, so it is not compared with that curve. No store-backed or serial run from the same session is preserved, so no speed-up is given.}
 \label{tab:index}
 \footnotesize
-\begin{tabular}{l l r r}
+\begin{tabular}{l l r}
 \hline
-Platform & Candidate source & Time & Speed-up \\
+Platform & Candidate source & Time \\
 \hline
-A & store, serial & 158.8 s & 1.00 \\
-A & memory, serial & 117.2 s & 1.36 \\
-A & memory, parallel & 78.7 s & 2.02 \\
-P & memory, serial & 121.1 s & 1.31 \\
-P & memory, parallel & 37.6 s & 4.22 \\
+P & memory, parallel & 37.6 s \\
 \hline
 \end{tabular}
 \end{table}

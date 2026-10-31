@@ -1,5 +1,37 @@
 # Release notes
 
+## v1.1.0 — research reference implementation (PeerJ resubmission)
+
+Version DOI: assigned by Zenodo on publication; the concept DOI
+https://doi.org/10.5281/zenodo.23122100 resolves to the latest archived version.
+
+Added
+- `reference_implementation/`: the authors' research code of Sections 5–7 from the
+  research snapshot of 1 August 2026 — Python reference engine with the BiLSTM-CRF tagger
+  (training, ONNX export, host-side decoding), Go source of the compiled engine, and the
+  Section 7 service tier — with tests, synthetic data and a deterministic generator.
+  Origin and every code edit: `reference_implementation/MAPPING.md`.
+- `CLAIM_TO_CODE_MATRIX.md`: each Sections 5–9 claim mapped to code, tests and
+  reproducibility status.
+
+Changed
+- `paper/`: revised manuscript (33 pages); Figures 1, 4, 6 and 7 re-written without hidden
+  page content; visible content and plotted data unchanged.
+- Documentation (README, CODE_AVAILABILITY, DATA_AVAILABILITY, CITATION.cff) updated.
+
+Licences
+- `reference_implementation/`: PolyForm Noncommercial License 1.0.0 (`LICENSE`, `NOTICE`
+  in that directory). Noncommercial use, including review, research and teaching, is
+  permitted; commercial use requires a licence from the copyright holder.
+- Everything else: MIT, unchanged from v1.0.0. The MIT licence files are kept exactly as
+  published; their copyright line names the holder as "Rakort Bilgi Teknoloji A.Ş.", whose
+  correct legal name is Rakort Bilgi ve İletişim Teknolojileri Ltd. Şti. (README §14).
+- `paper/`: not covered by either software licence.
+
+Not included: raw inventories, the trained production weights, the deployed engine build,
+post-snapshot service features, measurement harnesses and deployment configuration. The
+Sections 8–9 measurements cannot be regenerated from this release (README §8–9).
+
 ## v1.0.0 — published 2026-10-03
 
 GitHub release: https://github.com/RakortAcademy/PeerjNetworkPaper/releases/tag/v1.0.0

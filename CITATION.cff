@@ -1,18 +1,19 @@
 cff-version: 1.2.0
-message: "If you use these analysis scripts or aggregate data, please cite the article."
-title: "Estate-structure analysis scripts and aggregate data for Learning-Assisted Exposure Assessment at Estate Scale"
+message: "If you use these analysis scripts, the reference implementation or the aggregate data, please cite the article."
+title: "Estate-structure analysis scripts, aggregate data and reference implementation for Learning-Assisted Exposure Assessment at Estate Scale"
 authors:
   - family-names: "Kocaoğlu"
     given-names: "Ramazan"
     affiliation: "Ostim Technical University, Ankara, Turkey"
   - family-names: "Bakırcı"
     given-names: "Basma"
-    affiliation: "Ostim Technical University, Ankara, Turkey; Rakort Bilgi Teknoloji A.Ş., Ankara, Turkey"
-license: MIT
+    affiliation: "Ostim Technical University, Ankara, Turkey"
+license:
+  - MIT
+  - PolyForm-Noncommercial-1.0.0
 repository-code: "https://github.com/RakortAcademy/PeerjNetworkPaper"
-version: "1.0.0"
-date-released: "2026-10-03"
-doi: 10.5281/zenodo.23122101
+version: "1.1.0"
+doi: 10.5281/zenodo.23122100
 identifiers:
   - type: doi
     value: 10.5281/zenodo.23122101

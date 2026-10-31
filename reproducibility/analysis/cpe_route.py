@@ -30,7 +30,7 @@ A second stage checks, among names resolved at tier 4, whether the resolved
 product also carries a version-bounded advisory in a supplied applicability
 corpus; this stage is skipped (and reported as such) if no corpus is given,
 since the advisory corpus is not part of this public package (see
-``DATA_AVAILABILITY.md`` item 2).
+``DATA_AVAILABILITY.md``).
 
 Inputs
 ------

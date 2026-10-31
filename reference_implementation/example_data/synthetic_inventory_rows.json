@@ -1,0 +1,230 @@
+{
+ "_note": "SYNTHETIC per-endpoint rows: [endpoint_id, name, version, vendor, architecture, os_text, os_type]",
+ "rows": [
+  [
+   1001,
+   "Orbital Browser",
+   "109.0.1",
+   "Stellar Software",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1002,
+   "Orbital Browser",
+   "109.0.1",
+   "Stellar Software",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1003,
+   "Orbital Browser",
+   "109.0.1",
+   "Stellar Software",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1004,
+   "Orbital Browser",
+   "109.0.1",
+   "Stellar Software",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1005,
+   "Orbital Browser",
+   "109.0.1",
+   "Stellar Software",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1006,
+   "Orbital Browser",
+   "109.0.1",
+   "Stellar Software",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1001,
+   "Orbital Browser",
+   "109.0.1",
+   "",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1007,
+   "Orbital Browser",
+   "110.0.6",
+   "Stellar Software",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1001,
+   "Acme Ledgerly Server",
+   "2.3.9",
+   "Acme",
+   "x64",
+   "Windows Server 2022",
+   null
+  ],
+  [
+   1002,
+   "Acme Ledgerly Server",
+   "2.3.9",
+   "Acme",
+   "x64",
+   "Windows Server 2022",
+   null
+  ],
+  [
+   1003,
+   "Acme Ledgerly Server",
+   "3.1.4",
+   "Acme",
+   "x64",
+   "Ubuntu 22.04",
+   null
+  ],
+  [
+   1004,
+   "ACME LEDGERLY SERVER",
+   "2.4.1",
+   "Acme",
+   "x64",
+   "Ubuntu 22.04",
+   null
+  ],
+  [
+   1005,
+   "Northwind Mailflow Gateway",
+   "5.1.0",
+   "Northwind",
+   "x64",
+   "Debian 12",
+   null
+  ],
+  [
+   1006,
+   "Northwind Mailflow Gateway",
+   "5.4.2",
+   "Northwind",
+   "x64",
+   "Debian 12",
+   null
+  ],
+  [
+   1007,
+   "Northwind Mailflow Gateway",
+   "5.5.0",
+   "Northwind",
+   "x64",
+   "Debian 12",
+   null
+  ],
+  [
+   1002,
+   "Contoso Photolens Viewer",
+   "1.2.3",
+   "Contoso",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1003,
+   "Contoso Photolens Viewer",
+   "1.2.4",
+   "Contoso",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1004,
+   "Photolens Viewer",
+   "1.2.3",
+   "Contoso",
+   "x64",
+   "macOS 15.1",
+   null
+  ],
+  [
+   1005,
+   "ZetaDB",
+   "4.0.3",
+   "Zeta Labs",
+   "x64",
+   "Ubuntu 22.04",
+   null
+  ],
+  [
+   1006,
+   "Tailspin Relaywire Client",
+   "5.2.8.3141",
+   "Tailspin",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1007,
+   "Notes",
+   "4.13",
+   "",
+   "arm64",
+   "macOS 15.1",
+   3
+  ],
+  [
+   1001,
+   "Security Update for Windows (KB5099999)",
+   "1.0",
+   "Microsoft",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1002,
+   "Hypothetical Unknown App",
+   "1.0.0",
+   "Nobody",
+   "x64",
+   "Microsoft Windows 11 Pro",
+   null
+  ],
+  [
+   1003,
+   "Northwind Mailflow Gateway",
+   "",
+   "Northwind",
+   "x64",
+   "Debian 12",
+   null
+  ],
+  [
+   1004,
+   "",
+   "1.0",
+   "",
+   "",
+   "Microsoft Windows 11 Pro",
+   null
+  ]
+ ]
+}

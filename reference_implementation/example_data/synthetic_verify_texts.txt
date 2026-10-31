@@ -1,0 +1,132 @@
+Improper certificate validation in Orbital Browser before 9.10.10.15 allows a man-in-the-middle attack.
+A buffer overflow in Vortex PDF Reader 5.14 allows attackers to gain privileges.
+Contoso Photolens Viewer 12.2.10 and below is vulnerable to cross-site scripting in the settings page.
+Improper certificate validation in Tailspin Relaywire Client before 11.13.2 allows a man-in-the-middle attack.
+Acme Ledgerly Server prior to 11.19 mishandles input, allowing a denial of service.
+Pioneer Backup Agent before 12.12.2.14 allows remote attackers to execute arbitrary code via a crafted request.
+Quartz Media Player before 7.12.3 allows remote attackers to execute arbitrary code via a crafted request.
+An issue was discovered in Acme Ledgerly Server through 1.6.10 where sessions are not invalidated.
+ZetaDB 8.6.16 and below is vulnerable to cross-site scripting in the settings page.
+A buffer overflow in Tailspin Relaywire Client 12.9.9 allows attackers to gain privileges.
+An issue was discovered in Quartz Media Player through 10.3.18.9 where sessions are not invalidated.
+Fabrikam Ledgerly Server prior to 15.6.9 mishandles input, allowing a denial of service.
+A buffer overflow in Quartz Media Player 17.2.16 allows attackers to gain privileges.
+Helix Chat Client before 8.6.15 allows remote attackers to execute arbitrary code via a crafted request.
+Northwind Mailflow Gateway 20.18 and below is vulnerable to cross-site scripting in the settings page.
+ZetaDB up to 4.18.12 stores credentials in plain text.
+Improper certificate validation in Tailspin Relaywire Client before 8.13.15.13 allows a man-in-the-middle attack.
+Use after free in Acme Ledgerly Server prior to 19.3.7.8 allowed a remote attacker to exploit heap corruption.
+Helix Chat Client prior to 19.13.13 mishandles input, allowing a denial of service.
+Use after free in Lumen Office Suite prior to 2.10.3 allowed a remote attacker to exploit heap corruption.
+Northwind Mailflow Gateway up to 7.1.7.17 stores credentials in plain text.
+A buffer overflow in Lumen Office Suite 19.20.10 allows attackers to gain privileges.
+Helix Chat Client 16.10.12 and below is vulnerable to cross-site scripting in the settings page.
+A buffer overflow in Fabrikam Ledgerly Server 20.15 allows attackers to gain privileges.
+Use after free in Pioneer Backup Agent prior to 18.7 allowed a remote attacker to exploit heap corruption.
+An issue was discovered in ZetaDB through 8.6 where sessions are not invalidated.
+Improper certificate validation in Fabrikam Ledgerly Server before 13.6.7.9 allows a man-in-the-middle attack.
+The update mechanism of Orbital Browser 4.7.6.17 does not verify signatures.
+Tailspin Relaywire Client before 2.15.15 allows remote attackers to execute arbitrary code via a crafted request.
+Use after free in Acme Ledgerly Server prior to 19.0.6 allowed a remote attacker to exploit heap corruption.
+Lumen Office Suite versions 13.18.12 and earlier contain an authentication bypass.
+A buffer overflow in Vortex PDF Reader 2.8.1 allows attackers to gain privileges.
+A buffer overflow in Orbital Browser 7.12.5.4 allows attackers to gain privileges.
+Use after free in Tailspin Relaywire Client prior to 8.2.8 allowed a remote attacker to exploit heap corruption.
+Tailspin Relaywire Client prior to 11.17.18 mishandles input, allowing a denial of service.
+Improper certificate validation in Helix Chat Client before 0.0.18 allows a man-in-the-middle attack.
+Contoso Photolens Viewer before 14.20.15 allows remote attackers to execute arbitrary code via a crafted request.
+Improper certificate validation in Quartz Media Player before 4.4.6 allows a man-in-the-middle attack.
+Improper certificate validation in Lumen Office Suite before 13.15.12 allows a man-in-the-middle attack.
+An issue was discovered in Fabrikam Ledgerly Server through 8.14 where sessions are not invalidated.
+Northwind Mailflow Gateway up to 13.1.16 stores credentials in plain text.
+An issue was discovered in Vortex PDF Reader through 11.18.16 where sessions are not invalidated.
+Northwind Mailflow Gateway versions 16.6.3.12 and earlier contain an authentication bypass.
+Acme Ledgerly Server prior to 18.17.3.5 mishandles input, allowing a denial of service.
+A buffer overflow in Fabrikam Ledgerly Server 9.17.8 allows attackers to gain privileges.
+ZetaDB before 15.11.5 allows remote attackers to execute arbitrary code via a crafted request.
+Vortex PDF Reader up to 15.5.0 stores credentials in plain text.
+Vortex PDF Reader up to 16.0 stores credentials in plain text.
+A buffer overflow in Lumen Office Suite 6.1.14.9 allows attackers to gain privileges.
+Fabrikam Ledgerly Server prior to 7.3.13 mishandles input, allowing a denial of service.
+Fabrikam Ledgerly Server 19.2.7.4 and below is vulnerable to cross-site scripting in the settings page.
+Improper certificate validation in Acme Ledgerly Server before 7.9.6.20 allows a man-in-the-middle attack.
+Lumen Office Suite up to 16.12.11 stores credentials in plain text.
+Tailspin Relaywire Client before 15.5.14 allows remote attackers to execute arbitrary code via a crafted request.
+Lumen Office Suite before 12.19.17 allows remote attackers to execute arbitrary code via a crafted request.
+An issue was discovered in Helix Chat Client through 4.15.20 where sessions are not invalidated.
+Contoso Photolens Viewer prior to 18.0.18 mishandles input, allowing a denial of service.
+Helix Chat Client prior to 5.9.0 mishandles input, allowing a denial of service.
+Improper certificate validation in Fabrikam Ledgerly Server before 3.11.7 allows a man-in-the-middle attack.
+Improper certificate validation in Orbital Browser before 13.15.16.6 allows a man-in-the-middle attack.
+Vortex PDF Reader up to 13.7.9 stores credentials in plain text.
+Use after free in Acme Ledgerly Server prior to 11.1 allowed a remote attacker to exploit heap corruption.
+Improper certificate validation in Northwind Mailflow Gateway before 0.4.20 allows a man-in-the-middle attack.
+Pioneer Backup Agent prior to 12.10.19.2 mishandles input, allowing a denial of service.
+Improper certificate validation in Fabrikam Ledgerly Server before 3.10.17 allows a man-in-the-middle attack.
+Tailspin Relaywire Client up to 16.1.15 stores credentials in plain text.
+Use after free in Orbital Browser prior to 2.5.3 allowed a remote attacker to exploit heap corruption.
+The update mechanism of Contoso Photolens Viewer 6.15 does not verify signatures.
+Northwind Mailflow Gateway prior to 3.7.6 mishandles input, allowing a denial of service.
+Orbital Browser prior to 1.8.13.11 mishandles input, allowing a denial of service.
+Contoso Photolens Viewer up to 11.19.10.16 stores credentials in plain text.
+A buffer overflow in Fabrikam Ledgerly Server 8.8 allows attackers to gain privileges.
+A buffer overflow in Helix Chat Client 9.12.6 allows attackers to gain privileges.
+A buffer overflow in Lumen Office Suite 2.10.9.19 allows attackers to gain privileges.
+Use after free in Acme Ledgerly Server prior to 17.2.0.10 allowed a remote attacker to exploit heap corruption.
+Acme Ledgerly Server 0.10.20 and below is vulnerable to cross-site scripting in the settings page.
+Use after free in Fabrikam Ledgerly Server prior to 2.19 allowed a remote attacker to exploit heap corruption.
+An issue was discovered in Tailspin Relaywire Client through 0.3.4.17 where sessions are not invalidated.
+A buffer overflow in Acme Ledgerly Server 20.13.10 allows attackers to gain privileges.
+Northwind Mailflow Gateway prior to 9.20 mishandles input, allowing a denial of service.
+An issue was discovered in Tailspin Relaywire Client through 13.13.0 where sessions are not invalidated.
+A buffer overflow in Lumen Office Suite 11.3.9 allows attackers to gain privileges.
+Contoso Photolens Viewer before 17.20 allows remote attackers to execute arbitrary code via a crafted request.
+The update mechanism of Quartz Media Player 2.6.15 does not verify signatures.
+ZetaDB versions 1.18.7 and earlier contain an authentication bypass.
+Lumen Office Suite up to 9.2.18 stores credentials in plain text.
+An issue was discovered in Tailspin Relaywire Client through 18.6.18.5 where sessions are not invalidated.
+Fabrikam Ledgerly Server 6.5 and below is vulnerable to cross-site scripting in the settings page.
+Contoso Photolens Viewer up to 19.20.20 stores credentials in plain text.
+A buffer overflow in ZetaDB 18.16 allows attackers to gain privileges.
+An issue was discovered in Contoso Photolens Viewer through 5.20.0 where sessions are not invalidated.
+Use after free in Contoso Photolens Viewer prior to 8.0.11.8 allowed a remote attacker to exploit heap corruption.
+The update mechanism of Lumen Office Suite 8.1.2 does not verify signatures.
+A buffer overflow in Pioneer Backup Agent 8.4.19.3 allows attackers to gain privileges.
+A buffer overflow in Tailspin Relaywire Client 7.2.13 allows attackers to gain privileges.
+An issue was discovered in Tailspin Relaywire Client through 5.5.14 where sessions are not invalidated.
+Improper certificate validation in Lumen Office Suite before 15.11 allows a man-in-the-middle attack.
+Use after free in Lumen Office Suite prior to 3.13 allowed a remote attacker to exploit heap corruption.
+A buffer overflow in Vortex PDF Reader 19.0.6.18 allows attackers to gain privileges.
+ZetaDB versions 8.4.15.1 and earlier contain an authentication bypass.
+Lumen Office Suite prior to 12.1.0 mishandles input, allowing a denial of service.
+Vortex PDF Reader up to 2.4.7 stores credentials in plain text.
+The update mechanism of Orbital Browser 17.10.5 does not verify signatures.
+A buffer overflow in Helix Chat Client 17.4 allows attackers to gain privileges.
+Improper certificate validation in Tailspin Relaywire Client before 11.19.12 allows a man-in-the-middle attack.
+A buffer overflow in Northwind Mailflow Gateway 5.13.10 allows attackers to gain privileges.
+Contoso Photolens Viewer versions 4.20.1 and earlier contain an authentication bypass.
+Quartz Media Player prior to 10.11.16 mishandles input, allowing a denial of service.
+Fabrikam Ledgerly Server 2.13.11 and below is vulnerable to cross-site scripting in the settings page.
+Use after free in Tailspin Relaywire Client prior to 17.16.1 allowed a remote attacker to exploit heap corruption.
+ZetaDB up to 5.13.20 stores credentials in plain text.
+An issue was discovered in Fabrikam Ledgerly Server through 9.10.4 where sessions are not invalidated.
+Acme Ledgerly Server before 1.18.14 allows remote attackers to execute arbitrary code via a crafted request.
+Improper certificate validation in Tailspin Relaywire Client before 9.9 allows a man-in-the-middle attack.
+An issue was discovered in Fabrikam Ledgerly Server through 3.0.10 where sessions are not invalidated.
+The update mechanism of Northwind Mailflow Gateway 10.6.0 does not verify signatures.
+Acme Ledgerly Server up to 6.19.8.19 stores credentials in plain text.
+A buffer overflow in Orbital Browser 6.10 allows attackers to gain privileges.
+An issue was discovered in Orbital Browser through 3.1.16 where sessions are not invalidated.
+Tailspin Relaywire Client prior to 19.1.8 mishandles input, allowing a denial of service.
+Acme Ledgerly Server before 2.4.1 allows remote attackers to execute arbitrary code via a crafted request.
+An injection flaw in Acme Ledgerly Server versions 3.0.0 through 3.1.6 and 2.9.0 through 2.9.3 lets authenticated users read files.
+Northwind Mailflow Gateway prior to 5.2.0 mishandles attachment names, allowing a denial of service.
+Northwind Mailflow Gateway 5.4.2 and earlier contains an authentication bypass in the admin console.
+Contoso Photolens Viewer 1.2.3 and 1.2.2 are affected by a heap overflow when opening TIFF images.
+Orbital Browser on Android before 110.0.2 allowed a remote attacker to spoof the address bar.
+Use after free in Orbital Browser prior to 110.0.5 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
+The Photolens Viewer Gallery plugin for WordPress before 3.3.0 is vulnerable to stored cross-site scripting. This issue affects Photolens Viewer Gallery: from n/a through 3.2.9.
+Fabrikam Ledgerly Server 2.1 allows directory traversal in the file upload component.
+In the ZetaDB storage engine, a race condition in the page cache was fixed in commit 3c68d44a2b49.
+ZetaDB allows SQL injection through the import wizard.
+An improper certificate validation in Tailspin Relaywire Client 5.2.8 and below allows a man-in-the-middle attacker to intercept traffic.

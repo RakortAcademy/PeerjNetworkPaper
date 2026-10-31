@@ -99,5 +99,7 @@ customer_data/
 *.dump
 exports/
 
-# Internal working documents (not part of the public package)
-REVISION_REPORT.md
+# Office documents (not part of the public package)
+*.docx
+*.doc
+*.odt

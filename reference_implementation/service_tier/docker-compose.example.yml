@@ -1,0 +1,14 @@
+# Local PostgreSQL for running the service tier end to end. Nothing here talks
+# to any external system; the database is empty until the migrations run at
+# service start-up.
+#
+#   docker compose -f service_tier/docker-compose.example.yml up -d
+#   set -a; . service_tier/env.example; set +a     # PG*, API_KEYS, ADMIN_TOKEN, GOSCAN_URL
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_PASSWORD: change-me
+      POSTGRES_DB: refimpl
+    ports:
+      - "127.0.0.1:55432:5432"

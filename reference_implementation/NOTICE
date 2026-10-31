@@ -1,0 +1,15 @@
+Research Reference Implementation — Learning-Assisted Exposure Assessment at Estate Scale
+Required Notice: Copyright (c) 2026 Rakort Bilgi ve İletişim Teknolojileri Ltd. Şti., Ankara, Turkey.
+
+Licensor: Rakort Bilgi ve İletişim Teknolojileri Ltd. Şti.
+Licence:  PolyForm Noncommercial License 1.0.0 (see LICENSE in this directory;
+          SPDX identifier PolyForm-Noncommercial-1.0.0;
+          https://polyformproject.org/licenses/noncommercial/1.0.0/).
+
+This directory (the Python reference implementation, the Go engine source in
+compiled_engine/ and the service tier in service_tier/) is licensed differently from the rest of the repository, which is
+under the MIT License. Scientific review, academic research, teaching and other
+noncommercial purposes as defined in the licence are permitted; commercial use
+requires a separate licence from the licensor.
+
+Scientific authors of the work: Ramazan Kocaoğlu, Basma Bakırcı (see ../CITATION.cff).

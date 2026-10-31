@@ -1,0 +1,1 @@
+"""PostgreSQL kalıcılık katmanı."""

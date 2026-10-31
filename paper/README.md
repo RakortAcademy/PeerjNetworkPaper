@@ -7,7 +7,7 @@ Application article.
 
 | Path | What it is |
 |---|---|
-| [`PeerJ_Manuscript.pdf`](PeerJ_Manuscript.pdf) | The compiled manuscript (32 pages, peer-review layout with line numbers), PeerJ compliance revision of 2026-10-03: Data Availability now cites the v1.0.0 release and its DOI, §4.1 states the data provenance, and the generative-AI declaration is complete. The version as originally submitted is preserved unchanged in release v1.0.0. Start here to read the paper. |
+| [`PeerJ_Manuscript.pdf`](PeerJ_Manuscript.pdf) | The compiled manuscript (33 pages, peer-review layout with line numbers), as revised for the PeerJ resubmission (v1.1.0). The version as originally submitted is preserved unchanged in release v1.0.0. Start here to read the paper. |
 | [`latex/main.tex`](latex/main.tex) | Full LaTeX source of the manuscript. |
 | [`latex/references.bib`](latex/references.bib) | Bibliography (BibTeX). |
 | [`latex/wlpeerj.cls`](latex/wlpeerj.cls) | PeerJ's LaTeX class file, from PeerJ's official template. |
@@ -33,4 +33,6 @@ files). `PeerJ_Manuscript.pdf` in this directory is built from this source; the 
 | Tables 2–7, Figure 1 (Section 4) | Scripts in [`../reproducibility/analysis/`](../reproducibility/analysis/); published values in [`../reproducibility/aggregate_data/`](../reproducibility/aggregate_data/) |
 | Figures 1, 6, 7 plotted points | [`../reproducibility/figure_data/`](../reproducibility/figure_data/) |
 | Table 1 | Qualitative positioning table; no code |
-| Tables 8–19, Figures 2–5 (Sections 5–9) | Measured on the deployed production service, which is not part of this repository — see [`../CODE_AVAILABILITY.md`](../CODE_AVAILABILITY.md) |
+| Tables 8–19, Figures 2–5 (Sections 5–9) | Measured on the deployed production service, which is not part of this repository — see [`../CODE_AVAILABILITY.md`](../CODE_AVAILABILITY.md). The research reference implementation in [`../reference_implementation/`](../reference_implementation/) implements the method but reproduces none of these measurements |
+
+The manuscript text, figures and tables are not covered by the repository's software licences; see `../README.md`, section 14.

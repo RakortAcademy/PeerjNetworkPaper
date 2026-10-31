@@ -24,8 +24,9 @@ Run each with `--help`. Outputs are compared with `../aggregate_data/` by
 
 ## Not included, and why
 
-The proprietary assessment engine, service tier and trained tagger weights that
-produced the Section 8–9 results are not here; those results were measured on a
+The deployed assessment engine, its production service and the trained tagger weights that
+produced the Section 8–9 results are not here (the research reference implementation in
+`../../reference_implementation/` implements the method but reproduces none of them); those results were measured on a
 deployed production service, not computed by these scripts. See
 `../../CODE_AVAILABILITY.md` (component matrix) and `../../DATA_AVAILABILITY.md`
 (public / restricted / not-included data).

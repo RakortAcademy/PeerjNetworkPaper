@@ -1,0 +1,600 @@
+{"cve_id": "CVE-2098-0000", "text": "Improper certificate validation in Orbital Browser before 9.10.10.15 allows a man-in-the-middle attack.", "product": "Orbital Browser", "version": "9.10.10.15"}
+{"cve_id": "CVE-2098-0001", "text": "A buffer overflow in Vortex PDF Reader 5.14 allows attackers to gain privileges.", "product": "Vortex PDF Reader", "version": "5.14"}
+{"cve_id": "CVE-2098-0002", "text": "Contoso Photolens Viewer 12.2.10 and below is vulnerable to cross-site scripting in the settings page.", "product": "Contoso Photolens Viewer", "version": "12.2.10"}
+{"cve_id": "CVE-2098-0003", "text": "Improper certificate validation in Tailspin Relaywire Client before 11.13.2 allows a man-in-the-middle attack.", "product": "Tailspin Relaywire Client", "version": "11.13.2"}
+{"cve_id": "CVE-2098-0004", "text": "Acme Ledgerly Server prior to 11.19 mishandles input, allowing a denial of service.", "product": "Acme Ledgerly Server", "version": "11.19"}
+{"cve_id": "CVE-2098-0005", "text": "Pioneer Backup Agent before 12.12.2.14 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Pioneer Backup Agent", "version": "12.12.2.14"}
+{"cve_id": "CVE-2098-0006", "text": "Quartz Media Player before 7.12.3 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Quartz Media Player", "version": "7.12.3"}
+{"cve_id": "CVE-2098-0007", "text": "An issue was discovered in Acme Ledgerly Server through 1.6.10 where sessions are not invalidated.", "product": "Acme Ledgerly Server", "version": "1.6.10"}
+{"cve_id": "CVE-2098-0008", "text": "ZetaDB 8.6.16 and below is vulnerable to cross-site scripting in the settings page.", "product": "ZetaDB", "version": "8.6.16"}
+{"cve_id": "CVE-2098-0009", "text": "A buffer overflow in Tailspin Relaywire Client 12.9.9 allows attackers to gain privileges.", "product": "Tailspin Relaywire Client", "version": "12.9.9"}
+{"cve_id": "CVE-2098-0010", "text": "An issue was discovered in Quartz Media Player through 10.3.18.9 where sessions are not invalidated.", "product": "Quartz Media Player", "version": "10.3.18.9"}
+{"cve_id": "CVE-2098-0011", "text": "Fabrikam Ledgerly Server prior to 15.6.9 mishandles input, allowing a denial of service.", "product": "Fabrikam Ledgerly Server", "version": "15.6.9"}
+{"cve_id": "CVE-2098-0012", "text": "A buffer overflow in Quartz Media Player 17.2.16 allows attackers to gain privileges.", "product": "Quartz Media Player", "version": "17.2.16"}
+{"cve_id": "CVE-2098-0013", "text": "Helix Chat Client before 8.6.15 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Helix Chat Client", "version": "8.6.15"}
+{"cve_id": "CVE-2098-0014", "text": "Northwind Mailflow Gateway 20.18 and below is vulnerable to cross-site scripting in the settings page.", "product": "Northwind Mailflow Gateway", "version": "20.18"}
+{"cve_id": "CVE-2098-0015", "text": "ZetaDB up to 4.18.12 stores credentials in plain text.", "product": "ZetaDB", "version": "4.18.12"}
+{"cve_id": "CVE-2098-0016", "text": "Improper certificate validation in Tailspin Relaywire Client before 8.13.15.13 allows a man-in-the-middle attack.", "product": "Tailspin Relaywire Client", "version": "8.13.15.13"}
+{"cve_id": "CVE-2098-0017", "text": "Use after free in Acme Ledgerly Server prior to 19.3.7.8 allowed a remote attacker to exploit heap corruption.", "product": "Acme Ledgerly Server", "version": "19.3.7.8"}
+{"cve_id": "CVE-2098-0018", "text": "Helix Chat Client prior to 19.13.13 mishandles input, allowing a denial of service.", "product": "Helix Chat Client", "version": "19.13.13"}
+{"cve_id": "CVE-2098-0019", "text": "Use after free in Lumen Office Suite prior to 2.10.3 allowed a remote attacker to exploit heap corruption.", "product": "Lumen Office Suite", "version": "2.10.3"}
+{"cve_id": "CVE-2098-0020", "text": "Northwind Mailflow Gateway up to 7.1.7.17 stores credentials in plain text.", "product": "Northwind Mailflow Gateway", "version": "7.1.7.17"}
+{"cve_id": "CVE-2098-0021", "text": "A buffer overflow in Lumen Office Suite 19.20.10 allows attackers to gain privileges.", "product": "Lumen Office Suite", "version": "19.20.10"}
+{"cve_id": "CVE-2098-0022", "text": "Helix Chat Client 16.10.12 and below is vulnerable to cross-site scripting in the settings page.", "product": "Helix Chat Client", "version": "16.10.12"}
+{"cve_id": "CVE-2098-0023", "text": "A buffer overflow in Fabrikam Ledgerly Server 20.15 allows attackers to gain privileges.", "product": "Fabrikam Ledgerly Server", "version": "20.15"}
+{"cve_id": "CVE-2098-0024", "text": "Use after free in Pioneer Backup Agent prior to 18.7 allowed a remote attacker to exploit heap corruption.", "product": "Pioneer Backup Agent", "version": "18.7"}
+{"cve_id": "CVE-2098-0025", "text": "An issue was discovered in ZetaDB through 8.6 where sessions are not invalidated.", "product": "ZetaDB", "version": "8.6"}
+{"cve_id": "CVE-2098-0026", "text": "Improper certificate validation in Fabrikam Ledgerly Server before 13.6.7.9 allows a man-in-the-middle attack.", "product": "Fabrikam Ledgerly Server", "version": "13.6.7.9"}
+{"cve_id": "CVE-2098-0027", "text": "The update mechanism of Orbital Browser 4.7.6.17 does not verify signatures.", "product": "Orbital Browser", "version": "4.7.6.17"}
+{"cve_id": "CVE-2098-0028", "text": "Tailspin Relaywire Client before 2.15.15 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Tailspin Relaywire Client", "version": "2.15.15"}
+{"cve_id": "CVE-2098-0029", "text": "Use after free in Acme Ledgerly Server prior to 19.0.6 allowed a remote attacker to exploit heap corruption.", "product": "Acme Ledgerly Server", "version": "19.0.6"}
+{"cve_id": "CVE-2098-0030", "text": "Lumen Office Suite versions 13.18.12 and earlier contain an authentication bypass.", "product": "Lumen Office Suite", "version": "13.18.12"}
+{"cve_id": "CVE-2098-0031", "text": "A buffer overflow in Vortex PDF Reader 2.8.1 allows attackers to gain privileges.", "product": "Vortex PDF Reader", "version": "2.8.1"}
+{"cve_id": "CVE-2098-0032", "text": "A buffer overflow in Orbital Browser 7.12.5.4 allows attackers to gain privileges.", "product": "Orbital Browser", "version": "7.12.5.4"}
+{"cve_id": "CVE-2098-0033", "text": "Use after free in Tailspin Relaywire Client prior to 8.2.8 allowed a remote attacker to exploit heap corruption.", "product": "Tailspin Relaywire Client", "version": "8.2.8"}
+{"cve_id": "CVE-2098-0034", "text": "Tailspin Relaywire Client prior to 11.17.18 mishandles input, allowing a denial of service.", "product": "Tailspin Relaywire Client", "version": "11.17.18"}
+{"cve_id": "CVE-2098-0035", "text": "Improper certificate validation in Helix Chat Client before 0.0.18 allows a man-in-the-middle attack.", "product": "Helix Chat Client", "version": "0.0.18"}
+{"cve_id": "CVE-2098-0036", "text": "Contoso Photolens Viewer before 14.20.15 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Contoso Photolens Viewer", "version": "14.20.15"}
+{"cve_id": "CVE-2098-0037", "text": "Improper certificate validation in Quartz Media Player before 4.4.6 allows a man-in-the-middle attack.", "product": "Quartz Media Player", "version": "4.4.6"}
+{"cve_id": "CVE-2098-0038", "text": "Improper certificate validation in Lumen Office Suite before 13.15.12 allows a man-in-the-middle attack.", "product": "Lumen Office Suite", "version": "13.15.12"}
+{"cve_id": "CVE-2098-0039", "text": "An issue was discovered in Fabrikam Ledgerly Server through 8.14 where sessions are not invalidated.", "product": "Fabrikam Ledgerly Server", "version": "8.14"}
+{"cve_id": "CVE-2098-0040", "text": "Northwind Mailflow Gateway up to 13.1.16 stores credentials in plain text.", "product": "Northwind Mailflow Gateway", "version": "13.1.16"}
+{"cve_id": "CVE-2098-0041", "text": "An issue was discovered in Vortex PDF Reader through 11.18.16 where sessions are not invalidated.", "product": "Vortex PDF Reader", "version": "11.18.16"}
+{"cve_id": "CVE-2098-0042", "text": "Northwind Mailflow Gateway versions 16.6.3.12 and earlier contain an authentication bypass.", "product": "Northwind Mailflow Gateway", "version": "16.6.3.12"}
+{"cve_id": "CVE-2098-0043", "text": "Acme Ledgerly Server prior to 18.17.3.5 mishandles input, allowing a denial of service.", "product": "Acme Ledgerly Server", "version": "18.17.3.5"}
+{"cve_id": "CVE-2098-0044", "text": "A buffer overflow in Fabrikam Ledgerly Server 9.17.8 allows attackers to gain privileges.", "product": "Fabrikam Ledgerly Server", "version": "9.17.8"}
+{"cve_id": "CVE-2098-0045", "text": "ZetaDB before 15.11.5 allows remote attackers to execute arbitrary code via a crafted request.", "product": "ZetaDB", "version": "15.11.5"}
+{"cve_id": "CVE-2098-0046", "text": "Vortex PDF Reader up to 15.5.0 stores credentials in plain text.", "product": "Vortex PDF Reader", "version": "15.5.0"}
+{"cve_id": "CVE-2098-0047", "text": "Vortex PDF Reader up to 16.0 stores credentials in plain text.", "product": "Vortex PDF Reader", "version": "16.0"}
+{"cve_id": "CVE-2098-0048", "text": "A buffer overflow in Lumen Office Suite 6.1.14.9 allows attackers to gain privileges.", "product": "Lumen Office Suite", "version": "6.1.14.9"}
+{"cve_id": "CVE-2098-0049", "text": "Fabrikam Ledgerly Server prior to 7.3.13 mishandles input, allowing a denial of service.", "product": "Fabrikam Ledgerly Server", "version": "7.3.13"}
+{"cve_id": "CVE-2098-0050", "text": "Fabrikam Ledgerly Server 19.2.7.4 and below is vulnerable to cross-site scripting in the settings page.", "product": "Fabrikam Ledgerly Server", "version": "19.2.7.4"}
+{"cve_id": "CVE-2098-0051", "text": "Improper certificate validation in Acme Ledgerly Server before 7.9.6.20 allows a man-in-the-middle attack.", "product": "Acme Ledgerly Server", "version": "7.9.6.20"}
+{"cve_id": "CVE-2098-0052", "text": "Lumen Office Suite up to 16.12.11 stores credentials in plain text.", "product": "Lumen Office Suite", "version": "16.12.11"}
+{"cve_id": "CVE-2098-0053", "text": "Tailspin Relaywire Client before 15.5.14 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Tailspin Relaywire Client", "version": "15.5.14"}
+{"cve_id": "CVE-2098-0054", "text": "Lumen Office Suite before 12.19.17 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Lumen Office Suite", "version": "12.19.17"}
+{"cve_id": "CVE-2098-0055", "text": "An issue was discovered in Helix Chat Client through 4.15.20 where sessions are not invalidated.", "product": "Helix Chat Client", "version": "4.15.20"}
+{"cve_id": "CVE-2098-0056", "text": "Contoso Photolens Viewer prior to 18.0.18 mishandles input, allowing a denial of service.", "product": "Contoso Photolens Viewer", "version": "18.0.18"}
+{"cve_id": "CVE-2098-0057", "text": "Helix Chat Client prior to 5.9.0 mishandles input, allowing a denial of service.", "product": "Helix Chat Client", "version": "5.9.0"}
+{"cve_id": "CVE-2098-0058", "text": "Improper certificate validation in Fabrikam Ledgerly Server before 3.11.7 allows a man-in-the-middle attack.", "product": "Fabrikam Ledgerly Server", "version": "3.11.7"}
+{"cve_id": "CVE-2098-0059", "text": "Improper certificate validation in Orbital Browser before 13.15.16.6 allows a man-in-the-middle attack.", "product": "Orbital Browser", "version": "13.15.16.6"}
+{"cve_id": "CVE-2098-0060", "text": "Vortex PDF Reader up to 13.7.9 stores credentials in plain text.", "product": "Vortex PDF Reader", "version": "13.7.9"}
+{"cve_id": "CVE-2098-0061", "text": "Use after free in Acme Ledgerly Server prior to 11.1 allowed a remote attacker to exploit heap corruption.", "product": "Acme Ledgerly Server", "version": "11.1"}
+{"cve_id": "CVE-2098-0062", "text": "Improper certificate validation in Northwind Mailflow Gateway before 0.4.20 allows a man-in-the-middle attack.", "product": "Northwind Mailflow Gateway", "version": "0.4.20"}
+{"cve_id": "CVE-2098-0063", "text": "Pioneer Backup Agent prior to 12.10.19.2 mishandles input, allowing a denial of service.", "product": "Pioneer Backup Agent", "version": "12.10.19.2"}
+{"cve_id": "CVE-2098-0064", "text": "Improper certificate validation in Fabrikam Ledgerly Server before 3.10.17 allows a man-in-the-middle attack.", "product": "Fabrikam Ledgerly Server", "version": "3.10.17"}
+{"cve_id": "CVE-2098-0065", "text": "Tailspin Relaywire Client up to 16.1.15 stores credentials in plain text.", "product": "Tailspin Relaywire Client", "version": "16.1.15"}
+{"cve_id": "CVE-2098-0066", "text": "Use after free in Orbital Browser prior to 2.5.3 allowed a remote attacker to exploit heap corruption.", "product": "Orbital Browser", "version": "2.5.3"}
+{"cve_id": "CVE-2098-0067", "text": "The update mechanism of Contoso Photolens Viewer 6.15 does not verify signatures.", "product": "Contoso Photolens Viewer", "version": "6.15"}
+{"cve_id": "CVE-2098-0068", "text": "Northwind Mailflow Gateway prior to 3.7.6 mishandles input, allowing a denial of service.", "product": "Northwind Mailflow Gateway", "version": "3.7.6"}
+{"cve_id": "CVE-2098-0069", "text": "Orbital Browser prior to 1.8.13.11 mishandles input, allowing a denial of service.", "product": "Orbital Browser", "version": "1.8.13.11"}
+{"cve_id": "CVE-2098-0070", "text": "Contoso Photolens Viewer up to 11.19.10.16 stores credentials in plain text.", "product": "Contoso Photolens Viewer", "version": "11.19.10.16"}
+{"cve_id": "CVE-2098-0071", "text": "A buffer overflow in Fabrikam Ledgerly Server 8.8 allows attackers to gain privileges.", "product": "Fabrikam Ledgerly Server", "version": "8.8"}
+{"cve_id": "CVE-2098-0072", "text": "A buffer overflow in Helix Chat Client 9.12.6 allows attackers to gain privileges.", "product": "Helix Chat Client", "version": "9.12.6"}
+{"cve_id": "CVE-2098-0073", "text": "A buffer overflow in Lumen Office Suite 2.10.9.19 allows attackers to gain privileges.", "product": "Lumen Office Suite", "version": "2.10.9.19"}
+{"cve_id": "CVE-2098-0074", "text": "Use after free in Acme Ledgerly Server prior to 17.2.0.10 allowed a remote attacker to exploit heap corruption.", "product": "Acme Ledgerly Server", "version": "17.2.0.10"}
+{"cve_id": "CVE-2098-0075", "text": "Acme Ledgerly Server 0.10.20 and below is vulnerable to cross-site scripting in the settings page.", "product": "Acme Ledgerly Server", "version": "0.10.20"}
+{"cve_id": "CVE-2098-0076", "text": "Use after free in Fabrikam Ledgerly Server prior to 2.19 allowed a remote attacker to exploit heap corruption.", "product": "Fabrikam Ledgerly Server", "version": "2.19"}
+{"cve_id": "CVE-2098-0077", "text": "An issue was discovered in Tailspin Relaywire Client through 0.3.4.17 where sessions are not invalidated.", "product": "Tailspin Relaywire Client", "version": "0.3.4.17"}
+{"cve_id": "CVE-2098-0078", "text": "A buffer overflow in Acme Ledgerly Server 20.13.10 allows attackers to gain privileges.", "product": "Acme Ledgerly Server", "version": "20.13.10"}
+{"cve_id": "CVE-2098-0079", "text": "Northwind Mailflow Gateway prior to 9.20 mishandles input, allowing a denial of service.", "product": "Northwind Mailflow Gateway", "version": "9.20"}
+{"cve_id": "CVE-2098-0080", "text": "An issue was discovered in Tailspin Relaywire Client through 13.13.0 where sessions are not invalidated.", "product": "Tailspin Relaywire Client", "version": "13.13.0"}
+{"cve_id": "CVE-2098-0081", "text": "A buffer overflow in Lumen Office Suite 11.3.9 allows attackers to gain privileges.", "product": "Lumen Office Suite", "version": "11.3.9"}
+{"cve_id": "CVE-2098-0082", "text": "Contoso Photolens Viewer before 17.20 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Contoso Photolens Viewer", "version": "17.20"}
+{"cve_id": "CVE-2098-0083", "text": "The update mechanism of Quartz Media Player 2.6.15 does not verify signatures.", "product": "Quartz Media Player", "version": "2.6.15"}
+{"cve_id": "CVE-2098-0084", "text": "ZetaDB versions 1.18.7 and earlier contain an authentication bypass.", "product": "ZetaDB", "version": "1.18.7"}
+{"cve_id": "CVE-2098-0085", "text": "Lumen Office Suite up to 9.2.18 stores credentials in plain text.", "product": "Lumen Office Suite", "version": "9.2.18"}
+{"cve_id": "CVE-2098-0086", "text": "An issue was discovered in Tailspin Relaywire Client through 18.6.18.5 where sessions are not invalidated.", "product": "Tailspin Relaywire Client", "version": "18.6.18.5"}
+{"cve_id": "CVE-2098-0087", "text": "Fabrikam Ledgerly Server 6.5 and below is vulnerable to cross-site scripting in the settings page.", "product": "Fabrikam Ledgerly Server", "version": "6.5"}
+{"cve_id": "CVE-2098-0088", "text": "Contoso Photolens Viewer up to 19.20.20 stores credentials in plain text.", "product": "Contoso Photolens Viewer", "version": "19.20.20"}
+{"cve_id": "CVE-2098-0089", "text": "A buffer overflow in ZetaDB 18.16 allows attackers to gain privileges.", "product": "ZetaDB", "version": "18.16"}
+{"cve_id": "CVE-2098-0090", "text": "An issue was discovered in Contoso Photolens Viewer through 5.20.0 where sessions are not invalidated.", "product": "Contoso Photolens Viewer", "version": "5.20.0"}
+{"cve_id": "CVE-2098-0091", "text": "Use after free in Contoso Photolens Viewer prior to 8.0.11.8 allowed a remote attacker to exploit heap corruption.", "product": "Contoso Photolens Viewer", "version": "8.0.11.8"}
+{"cve_id": "CVE-2098-0092", "text": "The update mechanism of Lumen Office Suite 8.1.2 does not verify signatures.", "product": "Lumen Office Suite", "version": "8.1.2"}
+{"cve_id": "CVE-2098-0093", "text": "A buffer overflow in Pioneer Backup Agent 8.4.19.3 allows attackers to gain privileges.", "product": "Pioneer Backup Agent", "version": "8.4.19.3"}
+{"cve_id": "CVE-2098-0094", "text": "A buffer overflow in Tailspin Relaywire Client 7.2.13 allows attackers to gain privileges.", "product": "Tailspin Relaywire Client", "version": "7.2.13"}
+{"cve_id": "CVE-2098-0095", "text": "An issue was discovered in Tailspin Relaywire Client through 5.5.14 where sessions are not invalidated.", "product": "Tailspin Relaywire Client", "version": "5.5.14"}
+{"cve_id": "CVE-2098-0096", "text": "Improper certificate validation in Lumen Office Suite before 15.11 allows a man-in-the-middle attack.", "product": "Lumen Office Suite", "version": "15.11"}
+{"cve_id": "CVE-2098-0097", "text": "Use after free in Lumen Office Suite prior to 3.13 allowed a remote attacker to exploit heap corruption.", "product": "Lumen Office Suite", "version": "3.13"}
+{"cve_id": "CVE-2098-0098", "text": "A buffer overflow in Vortex PDF Reader 19.0.6.18 allows attackers to gain privileges.", "product": "Vortex PDF Reader", "version": "19.0.6.18"}
+{"cve_id": "CVE-2098-0099", "text": "ZetaDB versions 8.4.15.1 and earlier contain an authentication bypass.", "product": "ZetaDB", "version": "8.4.15.1"}
+{"cve_id": "CVE-2098-0100", "text": "Lumen Office Suite prior to 12.1.0 mishandles input, allowing a denial of service.", "product": "Lumen Office Suite", "version": "12.1.0"}
+{"cve_id": "CVE-2098-0101", "text": "Vortex PDF Reader up to 2.4.7 stores credentials in plain text.", "product": "Vortex PDF Reader", "version": "2.4.7"}
+{"cve_id": "CVE-2098-0102", "text": "The update mechanism of Orbital Browser 17.10.5 does not verify signatures.", "product": "Orbital Browser", "version": "17.10.5"}
+{"cve_id": "CVE-2098-0103", "text": "A buffer overflow in Helix Chat Client 17.4 allows attackers to gain privileges.", "product": "Helix Chat Client", "version": "17.4"}
+{"cve_id": "CVE-2098-0104", "text": "Improper certificate validation in Tailspin Relaywire Client before 11.19.12 allows a man-in-the-middle attack.", "product": "Tailspin Relaywire Client", "version": "11.19.12"}
+{"cve_id": "CVE-2098-0105", "text": "A buffer overflow in Northwind Mailflow Gateway 5.13.10 allows attackers to gain privileges.", "product": "Northwind Mailflow Gateway", "version": "5.13.10"}
+{"cve_id": "CVE-2098-0106", "text": "Contoso Photolens Viewer versions 4.20.1 and earlier contain an authentication bypass.", "product": "Contoso Photolens Viewer", "version": "4.20.1"}
+{"cve_id": "CVE-2098-0107", "text": "Quartz Media Player prior to 10.11.16 mishandles input, allowing a denial of service.", "product": "Quartz Media Player", "version": "10.11.16"}
+{"cve_id": "CVE-2098-0108", "text": "Fabrikam Ledgerly Server 2.13.11 and below is vulnerable to cross-site scripting in the settings page.", "product": "Fabrikam Ledgerly Server", "version": "2.13.11"}
+{"cve_id": "CVE-2098-0109", "text": "Use after free in Tailspin Relaywire Client prior to 17.16.1 allowed a remote attacker to exploit heap corruption.", "product": "Tailspin Relaywire Client", "version": "17.16.1"}
+{"cve_id": "CVE-2098-0110", "text": "ZetaDB up to 5.13.20 stores credentials in plain text.", "product": "ZetaDB", "version": "5.13.20"}
+{"cve_id": "CVE-2098-0111", "text": "An issue was discovered in Fabrikam Ledgerly Server through 9.10.4 where sessions are not invalidated.", "product": "Fabrikam Ledgerly Server", "version": "9.10.4"}
+{"cve_id": "CVE-2098-0112", "text": "Acme Ledgerly Server before 1.18.14 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Acme Ledgerly Server", "version": "1.18.14"}
+{"cve_id": "CVE-2098-0113", "text": "Improper certificate validation in Tailspin Relaywire Client before 9.9 allows a man-in-the-middle attack.", "product": "Tailspin Relaywire Client", "version": "9.9"}
+{"cve_id": "CVE-2098-0114", "text": "An issue was discovered in Fabrikam Ledgerly Server through 3.0.10 where sessions are not invalidated.", "product": "Fabrikam Ledgerly Server", "version": "3.0.10"}
+{"cve_id": "CVE-2098-0115", "text": "The update mechanism of Northwind Mailflow Gateway 10.6.0 does not verify signatures.", "product": "Northwind Mailflow Gateway", "version": "10.6.0"}
+{"cve_id": "CVE-2098-0116", "text": "Acme Ledgerly Server up to 6.19.8.19 stores credentials in plain text.", "product": "Acme Ledgerly Server", "version": "6.19.8.19"}
+{"cve_id": "CVE-2098-0117", "text": "A buffer overflow in Orbital Browser 6.10 allows attackers to gain privileges.", "product": "Orbital Browser", "version": "6.10"}
+{"cve_id": "CVE-2098-0118", "text": "An issue was discovered in Orbital Browser through 3.1.16 where sessions are not invalidated.", "product": "Orbital Browser", "version": "3.1.16"}
+{"cve_id": "CVE-2098-0119", "text": "Tailspin Relaywire Client prior to 19.1.8 mishandles input, allowing a denial of service.", "product": "Tailspin Relaywire Client", "version": "19.1.8"}
+{"cve_id": "CVE-2098-0120", "text": "A buffer overflow in ZetaDB 12.9.13 allows attackers to gain privileges.", "product": "ZetaDB", "version": "12.9.13"}
+{"cve_id": "CVE-2098-0121", "text": "Northwind Mailflow Gateway 1.6.20.13 and below is vulnerable to cross-site scripting in the settings page.", "product": "Northwind Mailflow Gateway", "version": "1.6.20.13"}
+{"cve_id": "CVE-2098-0122", "text": "A buffer overflow in Lumen Office Suite 7.0.8 allows attackers to gain privileges.", "product": "Lumen Office Suite", "version": "7.0.8"}
+{"cve_id": "CVE-2098-0123", "text": "Use after free in ZetaDB prior to 13.13.20 allowed a remote attacker to exploit heap corruption.", "product": "ZetaDB", "version": "13.13.20"}
+{"cve_id": "CVE-2098-0124", "text": "Quartz Media Player prior to 14.12 mishandles input, allowing a denial of service.", "product": "Quartz Media Player", "version": "14.12"}
+{"cve_id": "CVE-2098-0125", "text": "Contoso Photolens Viewer versions 2.4.16 and earlier contain an authentication bypass.", "product": "Contoso Photolens Viewer", "version": "2.4.16"}
+{"cve_id": "CVE-2098-0126", "text": "Fabrikam Ledgerly Server 5.4.18.13 and below is vulnerable to cross-site scripting in the settings page.", "product": "Fabrikam Ledgerly Server", "version": "5.4.18.13"}
+{"cve_id": "CVE-2098-0127", "text": "Orbital Browser versions 10.17.5 and earlier contain an authentication bypass.", "product": "Orbital Browser", "version": "10.17.5"}
+{"cve_id": "CVE-2098-0128", "text": "Helix Chat Client up to 14.18.3 stores credentials in plain text.", "product": "Helix Chat Client", "version": "14.18.3"}
+{"cve_id": "CVE-2098-0129", "text": "A buffer overflow in Northwind Mailflow Gateway 18.20 allows attackers to gain privileges.", "product": "Northwind Mailflow Gateway", "version": "18.20"}
+{"cve_id": "CVE-2098-0130", "text": "Use after free in Quartz Media Player prior to 4.0.19.20 allowed a remote attacker to exploit heap corruption.", "product": "Quartz Media Player", "version": "4.0.19.20"}
+{"cve_id": "CVE-2098-0131", "text": "Quartz Media Player prior to 8.5.9 mishandles input, allowing a denial of service.", "product": "Quartz Media Player", "version": "8.5.9"}
+{"cve_id": "CVE-2098-0132", "text": "Use after free in Northwind Mailflow Gateway prior to 2.20.1 allowed a remote attacker to exploit heap corruption.", "product": "Northwind Mailflow Gateway", "version": "2.20.1"}
+{"cve_id": "CVE-2098-0133", "text": "A buffer overflow in Tailspin Relaywire Client 13.3.16 allows attackers to gain privileges.", "product": "Tailspin Relaywire Client", "version": "13.3.16"}
+{"cve_id": "CVE-2098-0134", "text": "The update mechanism of Contoso Photolens Viewer 13.14 does not verify signatures.", "product": "Contoso Photolens Viewer", "version": "13.14"}
+{"cve_id": "CVE-2098-0135", "text": "Pioneer Backup Agent 7.8 and below is vulnerable to cross-site scripting in the settings page.", "product": "Pioneer Backup Agent", "version": "7.8"}
+{"cve_id": "CVE-2098-0136", "text": "Use after free in ZetaDB prior to 6.3.2 allowed a remote attacker to exploit heap corruption.", "product": "ZetaDB", "version": "6.3.2"}
+{"cve_id": "CVE-2098-0137", "text": "ZetaDB before 0.12 allows remote attackers to execute arbitrary code via a crafted request.", "product": "ZetaDB", "version": "0.12"}
+{"cve_id": "CVE-2098-0138", "text": "Orbital Browser before 16.10.7 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Orbital Browser", "version": "16.10.7"}
+{"cve_id": "CVE-2098-0139", "text": "A buffer overflow in Northwind Mailflow Gateway 20.8.8 allows attackers to gain privileges.", "product": "Northwind Mailflow Gateway", "version": "20.8.8"}
+{"cve_id": "CVE-2098-0140", "text": "The update mechanism of Lumen Office Suite 17.4.16.19 does not verify signatures.", "product": "Lumen Office Suite", "version": "17.4.16.19"}
+{"cve_id": "CVE-2098-0141", "text": "Acme Ledgerly Server before 3.15.2 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Acme Ledgerly Server", "version": "3.15.2"}
+{"cve_id": "CVE-2098-0142", "text": "Vortex PDF Reader up to 16.11.16 stores credentials in plain text.", "product": "Vortex PDF Reader", "version": "16.11.16"}
+{"cve_id": "CVE-2098-0143", "text": "Acme Ledgerly Server before 13.14 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Acme Ledgerly Server", "version": "13.14"}
+{"cve_id": "CVE-2098-0144", "text": "Acme Ledgerly Server 17.6.2 and below is vulnerable to cross-site scripting in the settings page.", "product": "Acme Ledgerly Server", "version": "17.6.2"}
+{"cve_id": "CVE-2098-0145", "text": "Tailspin Relaywire Client prior to 18.10 mishandles input, allowing a denial of service.", "product": "Tailspin Relaywire Client", "version": "18.10"}
+{"cve_id": "CVE-2098-0146", "text": "Improper certificate validation in Acme Ledgerly Server before 20.5 allows a man-in-the-middle attack.", "product": "Acme Ledgerly Server", "version": "20.5"}
+{"cve_id": "CVE-2098-0147", "text": "Improper certificate validation in Acme Ledgerly Server before 20.0.10 allows a man-in-the-middle attack.", "product": "Acme Ledgerly Server", "version": "20.0.10"}
+{"cve_id": "CVE-2098-0148", "text": "A buffer overflow in Tailspin Relaywire Client 19.14.8 allows attackers to gain privileges.", "product": "Tailspin Relaywire Client", "version": "19.14.8"}
+{"cve_id": "CVE-2098-0149", "text": "Orbital Browser before 5.13 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Orbital Browser", "version": "5.13"}
+{"cve_id": "CVE-2098-0150", "text": "Improper certificate validation in Acme Ledgerly Server before 9.14.17 allows a man-in-the-middle attack.", "product": "Acme Ledgerly Server", "version": "9.14.17"}
+{"cve_id": "CVE-2098-0151", "text": "Pioneer Backup Agent before 17.4 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Pioneer Backup Agent", "version": "17.4"}
+{"cve_id": "CVE-2098-0152", "text": "An issue was discovered in Pioneer Backup Agent through 5.8.17 where sessions are not invalidated.", "product": "Pioneer Backup Agent", "version": "5.8.17"}
+{"cve_id": "CVE-2098-0153", "text": "The update mechanism of Fabrikam Ledgerly Server 16.6.4 does not verify signatures.", "product": "Fabrikam Ledgerly Server", "version": "16.6.4"}
+{"cve_id": "CVE-2098-0154", "text": "Tailspin Relaywire Client versions 1.14.18 and earlier contain an authentication bypass.", "product": "Tailspin Relaywire Client", "version": "1.14.18"}
+{"cve_id": "CVE-2098-0155", "text": "Lumen Office Suite prior to 15.17.4 mishandles input, allowing a denial of service.", "product": "Lumen Office Suite", "version": "15.17.4"}
+{"cve_id": "CVE-2098-0156", "text": "A buffer overflow in Vortex PDF Reader 15.19.0 allows attackers to gain privileges.", "product": "Vortex PDF Reader", "version": "15.19.0"}
+{"cve_id": "CVE-2098-0157", "text": "Tailspin Relaywire Client before 7.1.3 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Tailspin Relaywire Client", "version": "7.1.3"}
+{"cve_id": "CVE-2098-0158", "text": "A buffer overflow in Lumen Office Suite 9.15.10.20 allows attackers to gain privileges.", "product": "Lumen Office Suite", "version": "9.15.10.20"}
+{"cve_id": "CVE-2098-0159", "text": "Northwind Mailflow Gateway 7.17.1 and below is vulnerable to cross-site scripting in the settings page.", "product": "Northwind Mailflow Gateway", "version": "7.17.1"}
+{"cve_id": "CVE-2098-0160", "text": "The update mechanism of Vortex PDF Reader 1.15 does not verify signatures.", "product": "Vortex PDF Reader", "version": "1.15"}
+{"cve_id": "CVE-2098-0161", "text": "Acme Ledgerly Server prior to 9.17.6 mishandles input, allowing a denial of service.", "product": "Acme Ledgerly Server", "version": "9.17.6"}
+{"cve_id": "CVE-2098-0162", "text": "Improper certificate validation in Fabrikam Ledgerly Server before 4.14.6 allows a man-in-the-middle attack.", "product": "Fabrikam Ledgerly Server", "version": "4.14.6"}
+{"cve_id": "CVE-2098-0163", "text": "Use after free in Vortex PDF Reader prior to 5.6.2.11 allowed a remote attacker to exploit heap corruption.", "product": "Vortex PDF Reader", "version": "5.6.2.11"}
+{"cve_id": "CVE-2098-0164", "text": "Northwind Mailflow Gateway prior to 7.12.14.8 mishandles input, allowing a denial of service.", "product": "Northwind Mailflow Gateway", "version": "7.12.14.8"}
+{"cve_id": "CVE-2098-0165", "text": "An issue was discovered in Lumen Office Suite through 11.4.10.0 where sessions are not invalidated.", "product": "Lumen Office Suite", "version": "11.4.10.0"}
+{"cve_id": "CVE-2098-0166", "text": "Vortex PDF Reader before 4.16.4 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Vortex PDF Reader", "version": "4.16.4"}
+{"cve_id": "CVE-2098-0167", "text": "Northwind Mailflow Gateway up to 20.11.2 stores credentials in plain text.", "product": "Northwind Mailflow Gateway", "version": "20.11.2"}
+{"cve_id": "CVE-2098-0168", "text": "Pioneer Backup Agent 15.1 and below is vulnerable to cross-site scripting in the settings page.", "product": "Pioneer Backup Agent", "version": "15.1"}
+{"cve_id": "CVE-2098-0169", "text": "A buffer overflow in ZetaDB 0.3.7 allows attackers to gain privileges.", "product": "ZetaDB", "version": "0.3.7"}
+{"cve_id": "CVE-2098-0170", "text": "Tailspin Relaywire Client versions 11.6.3.9 and earlier contain an authentication bypass.", "product": "Tailspin Relaywire Client", "version": "11.6.3.9"}
+{"cve_id": "CVE-2098-0171", "text": "ZetaDB versions 15.17.3 and earlier contain an authentication bypass.", "product": "ZetaDB", "version": "15.17.3"}
+{"cve_id": "CVE-2098-0172", "text": "Use after free in Acme Ledgerly Server prior to 5.15.20 allowed a remote attacker to exploit heap corruption.", "product": "Acme Ledgerly Server", "version": "5.15.20"}
+{"cve_id": "CVE-2098-0173", "text": "Tailspin Relaywire Client 15.15.11 and below is vulnerable to cross-site scripting in the settings page.", "product": "Tailspin Relaywire Client", "version": "15.15.11"}
+{"cve_id": "CVE-2098-0174", "text": "An issue was discovered in Orbital Browser through 16.20.12 where sessions are not invalidated.", "product": "Orbital Browser", "version": "16.20.12"}
+{"cve_id": "CVE-2098-0175", "text": "Use after free in Northwind Mailflow Gateway prior to 6.8.13 allowed a remote attacker to exploit heap corruption.", "product": "Northwind Mailflow Gateway", "version": "6.8.13"}
+{"cve_id": "CVE-2098-0176", "text": "Quartz Media Player prior to 11.8.20 mishandles input, allowing a denial of service.", "product": "Quartz Media Player", "version": "11.8.20"}
+{"cve_id": "CVE-2098-0177", "text": "A buffer overflow in Contoso Photolens Viewer 13.8.16.18 allows attackers to gain privileges.", "product": "Contoso Photolens Viewer", "version": "13.8.16.18"}
+{"cve_id": "CVE-2098-0178", "text": "ZetaDB 9.0 and below is vulnerable to cross-site scripting in the settings page.", "product": "ZetaDB", "version": "9.0"}
+{"cve_id": "CVE-2098-0179", "text": "A buffer overflow in Pioneer Backup Agent 11.7.16.4 allows attackers to gain privileges.", "product": "Pioneer Backup Agent", "version": "11.7.16.4"}
+{"cve_id": "CVE-2098-0180", "text": "Orbital Browser versions 5.9.10 and earlier contain an authentication bypass.", "product": "Orbital Browser", "version": "5.9.10"}
+{"cve_id": "CVE-2098-0181", "text": "The update mechanism of Lumen Office Suite 12.1.14 does not verify signatures.", "product": "Lumen Office Suite", "version": "12.1.14"}
+{"cve_id": "CVE-2098-0182", "text": "Acme Ledgerly Server up to 1.20.3.20 stores credentials in plain text.", "product": "Acme Ledgerly Server", "version": "1.20.3.20"}
+{"cve_id": "CVE-2098-0183", "text": "The update mechanism of ZetaDB 1.8.5 does not verify signatures.", "product": "ZetaDB", "version": "1.8.5"}
+{"cve_id": "CVE-2098-0184", "text": "Quartz Media Player before 5.14.0 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Quartz Media Player", "version": "5.14.0"}
+{"cve_id": "CVE-2098-0185", "text": "Pioneer Backup Agent 0.12.12 and below is vulnerable to cross-site scripting in the settings page.", "product": "Pioneer Backup Agent", "version": "0.12.12"}
+{"cve_id": "CVE-2098-0186", "text": "An issue was discovered in Lumen Office Suite through 8.20.9.6 where sessions are not invalidated.", "product": "Lumen Office Suite", "version": "8.20.9.6"}
+{"cve_id": "CVE-2098-0187", "text": "The update mechanism of Acme Ledgerly Server 19.10.3.12 does not verify signatures.", "product": "Acme Ledgerly Server", "version": "19.10.3.12"}
+{"cve_id": "CVE-2098-0188", "text": "An issue was discovered in Helix Chat Client through 10.17.18 where sessions are not invalidated.", "product": "Helix Chat Client", "version": "10.17.18"}
+{"cve_id": "CVE-2098-0189", "text": "The update mechanism of ZetaDB 17.8.14 does not verify signatures.", "product": "ZetaDB", "version": "17.8.14"}
+{"cve_id": "CVE-2098-0190", "text": "Quartz Media Player versions 4.19.10 and earlier contain an authentication bypass.", "product": "Quartz Media Player", "version": "4.19.10"}
+{"cve_id": "CVE-2098-0191", "text": "An issue was discovered in Helix Chat Client through 9.18 where sessions are not invalidated.", "product": "Helix Chat Client", "version": "9.18"}
+{"cve_id": "CVE-2098-0192", "text": "An issue was discovered in Lumen Office Suite through 3.18.3 where sessions are not invalidated.", "product": "Lumen Office Suite", "version": "3.18.3"}
+{"cve_id": "CVE-2098-0193", "text": "The update mechanism of Contoso Photolens Viewer 15.12 does not verify signatures.", "product": "Contoso Photolens Viewer", "version": "15.12"}
+{"cve_id": "CVE-2098-0194", "text": "A buffer overflow in Pioneer Backup Agent 1.9.11 allows attackers to gain privileges.", "product": "Pioneer Backup Agent", "version": "1.9.11"}
+{"cve_id": "CVE-2098-0195", "text": "The update mechanism of Quartz Media Player 15.17.11 does not verify signatures.", "product": "Quartz Media Player", "version": "15.17.11"}
+{"cve_id": "CVE-2098-0196", "text": "Improper certificate validation in Orbital Browser before 12.13.16 allows a man-in-the-middle attack.", "product": "Orbital Browser", "version": "12.13.16"}
+{"cve_id": "CVE-2098-0197", "text": "A buffer overflow in Northwind Mailflow Gateway 3.19.5.3 allows attackers to gain privileges.", "product": "Northwind Mailflow Gateway", "version": "3.19.5.3"}
+{"cve_id": "CVE-2098-0198", "text": "Improper certificate validation in Tailspin Relaywire Client before 6.1 allows a man-in-the-middle attack.", "product": "Tailspin Relaywire Client", "version": "6.1"}
+{"cve_id": "CVE-2098-0199", "text": "Use after free in Tailspin Relaywire Client prior to 0.6.6 allowed a remote attacker to exploit heap corruption.", "product": "Tailspin Relaywire Client", "version": "0.6.6"}
+{"cve_id": "CVE-2098-0200", "text": "Use after free in Fabrikam Ledgerly Server prior to 10.5.19.13 allowed a remote attacker to exploit heap corruption.", "product": "Fabrikam Ledgerly Server", "version": "10.5.19.13"}
+{"cve_id": "CVE-2098-0201", "text": "Lumen Office Suite versions 11.0.12 and earlier contain an authentication bypass.", "product": "Lumen Office Suite", "version": "11.0.12"}
+{"cve_id": "CVE-2098-0202", "text": "An issue was discovered in Lumen Office Suite through 1.0.1 where sessions are not invalidated.", "product": "Lumen Office Suite", "version": "1.0.1"}
+{"cve_id": "CVE-2098-0203", "text": "Pioneer Backup Agent up to 7.16.20.12 stores credentials in plain text.", "product": "Pioneer Backup Agent", "version": "7.16.20.12"}
+{"cve_id": "CVE-2098-0204", "text": "Lumen Office Suite up to 1.5.10 stores credentials in plain text.", "product": "Lumen Office Suite", "version": "1.5.10"}
+{"cve_id": "CVE-2098-0205", "text": "Pioneer Backup Agent versions 9.9 and earlier contain an authentication bypass.", "product": "Pioneer Backup Agent", "version": "9.9"}
+{"cve_id": "CVE-2098-0206", "text": "Improper certificate validation in Fabrikam Ledgerly Server before 7.3.3 allows a man-in-the-middle attack.", "product": "Fabrikam Ledgerly Server", "version": "7.3.3"}
+{"cve_id": "CVE-2098-0207", "text": "Use after free in Contoso Photolens Viewer prior to 1.16.9 allowed a remote attacker to exploit heap corruption.", "product": "Contoso Photolens Viewer", "version": "1.16.9"}
+{"cve_id": "CVE-2098-0208", "text": "The update mechanism of Acme Ledgerly Server 8.9.15 does not verify signatures.", "product": "Acme Ledgerly Server", "version": "8.9.15"}
+{"cve_id": "CVE-2098-0209", "text": "Vortex PDF Reader versions 16.6.16 and earlier contain an authentication bypass.", "product": "Vortex PDF Reader", "version": "16.6.16"}
+{"cve_id": "CVE-2098-0210", "text": "Pioneer Backup Agent before 19.2.7.9 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Pioneer Backup Agent", "version": "19.2.7.9"}
+{"cve_id": "CVE-2098-0211", "text": "Northwind Mailflow Gateway versions 13.13 and earlier contain an authentication bypass.", "product": "Northwind Mailflow Gateway", "version": "13.13"}
+{"cve_id": "CVE-2098-0212", "text": "An issue was discovered in Northwind Mailflow Gateway through 1.6.13 where sessions are not invalidated.", "product": "Northwind Mailflow Gateway", "version": "1.6.13"}
+{"cve_id": "CVE-2098-0213", "text": "The update mechanism of Lumen Office Suite 20.2.3.0 does not verify signatures.", "product": "Lumen Office Suite", "version": "20.2.3.0"}
+{"cve_id": "CVE-2098-0214", "text": "Contoso Photolens Viewer 19.19 and below is vulnerable to cross-site scripting in the settings page.", "product": "Contoso Photolens Viewer", "version": "19.19"}
+{"cve_id": "CVE-2098-0215", "text": "The update mechanism of Tailspin Relaywire Client 20.2.3 does not verify signatures.", "product": "Tailspin Relaywire Client", "version": "20.2.3"}
+{"cve_id": "CVE-2098-0216", "text": "Improper certificate validation in Pioneer Backup Agent before 18.18.8 allows a man-in-the-middle attack.", "product": "Pioneer Backup Agent", "version": "18.18.8"}
+{"cve_id": "CVE-2098-0217", "text": "Lumen Office Suite versions 14.5.14.7 and earlier contain an authentication bypass.", "product": "Lumen Office Suite", "version": "14.5.14.7"}
+{"cve_id": "CVE-2098-0218", "text": "Pioneer Backup Agent up to 17.13.7 stores credentials in plain text.", "product": "Pioneer Backup Agent", "version": "17.13.7"}
+{"cve_id": "CVE-2098-0219", "text": "The update mechanism of Contoso Photolens Viewer 14.0.17 does not verify signatures.", "product": "Contoso Photolens Viewer", "version": "14.0.17"}
+{"cve_id": "CVE-2098-0220", "text": "Helix Chat Client up to 0.7.10 stores credentials in plain text.", "product": "Helix Chat Client", "version": "0.7.10"}
+{"cve_id": "CVE-2098-0221", "text": "A buffer overflow in Orbital Browser 7.6.10 allows attackers to gain privileges.", "product": "Orbital Browser", "version": "7.6.10"}
+{"cve_id": "CVE-2098-0222", "text": "Use after free in Tailspin Relaywire Client prior to 12.12.2 allowed a remote attacker to exploit heap corruption.", "product": "Tailspin Relaywire Client", "version": "12.12.2"}
+{"cve_id": "CVE-2098-0223", "text": "Contoso Photolens Viewer up to 12.14 stores credentials in plain text.", "product": "Contoso Photolens Viewer", "version": "12.14"}
+{"cve_id": "CVE-2098-0224", "text": "Quartz Media Player 19.18.3 and below is vulnerable to cross-site scripting in the settings page.", "product": "Quartz Media Player", "version": "19.18.3"}
+{"cve_id": "CVE-2098-0225", "text": "Orbital Browser versions 20.11.7.14 and earlier contain an authentication bypass.", "product": "Orbital Browser", "version": "20.11.7.14"}
+{"cve_id": "CVE-2098-0226", "text": "Improper certificate validation in Contoso Photolens Viewer before 11.9.9 allows a man-in-the-middle attack.", "product": "Contoso Photolens Viewer", "version": "11.9.9"}
+{"cve_id": "CVE-2098-0227", "text": "Acme Ledgerly Server versions 14.16.15 and earlier contain an authentication bypass.", "product": "Acme Ledgerly Server", "version": "14.16.15"}
+{"cve_id": "CVE-2098-0228", "text": "ZetaDB prior to 0.5.7.10 mishandles input, allowing a denial of service.", "product": "ZetaDB", "version": "0.5.7.10"}
+{"cve_id": "CVE-2098-0229", "text": "Use after free in Pioneer Backup Agent prior to 3.19 allowed a remote attacker to exploit heap corruption.", "product": "Pioneer Backup Agent", "version": "3.19"}
+{"cve_id": "CVE-2098-0230", "text": "Improper certificate validation in Acme Ledgerly Server before 7.13.14 allows a man-in-the-middle attack.", "product": "Acme Ledgerly Server", "version": "7.13.14"}
+{"cve_id": "CVE-2098-0231", "text": "Vortex PDF Reader before 20.8.5.7 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Vortex PDF Reader", "version": "20.8.5.7"}
+{"cve_id": "CVE-2098-0232", "text": "Use after free in Quartz Media Player prior to 8.1.19 allowed a remote attacker to exploit heap corruption.", "product": "Quartz Media Player", "version": "8.1.19"}
+{"cve_id": "CVE-2098-0233", "text": "Lumen Office Suite up to 9.0.14 stores credentials in plain text.", "product": "Lumen Office Suite", "version": "9.0.14"}
+{"cve_id": "CVE-2098-0234", "text": "The update mechanism of Northwind Mailflow Gateway 20.7.11.14 does not verify signatures.", "product": "Northwind Mailflow Gateway", "version": "20.7.11.14"}
+{"cve_id": "CVE-2098-0235", "text": "The update mechanism of Acme Ledgerly Server 9.14.7 does not verify signatures.", "product": "Acme Ledgerly Server", "version": "9.14.7"}
+{"cve_id": "CVE-2098-0236", "text": "Lumen Office Suite up to 2.0 stores credentials in plain text.", "product": "Lumen Office Suite", "version": "2.0"}
+{"cve_id": "CVE-2098-0237", "text": "Acme Ledgerly Server prior to 0.10 mishandles input, allowing a denial of service.", "product": "Acme Ledgerly Server", "version": "0.10"}
+{"cve_id": "CVE-2098-0238", "text": "Northwind Mailflow Gateway versions 17.18.3 and earlier contain an authentication bypass.", "product": "Northwind Mailflow Gateway", "version": "17.18.3"}
+{"cve_id": "CVE-2098-0239", "text": "ZetaDB versions 0.18 and earlier contain an authentication bypass.", "product": "ZetaDB", "version": "0.18"}
+{"cve_id": "CVE-2098-0240", "text": "A buffer overflow in Quartz Media Player 17.5.2.19 allows attackers to gain privileges.", "product": "Quartz Media Player", "version": "17.5.2.19"}
+{"cve_id": "CVE-2098-0241", "text": "Lumen Office Suite up to 3.11.1 stores credentials in plain text.", "product": "Lumen Office Suite", "version": "3.11.1"}
+{"cve_id": "CVE-2098-0242", "text": "An issue was discovered in Acme Ledgerly Server through 1.4 where sessions are not invalidated.", "product": "Acme Ledgerly Server", "version": "1.4"}
+{"cve_id": "CVE-2098-0243", "text": "Use after free in ZetaDB prior to 2.0.1 allowed a remote attacker to exploit heap corruption.", "product": "ZetaDB", "version": "2.0.1"}
+{"cve_id": "CVE-2098-0244", "text": "Contoso Photolens Viewer before 8.10.2.12 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Contoso Photolens Viewer", "version": "8.10.2.12"}
+{"cve_id": "CVE-2098-0245", "text": "The update mechanism of ZetaDB 15.16.3.11 does not verify signatures.", "product": "ZetaDB", "version": "15.16.3.11"}
+{"cve_id": "CVE-2098-0246", "text": "Helix Chat Client up to 18.17.4 stores credentials in plain text.", "product": "Helix Chat Client", "version": "18.17.4"}
+{"cve_id": "CVE-2098-0247", "text": "Helix Chat Client 11.20 and below is vulnerable to cross-site scripting in the settings page.", "product": "Helix Chat Client", "version": "11.20"}
+{"cve_id": "CVE-2098-0248", "text": "Acme Ledgerly Server versions 0.8.12 and earlier contain an authentication bypass.", "product": "Acme Ledgerly Server", "version": "0.8.12"}
+{"cve_id": "CVE-2098-0249", "text": "Pioneer Backup Agent prior to 4.15.15 mishandles input, allowing a denial of service.", "product": "Pioneer Backup Agent", "version": "4.15.15"}
+{"cve_id": "CVE-2098-0250", "text": "Helix Chat Client versions 13.17 and earlier contain an authentication bypass.", "product": "Helix Chat Client", "version": "13.17"}
+{"cve_id": "CVE-2098-0251", "text": "A buffer overflow in Vortex PDF Reader 7.1.8 allows attackers to gain privileges.", "product": "Vortex PDF Reader", "version": "7.1.8"}
+{"cve_id": "CVE-2098-0252", "text": "Tailspin Relaywire Client before 12.18.11 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Tailspin Relaywire Client", "version": "12.18.11"}
+{"cve_id": "CVE-2098-0253", "text": "Quartz Media Player versions 16.8.11 and earlier contain an authentication bypass.", "product": "Quartz Media Player", "version": "16.8.11"}
+{"cve_id": "CVE-2098-0254", "text": "An issue was discovered in Northwind Mailflow Gateway through 17.19.10 where sessions are not invalidated.", "product": "Northwind Mailflow Gateway", "version": "17.19.10"}
+{"cve_id": "CVE-2098-0255", "text": "Helix Chat Client prior to 9.19.6 mishandles input, allowing a denial of service.", "product": "Helix Chat Client", "version": "9.19.6"}
+{"cve_id": "CVE-2098-0256", "text": "Helix Chat Client prior to 10.3.10 mishandles input, allowing a denial of service.", "product": "Helix Chat Client", "version": "10.3.10"}
+{"cve_id": "CVE-2098-0257", "text": "An issue was discovered in Northwind Mailflow Gateway through 9.2.14 where sessions are not invalidated.", "product": "Northwind Mailflow Gateway", "version": "9.2.14"}
+{"cve_id": "CVE-2098-0258", "text": "A buffer overflow in Pioneer Backup Agent 16.17 allows attackers to gain privileges.", "product": "Pioneer Backup Agent", "version": "16.17"}
+{"cve_id": "CVE-2098-0259", "text": "The update mechanism of Pioneer Backup Agent 17.0.1.10 does not verify signatures.", "product": "Pioneer Backup Agent", "version": "17.0.1.10"}
+{"cve_id": "CVE-2098-0260", "text": "Contoso Photolens Viewer up to 7.7 stores credentials in plain text.", "product": "Contoso Photolens Viewer", "version": "7.7"}
+{"cve_id": "CVE-2098-0261", "text": "A buffer overflow in Contoso Photolens Viewer 17.10 allows attackers to gain privileges.", "product": "Contoso Photolens Viewer", "version": "17.10"}
+{"cve_id": "CVE-2098-0262", "text": "Lumen Office Suite before 20.16.11 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Lumen Office Suite", "version": "20.16.11"}
+{"cve_id": "CVE-2098-0263", "text": "The update mechanism of Fabrikam Ledgerly Server 10.3.18 does not verify signatures.", "product": "Fabrikam Ledgerly Server", "version": "10.3.18"}
+{"cve_id": "CVE-2098-0264", "text": "Use after free in Vortex PDF Reader prior to 11.3.18 allowed a remote attacker to exploit heap corruption.", "product": "Vortex PDF Reader", "version": "11.3.18"}
+{"cve_id": "CVE-2098-0265", "text": "Use after free in Helix Chat Client prior to 3.14.8 allowed a remote attacker to exploit heap corruption.", "product": "Helix Chat Client", "version": "3.14.8"}
+{"cve_id": "CVE-2098-0266", "text": "Improper certificate validation in Contoso Photolens Viewer before 14.9.14.13 allows a man-in-the-middle attack.", "product": "Contoso Photolens Viewer", "version": "14.9.14.13"}
+{"cve_id": "CVE-2098-0267", "text": "Quartz Media Player 14.3 and below is vulnerable to cross-site scripting in the settings page.", "product": "Quartz Media Player", "version": "14.3"}
+{"cve_id": "CVE-2098-0268", "text": "Helix Chat Client versions 10.20.2 and earlier contain an authentication bypass.", "product": "Helix Chat Client", "version": "10.20.2"}
+{"cve_id": "CVE-2098-0269", "text": "A buffer overflow in Pioneer Backup Agent 9.10.12 allows attackers to gain privileges.", "product": "Pioneer Backup Agent", "version": "9.10.12"}
+{"cve_id": "CVE-2098-0270", "text": "Improper certificate validation in Fabrikam Ledgerly Server before 5.13.3 allows a man-in-the-middle attack.", "product": "Fabrikam Ledgerly Server", "version": "5.13.3"}
+{"cve_id": "CVE-2098-0271", "text": "Improper certificate validation in Fabrikam Ledgerly Server before 8.20.9.19 allows a man-in-the-middle attack.", "product": "Fabrikam Ledgerly Server", "version": "8.20.9.19"}
+{"cve_id": "CVE-2098-0272", "text": "Use after free in ZetaDB prior to 19.15.14 allowed a remote attacker to exploit heap corruption.", "product": "ZetaDB", "version": "19.15.14"}
+{"cve_id": "CVE-2098-0273", "text": "Use after free in Orbital Browser prior to 7.12.7 allowed a remote attacker to exploit heap corruption.", "product": "Orbital Browser", "version": "7.12.7"}
+{"cve_id": "CVE-2098-0274", "text": "Use after free in Orbital Browser prior to 1.17.2 allowed a remote attacker to exploit heap corruption.", "product": "Orbital Browser", "version": "1.17.2"}
+{"cve_id": "CVE-2098-0275", "text": "A buffer overflow in Acme Ledgerly Server 14.17 allows attackers to gain privileges.", "product": "Acme Ledgerly Server", "version": "14.17"}
+{"cve_id": "CVE-2098-0276", "text": "Improper certificate validation in Quartz Media Player before 17.0.20 allows a man-in-the-middle attack.", "product": "Quartz Media Player", "version": "17.0.20"}
+{"cve_id": "CVE-2098-0277", "text": "Quartz Media Player before 20.11.19 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Quartz Media Player", "version": "20.11.19"}
+{"cve_id": "CVE-2098-0278", "text": "A buffer overflow in Pioneer Backup Agent 5.1 allows attackers to gain privileges.", "product": "Pioneer Backup Agent", "version": "5.1"}
+{"cve_id": "CVE-2098-0279", "text": "Tailspin Relaywire Client up to 10.16.11 stores credentials in plain text.", "product": "Tailspin Relaywire Client", "version": "10.16.11"}
+{"cve_id": "CVE-2098-0280", "text": "Helix Chat Client 18.3.18 and below is vulnerable to cross-site scripting in the settings page.", "product": "Helix Chat Client", "version": "18.3.18"}
+{"cve_id": "CVE-2098-0281", "text": "Helix Chat Client versions 19.5 and earlier contain an authentication bypass.", "product": "Helix Chat Client", "version": "19.5"}
+{"cve_id": "CVE-2098-0282", "text": "A buffer overflow in Acme Ledgerly Server 20.13.4 allows attackers to gain privileges.", "product": "Acme Ledgerly Server", "version": "20.13.4"}
+{"cve_id": "CVE-2098-0283", "text": "Orbital Browser 4.3.16 and below is vulnerable to cross-site scripting in the settings page.", "product": "Orbital Browser", "version": "4.3.16"}
+{"cve_id": "CVE-2098-0284", "text": "A buffer overflow in Orbital Browser 8.17 allows attackers to gain privileges.", "product": "Orbital Browser", "version": "8.17"}
+{"cve_id": "CVE-2098-0285", "text": "Lumen Office Suite prior to 17.13.19 mishandles input, allowing a denial of service.", "product": "Lumen Office Suite", "version": "17.13.19"}
+{"cve_id": "CVE-2098-0286", "text": "An issue was discovered in Pioneer Backup Agent through 3.12.0 where sessions are not invalidated.", "product": "Pioneer Backup Agent", "version": "3.12.0"}
+{"cve_id": "CVE-2098-0287", "text": "Orbital Browser before 5.11.14 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Orbital Browser", "version": "5.11.14"}
+{"cve_id": "CVE-2098-0288", "text": "Use after free in Vortex PDF Reader prior to 10.5.18 allowed a remote attacker to exploit heap corruption.", "product": "Vortex PDF Reader", "version": "10.5.18"}
+{"cve_id": "CVE-2098-0289", "text": "Helix Chat Client before 4.2.16 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Helix Chat Client", "version": "4.2.16"}
+{"cve_id": "CVE-2098-0290", "text": "Lumen Office Suite up to 8.14.1 stores credentials in plain text.", "product": "Lumen Office Suite", "version": "8.14.1"}
+{"cve_id": "CVE-2098-0291", "text": "Improper certificate validation in Helix Chat Client before 17.5.19 allows a man-in-the-middle attack.", "product": "Helix Chat Client", "version": "17.5.19"}
+{"cve_id": "CVE-2098-0292", "text": "Lumen Office Suite versions 19.16.1 and earlier contain an authentication bypass.", "product": "Lumen Office Suite", "version": "19.16.1"}
+{"cve_id": "CVE-2098-0293", "text": "Use after free in Contoso Photolens Viewer prior to 14.11.9.2 allowed a remote attacker to exploit heap corruption.", "product": "Contoso Photolens Viewer", "version": "14.11.9.2"}
+{"cve_id": "CVE-2098-0294", "text": "Tailspin Relaywire Client versions 1.8.18 and earlier contain an authentication bypass.", "product": "Tailspin Relaywire Client", "version": "1.8.18"}
+{"cve_id": "CVE-2098-0295", "text": "Contoso Photolens Viewer 19.12.0 and below is vulnerable to cross-site scripting in the settings page.", "product": "Contoso Photolens Viewer", "version": "19.12.0"}
+{"cve_id": "CVE-2098-0296", "text": "An issue was discovered in Vortex PDF Reader through 16.0.17 where sessions are not invalidated.", "product": "Vortex PDF Reader", "version": "16.0.17"}
+{"cve_id": "CVE-2098-0297", "text": "Contoso Photolens Viewer versions 13.4.20 and earlier contain an authentication bypass.", "product": "Contoso Photolens Viewer", "version": "13.4.20"}
+{"cve_id": "CVE-2098-0298", "text": "Acme Ledgerly Server versions 12.1.19 and earlier contain an authentication bypass.", "product": "Acme Ledgerly Server", "version": "12.1.19"}
+{"cve_id": "CVE-2098-0299", "text": "Helix Chat Client 10.8.5 and below is vulnerable to cross-site scripting in the settings page.", "product": "Helix Chat Client", "version": "10.8.5"}
+{"cve_id": "CVE-2098-0300", "text": "Improper certificate validation in Lumen Office Suite before 16.11.0 allows a man-in-the-middle attack.", "product": "Lumen Office Suite", "version": "16.11.0"}
+{"cve_id": "CVE-2098-0301", "text": "Improper certificate validation in Contoso Photolens Viewer before 16.0 allows a man-in-the-middle attack.", "product": "Contoso Photolens Viewer", "version": "16.0"}
+{"cve_id": "CVE-2098-0302", "text": "Tailspin Relaywire Client 12.4.10.7 and below is vulnerable to cross-site scripting in the settings page.", "product": "Tailspin Relaywire Client", "version": "12.4.10.7"}
+{"cve_id": "CVE-2098-0303", "text": "Use after free in Orbital Browser prior to 6.20.9 allowed a remote attacker to exploit heap corruption.", "product": "Orbital Browser", "version": "6.20.9"}
+{"cve_id": "CVE-2098-0304", "text": "An issue was discovered in Contoso Photolens Viewer through 18.17.3.16 where sessions are not invalidated.", "product": "Contoso Photolens Viewer", "version": "18.17.3.16"}
+{"cve_id": "CVE-2098-0305", "text": "Tailspin Relaywire Client prior to 10.6.14 mishandles input, allowing a denial of service.", "product": "Tailspin Relaywire Client", "version": "10.6.14"}
+{"cve_id": "CVE-2098-0306", "text": "Tailspin Relaywire Client versions 15.18 and earlier contain an authentication bypass.", "product": "Tailspin Relaywire Client", "version": "15.18"}
+{"cve_id": "CVE-2098-0307", "text": "A buffer overflow in Vortex PDF Reader 16.18.3 allows attackers to gain privileges.", "product": "Vortex PDF Reader", "version": "16.18.3"}
+{"cve_id": "CVE-2098-0308", "text": "A buffer overflow in Northwind Mailflow Gateway 18.5.1 allows attackers to gain privileges.", "product": "Northwind Mailflow Gateway", "version": "18.5.1"}
+{"cve_id": "CVE-2098-0309", "text": "A buffer overflow in Tailspin Relaywire Client 2.0.15 allows attackers to gain privileges.", "product": "Tailspin Relaywire Client", "version": "2.0.15"}
+{"cve_id": "CVE-2098-0310", "text": "Quartz Media Player prior to 8.15.1 mishandles input, allowing a denial of service.", "product": "Quartz Media Player", "version": "8.15.1"}
+{"cve_id": "CVE-2098-0311", "text": "ZetaDB before 20.17 allows remote attackers to execute arbitrary code via a crafted request.", "product": "ZetaDB", "version": "20.17"}
+{"cve_id": "CVE-2098-0312", "text": "Fabrikam Ledgerly Server before 8.6.14 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Fabrikam Ledgerly Server", "version": "8.6.14"}
+{"cve_id": "CVE-2098-0313", "text": "Acme Ledgerly Server before 5.14.13 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Acme Ledgerly Server", "version": "5.14.13"}
+{"cve_id": "CVE-2098-0314", "text": "The update mechanism of Vortex PDF Reader 5.18.17 does not verify signatures.", "product": "Vortex PDF Reader", "version": "5.18.17"}
+{"cve_id": "CVE-2098-0315", "text": "Acme Ledgerly Server before 18.16.7 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Acme Ledgerly Server", "version": "18.16.7"}
+{"cve_id": "CVE-2098-0316", "text": "Lumen Office Suite prior to 5.1 mishandles input, allowing a denial of service.", "product": "Lumen Office Suite", "version": "5.1"}
+{"cve_id": "CVE-2098-0317", "text": "Helix Chat Client 6.20.12 and below is vulnerable to cross-site scripting in the settings page.", "product": "Helix Chat Client", "version": "6.20.12"}
+{"cve_id": "CVE-2098-0318", "text": "A buffer overflow in Vortex PDF Reader 12.9.3 allows attackers to gain privileges.", "product": "Vortex PDF Reader", "version": "12.9.3"}
+{"cve_id": "CVE-2098-0319", "text": "Improper certificate validation in Contoso Photolens Viewer before 18.2.11.3 allows a man-in-the-middle attack.", "product": "Contoso Photolens Viewer", "version": "18.2.11.3"}
+{"cve_id": "CVE-2098-0320", "text": "The update mechanism of Quartz Media Player 20.2.9 does not verify signatures.", "product": "Quartz Media Player", "version": "20.2.9"}
+{"cve_id": "CVE-2098-0321", "text": "A buffer overflow in Pioneer Backup Agent 8.16 allows attackers to gain privileges.", "product": "Pioneer Backup Agent", "version": "8.16"}
+{"cve_id": "CVE-2098-0322", "text": "Use after free in Tailspin Relaywire Client prior to 18.18 allowed a remote attacker to exploit heap corruption.", "product": "Tailspin Relaywire Client", "version": "18.18"}
+{"cve_id": "CVE-2098-0323", "text": "The update mechanism of Acme Ledgerly Server 5.19 does not verify signatures.", "product": "Acme Ledgerly Server", "version": "5.19"}
+{"cve_id": "CVE-2098-0324", "text": "Use after free in ZetaDB prior to 3.20.13.15 allowed a remote attacker to exploit heap corruption.", "product": "ZetaDB", "version": "3.20.13.15"}
+{"cve_id": "CVE-2098-0325", "text": "Improper certificate validation in Pioneer Backup Agent before 20.9.17 allows a man-in-the-middle attack.", "product": "Pioneer Backup Agent", "version": "20.9.17"}
+{"cve_id": "CVE-2098-0326", "text": "Use after free in Helix Chat Client prior to 6.19.20 allowed a remote attacker to exploit heap corruption.", "product": "Helix Chat Client", "version": "6.19.20"}
+{"cve_id": "CVE-2098-0327", "text": "Tailspin Relaywire Client versions 5.12.11 and earlier contain an authentication bypass.", "product": "Tailspin Relaywire Client", "version": "5.12.11"}
+{"cve_id": "CVE-2098-0328", "text": "Northwind Mailflow Gateway before 8.9.11 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Northwind Mailflow Gateway", "version": "8.9.11"}
+{"cve_id": "CVE-2098-0329", "text": "Helix Chat Client before 13.10.19 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Helix Chat Client", "version": "13.10.19"}
+{"cve_id": "CVE-2098-0330", "text": "A buffer overflow in Orbital Browser 18.17 allows attackers to gain privileges.", "product": "Orbital Browser", "version": "18.17"}
+{"cve_id": "CVE-2098-0331", "text": "Helix Chat Client up to 10.6.1.11 stores credentials in plain text.", "product": "Helix Chat Client", "version": "10.6.1.11"}
+{"cve_id": "CVE-2098-0332", "text": "Use after free in Quartz Media Player prior to 12.9 allowed a remote attacker to exploit heap corruption.", "product": "Quartz Media Player", "version": "12.9"}
+{"cve_id": "CVE-2098-0333", "text": "Use after free in Contoso Photolens Viewer prior to 3.13.7 allowed a remote attacker to exploit heap corruption.", "product": "Contoso Photolens Viewer", "version": "3.13.7"}
+{"cve_id": "CVE-2098-0334", "text": "A buffer overflow in Northwind Mailflow Gateway 17.7.9 allows attackers to gain privileges.", "product": "Northwind Mailflow Gateway", "version": "17.7.9"}
+{"cve_id": "CVE-2098-0335", "text": "Helix Chat Client versions 1.15.14.11 and earlier contain an authentication bypass.", "product": "Helix Chat Client", "version": "1.15.14.11"}
+{"cve_id": "CVE-2098-0336", "text": "The update mechanism of Contoso Photolens Viewer 8.1.5 does not verify signatures.", "product": "Contoso Photolens Viewer", "version": "8.1.5"}
+{"cve_id": "CVE-2098-0337", "text": "The update mechanism of Tailspin Relaywire Client 12.0.6 does not verify signatures.", "product": "Tailspin Relaywire Client", "version": "12.0.6"}
+{"cve_id": "CVE-2098-0338", "text": "Lumen Office Suite up to 6.16 stores credentials in plain text.", "product": "Lumen Office Suite", "version": "6.16"}
+{"cve_id": "CVE-2098-0339", "text": "Northwind Mailflow Gateway prior to 19.2.6.2 mishandles input, allowing a denial of service.", "product": "Northwind Mailflow Gateway", "version": "19.2.6.2"}
+{"cve_id": "CVE-2098-0340", "text": "Use after free in Helix Chat Client prior to 15.19 allowed a remote attacker to exploit heap corruption.", "product": "Helix Chat Client", "version": "15.19"}
+{"cve_id": "CVE-2098-0341", "text": "Contoso Photolens Viewer up to 0.17.20 stores credentials in plain text.", "product": "Contoso Photolens Viewer", "version": "0.17.20"}
+{"cve_id": "CVE-2098-0342", "text": "A buffer overflow in Fabrikam Ledgerly Server 14.7.2.10 allows attackers to gain privileges.", "product": "Fabrikam Ledgerly Server", "version": "14.7.2.10"}
+{"cve_id": "CVE-2098-0343", "text": "Improper certificate validation in Vortex PDF Reader before 0.15 allows a man-in-the-middle attack.", "product": "Vortex PDF Reader", "version": "0.15"}
+{"cve_id": "CVE-2098-0344", "text": "A buffer overflow in Orbital Browser 17.6 allows attackers to gain privileges.", "product": "Orbital Browser", "version": "17.6"}
+{"cve_id": "CVE-2098-0345", "text": "ZetaDB versions 9.20.17 and earlier contain an authentication bypass.", "product": "ZetaDB", "version": "9.20.17"}
+{"cve_id": "CVE-2098-0346", "text": "The update mechanism of Tailspin Relaywire Client 17.19.19 does not verify signatures.", "product": "Tailspin Relaywire Client", "version": "17.19.19"}
+{"cve_id": "CVE-2098-0347", "text": "Pioneer Backup Agent before 20.6.9 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Pioneer Backup Agent", "version": "20.6.9"}
+{"cve_id": "CVE-2098-0348", "text": "A buffer overflow in Tailspin Relaywire Client 6.9.18 allows attackers to gain privileges.", "product": "Tailspin Relaywire Client", "version": "6.9.18"}
+{"cve_id": "CVE-2098-0349", "text": "An issue was discovered in Northwind Mailflow Gateway through 4.18.1 where sessions are not invalidated.", "product": "Northwind Mailflow Gateway", "version": "4.18.1"}
+{"cve_id": "CVE-2098-0350", "text": "Improper certificate validation in Vortex PDF Reader before 18.19.2 allows a man-in-the-middle attack.", "product": "Vortex PDF Reader", "version": "18.19.2"}
+{"cve_id": "CVE-2098-0351", "text": "The update mechanism of Tailspin Relaywire Client 3.3.19 does not verify signatures.", "product": "Tailspin Relaywire Client", "version": "3.3.19"}
+{"cve_id": "CVE-2098-0352", "text": "A buffer overflow in Contoso Photolens Viewer 20.10.12 allows attackers to gain privileges.", "product": "Contoso Photolens Viewer", "version": "20.10.12"}
+{"cve_id": "CVE-2098-0353", "text": "Improper certificate validation in Fabrikam Ledgerly Server before 7.12 allows a man-in-the-middle attack.", "product": "Fabrikam Ledgerly Server", "version": "7.12"}
+{"cve_id": "CVE-2098-0354", "text": "A buffer overflow in Northwind Mailflow Gateway 17.3.14 allows attackers to gain privileges.", "product": "Northwind Mailflow Gateway", "version": "17.3.14"}
+{"cve_id": "CVE-2098-0355", "text": "The update mechanism of Helix Chat Client 1.11.17 does not verify signatures.", "product": "Helix Chat Client", "version": "1.11.17"}
+{"cve_id": "CVE-2098-0356", "text": "Orbital Browser 13.15.18 and below is vulnerable to cross-site scripting in the settings page.", "product": "Orbital Browser", "version": "13.15.18"}
+{"cve_id": "CVE-2098-0357", "text": "Contoso Photolens Viewer before 15.7 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Contoso Photolens Viewer", "version": "15.7"}
+{"cve_id": "CVE-2098-0358", "text": "An issue was discovered in Quartz Media Player through 9.0.0 where sessions are not invalidated.", "product": "Quartz Media Player", "version": "9.0.0"}
+{"cve_id": "CVE-2098-0359", "text": "ZetaDB versions 11.8.15.3 and earlier contain an authentication bypass.", "product": "ZetaDB", "version": "11.8.15.3"}
+{"cve_id": "CVE-2098-0360", "text": "Acme Ledgerly Server before 6.4.9 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Acme Ledgerly Server", "version": "6.4.9"}
+{"cve_id": "CVE-2098-0361", "text": "Improper certificate validation in Pioneer Backup Agent before 10.5.18 allows a man-in-the-middle attack.", "product": "Pioneer Backup Agent", "version": "10.5.18"}
+{"cve_id": "CVE-2098-0362", "text": "Orbital Browser versions 11.11.11 and earlier contain an authentication bypass.", "product": "Orbital Browser", "version": "11.11.11"}
+{"cve_id": "CVE-2098-0363", "text": "Helix Chat Client versions 11.7.0.3 and earlier contain an authentication bypass.", "product": "Helix Chat Client", "version": "11.7.0.3"}
+{"cve_id": "CVE-2098-0364", "text": "Improper certificate validation in Contoso Photolens Viewer before 20.0 allows a man-in-the-middle attack.", "product": "Contoso Photolens Viewer", "version": "20.0"}
+{"cve_id": "CVE-2098-0365", "text": "A buffer overflow in Contoso Photolens Viewer 5.9.15.6 allows attackers to gain privileges.", "product": "Contoso Photolens Viewer", "version": "5.9.15.6"}
+{"cve_id": "CVE-2098-0366", "text": "Improper certificate validation in Orbital Browser before 3.11.6 allows a man-in-the-middle attack.", "product": "Orbital Browser", "version": "3.11.6"}
+{"cve_id": "CVE-2098-0367", "text": "Orbital Browser versions 8.11.3 and earlier contain an authentication bypass.", "product": "Orbital Browser", "version": "8.11.3"}
+{"cve_id": "CVE-2098-0368", "text": "Tailspin Relaywire Client up to 0.14.13 stores credentials in plain text.", "product": "Tailspin Relaywire Client", "version": "0.14.13"}
+{"cve_id": "CVE-2098-0369", "text": "Contoso Photolens Viewer before 10.15 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Contoso Photolens Viewer", "version": "10.15"}
+{"cve_id": "CVE-2098-0370", "text": "Quartz Media Player before 16.2.17 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Quartz Media Player", "version": "16.2.17"}
+{"cve_id": "CVE-2098-0371", "text": "Use after free in Tailspin Relaywire Client prior to 3.8.17.0 allowed a remote attacker to exploit heap corruption.", "product": "Tailspin Relaywire Client", "version": "3.8.17.0"}
+{"cve_id": "CVE-2098-0372", "text": "Use after free in Quartz Media Player prior to 5.9.5 allowed a remote attacker to exploit heap corruption.", "product": "Quartz Media Player", "version": "5.9.5"}
+{"cve_id": "CVE-2098-0373", "text": "Vortex PDF Reader prior to 20.10 mishandles input, allowing a denial of service.", "product": "Vortex PDF Reader", "version": "20.10"}
+{"cve_id": "CVE-2098-0374", "text": "ZetaDB before 13.9 allows remote attackers to execute arbitrary code via a crafted request.", "product": "ZetaDB", "version": "13.9"}
+{"cve_id": "CVE-2098-0375", "text": "Contoso Photolens Viewer up to 6.15.4 stores credentials in plain text.", "product": "Contoso Photolens Viewer", "version": "6.15.4"}
+{"cve_id": "CVE-2098-0376", "text": "Helix Chat Client up to 5.16.0 stores credentials in plain text.", "product": "Helix Chat Client", "version": "5.16.0"}
+{"cve_id": "CVE-2098-0377", "text": "Pioneer Backup Agent before 7.20.11 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Pioneer Backup Agent", "version": "7.20.11"}
+{"cve_id": "CVE-2098-0378", "text": "An issue was discovered in Pioneer Backup Agent through 17.2.4 where sessions are not invalidated.", "product": "Pioneer Backup Agent", "version": "17.2.4"}
+{"cve_id": "CVE-2098-0379", "text": "Vortex PDF Reader prior to 9.20 mishandles input, allowing a denial of service.", "product": "Vortex PDF Reader", "version": "9.20"}
+{"cve_id": "CVE-2098-0380", "text": "Contoso Photolens Viewer up to 0.10 stores credentials in plain text.", "product": "Contoso Photolens Viewer", "version": "0.10"}
+{"cve_id": "CVE-2098-0381", "text": "Orbital Browser 19.13 and below is vulnerable to cross-site scripting in the settings page.", "product": "Orbital Browser", "version": "19.13"}
+{"cve_id": "CVE-2098-0382", "text": "Improper certificate validation in Fabrikam Ledgerly Server before 4.19.20 allows a man-in-the-middle attack.", "product": "Fabrikam Ledgerly Server", "version": "4.19.20"}
+{"cve_id": "CVE-2098-0383", "text": "Acme Ledgerly Server up to 1.2.1 stores credentials in plain text.", "product": "Acme Ledgerly Server", "version": "1.2.1"}
+{"cve_id": "CVE-2098-0384", "text": "Improper certificate validation in ZetaDB before 6.1.9 allows a man-in-the-middle attack.", "product": "ZetaDB", "version": "6.1.9"}
+{"cve_id": "CVE-2098-0385", "text": "Contoso Photolens Viewer 8.19.13 and below is vulnerable to cross-site scripting in the settings page.", "product": "Contoso Photolens Viewer", "version": "8.19.13"}
+{"cve_id": "CVE-2098-0386", "text": "The update mechanism of Fabrikam Ledgerly Server 15.11.18.17 does not verify signatures.", "product": "Fabrikam Ledgerly Server", "version": "15.11.18.17"}
+{"cve_id": "CVE-2098-0387", "text": "Northwind Mailflow Gateway 18.6 and below is vulnerable to cross-site scripting in the settings page.", "product": "Northwind Mailflow Gateway", "version": "18.6"}
+{"cve_id": "CVE-2098-0388", "text": "Use after free in Acme Ledgerly Server prior to 10.14.20 allowed a remote attacker to exploit heap corruption.", "product": "Acme Ledgerly Server", "version": "10.14.20"}
+{"cve_id": "CVE-2098-0389", "text": "Improper certificate validation in Quartz Media Player before 2.20.5 allows a man-in-the-middle attack.", "product": "Quartz Media Player", "version": "2.20.5"}
+{"cve_id": "CVE-2098-0390", "text": "An issue was discovered in Acme Ledgerly Server through 16.4.0 where sessions are not invalidated.", "product": "Acme Ledgerly Server", "version": "16.4.0"}
+{"cve_id": "CVE-2098-0391", "text": "Lumen Office Suite 2.19.11 and below is vulnerable to cross-site scripting in the settings page.", "product": "Lumen Office Suite", "version": "2.19.11"}
+{"cve_id": "CVE-2098-0392", "text": "A buffer overflow in Contoso Photolens Viewer 19.1.20 allows attackers to gain privileges.", "product": "Contoso Photolens Viewer", "version": "19.1.20"}
+{"cve_id": "CVE-2098-0393", "text": "Quartz Media Player prior to 15.12.15 mishandles input, allowing a denial of service.", "product": "Quartz Media Player", "version": "15.12.15"}
+{"cve_id": "CVE-2098-0394", "text": "Tailspin Relaywire Client versions 1.19 and earlier contain an authentication bypass.", "product": "Tailspin Relaywire Client", "version": "1.19"}
+{"cve_id": "CVE-2098-0395", "text": "Use after free in Fabrikam Ledgerly Server prior to 18.7.20 allowed a remote attacker to exploit heap corruption.", "product": "Fabrikam Ledgerly Server", "version": "18.7.20"}
+{"cve_id": "CVE-2098-0396", "text": "Improper certificate validation in ZetaDB before 7.14 allows a man-in-the-middle attack.", "product": "ZetaDB", "version": "7.14"}
+{"cve_id": "CVE-2098-0397", "text": "Use after free in Pioneer Backup Agent prior to 17.11.14 allowed a remote attacker to exploit heap corruption.", "product": "Pioneer Backup Agent", "version": "17.11.14"}
+{"cve_id": "CVE-2098-0398", "text": "Improper certificate validation in Tailspin Relaywire Client before 19.5.10 allows a man-in-the-middle attack.", "product": "Tailspin Relaywire Client", "version": "19.5.10"}
+{"cve_id": "CVE-2098-0399", "text": "Northwind Mailflow Gateway up to 4.9.2.8 stores credentials in plain text.", "product": "Northwind Mailflow Gateway", "version": "4.9.2.8"}
+{"cve_id": "CVE-2098-0400", "text": "Contoso Photolens Viewer before 16.15.18 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Contoso Photolens Viewer", "version": "16.15.18"}
+{"cve_id": "CVE-2098-0401", "text": "The update mechanism of Pioneer Backup Agent 10.1 does not verify signatures.", "product": "Pioneer Backup Agent", "version": "10.1"}
+{"cve_id": "CVE-2098-0402", "text": "Improper certificate validation in Helix Chat Client before 4.5.14 allows a man-in-the-middle attack.", "product": "Helix Chat Client", "version": "4.5.14"}
+{"cve_id": "CVE-2098-0403", "text": "Quartz Media Player versions 14.13.14.6 and earlier contain an authentication bypass.", "product": "Quartz Media Player", "version": "14.13.14.6"}
+{"cve_id": "CVE-2098-0404", "text": "A buffer overflow in Northwind Mailflow Gateway 3.16.9 allows attackers to gain privileges.", "product": "Northwind Mailflow Gateway", "version": "3.16.9"}
+{"cve_id": "CVE-2098-0405", "text": "Fabrikam Ledgerly Server 19.1 and below is vulnerable to cross-site scripting in the settings page.", "product": "Fabrikam Ledgerly Server", "version": "19.1"}
+{"cve_id": "CVE-2098-0406", "text": "ZetaDB prior to 8.3.18 mishandles input, allowing a denial of service.", "product": "ZetaDB", "version": "8.3.18"}
+{"cve_id": "CVE-2098-0407", "text": "The update mechanism of Quartz Media Player 18.19.1 does not verify signatures.", "product": "Quartz Media Player", "version": "18.19.1"}
+{"cve_id": "CVE-2098-0408", "text": "Use after free in Lumen Office Suite prior to 20.5.20 allowed a remote attacker to exploit heap corruption.", "product": "Lumen Office Suite", "version": "20.5.20"}
+{"cve_id": "CVE-2098-0409", "text": "Northwind Mailflow Gateway prior to 0.17.6 mishandles input, allowing a denial of service.", "product": "Northwind Mailflow Gateway", "version": "0.17.6"}
+{"cve_id": "CVE-2098-0410", "text": "An issue was discovered in Helix Chat Client through 3.2.3 where sessions are not invalidated.", "product": "Helix Chat Client", "version": "3.2.3"}
+{"cve_id": "CVE-2098-0411", "text": "An issue was discovered in Helix Chat Client through 19.13.18 where sessions are not invalidated.", "product": "Helix Chat Client", "version": "19.13.18"}
+{"cve_id": "CVE-2098-0412", "text": "An issue was discovered in Orbital Browser through 3.0.3 where sessions are not invalidated.", "product": "Orbital Browser", "version": "3.0.3"}
+{"cve_id": "CVE-2098-0413", "text": "The update mechanism of Northwind Mailflow Gateway 17.3 does not verify signatures.", "product": "Northwind Mailflow Gateway", "version": "17.3"}
+{"cve_id": "CVE-2098-0414", "text": "Use after free in ZetaDB prior to 9.17.18 allowed a remote attacker to exploit heap corruption.", "product": "ZetaDB", "version": "9.17.18"}
+{"cve_id": "CVE-2098-0415", "text": "Helix Chat Client prior to 13.19.13.13 mishandles input, allowing a denial of service.", "product": "Helix Chat Client", "version": "13.19.13.13"}
+{"cve_id": "CVE-2098-0416", "text": "A buffer overflow in ZetaDB 0.5.9.5 allows attackers to gain privileges.", "product": "ZetaDB", "version": "0.5.9.5"}
+{"cve_id": "CVE-2098-0417", "text": "Tailspin Relaywire Client up to 8.14.8 stores credentials in plain text.", "product": "Tailspin Relaywire Client", "version": "8.14.8"}
+{"cve_id": "CVE-2098-0418", "text": "Acme Ledgerly Server before 1.14.0 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Acme Ledgerly Server", "version": "1.14.0"}
+{"cve_id": "CVE-2098-0419", "text": "A buffer overflow in Acme Ledgerly Server 4.4.12 allows attackers to gain privileges.", "product": "Acme Ledgerly Server", "version": "4.4.12"}
+{"cve_id": "CVE-2098-0420", "text": "Use after free in Pioneer Backup Agent prior to 6.12.7 allowed a remote attacker to exploit heap corruption.", "product": "Pioneer Backup Agent", "version": "6.12.7"}
+{"cve_id": "CVE-2098-0421", "text": "The update mechanism of Lumen Office Suite 17.20.15 does not verify signatures.", "product": "Lumen Office Suite", "version": "17.20.15"}
+{"cve_id": "CVE-2098-0422", "text": "Use after free in Vortex PDF Reader prior to 10.18.2.0 allowed a remote attacker to exploit heap corruption.", "product": "Vortex PDF Reader", "version": "10.18.2.0"}
+{"cve_id": "CVE-2098-0423", "text": "Orbital Browser prior to 18.16.1 mishandles input, allowing a denial of service.", "product": "Orbital Browser", "version": "18.16.1"}
+{"cve_id": "CVE-2098-0424", "text": "Northwind Mailflow Gateway up to 0.13 stores credentials in plain text.", "product": "Northwind Mailflow Gateway", "version": "0.13"}
+{"cve_id": "CVE-2098-0425", "text": "Contoso Photolens Viewer 9.1.6 and below is vulnerable to cross-site scripting in the settings page.", "product": "Contoso Photolens Viewer", "version": "9.1.6"}
+{"cve_id": "CVE-2098-0426", "text": "Improper certificate validation in ZetaDB before 19.20 allows a man-in-the-middle attack.", "product": "ZetaDB", "version": "19.20"}
+{"cve_id": "CVE-2098-0427", "text": "Quartz Media Player prior to 4.0.13 mishandles input, allowing a denial of service.", "product": "Quartz Media Player", "version": "4.0.13"}
+{"cve_id": "CVE-2098-0428", "text": "Acme Ledgerly Server versions 18.20.11 and earlier contain an authentication bypass.", "product": "Acme Ledgerly Server", "version": "18.20.11"}
+{"cve_id": "CVE-2098-0429", "text": "Quartz Media Player prior to 1.20 mishandles input, allowing a denial of service.", "product": "Quartz Media Player", "version": "1.20"}
+{"cve_id": "CVE-2098-0430", "text": "The update mechanism of Orbital Browser 16.10.17 does not verify signatures.", "product": "Orbital Browser", "version": "16.10.17"}
+{"cve_id": "CVE-2098-0431", "text": "Tailspin Relaywire Client up to 19.1.1.20 stores credentials in plain text.", "product": "Tailspin Relaywire Client", "version": "19.1.1.20"}
+{"cve_id": "CVE-2098-0432", "text": "Use after free in Northwind Mailflow Gateway prior to 18.10 allowed a remote attacker to exploit heap corruption.", "product": "Northwind Mailflow Gateway", "version": "18.10"}
+{"cve_id": "CVE-2098-0433", "text": "Lumen Office Suite 12.15.6.10 and below is vulnerable to cross-site scripting in the settings page.", "product": "Lumen Office Suite", "version": "12.15.6.10"}
+{"cve_id": "CVE-2098-0434", "text": "Contoso Photolens Viewer versions 9.11.7 and earlier contain an authentication bypass.", "product": "Contoso Photolens Viewer", "version": "9.11.7"}
+{"cve_id": "CVE-2098-0435", "text": "The update mechanism of Tailspin Relaywire Client 10.14 does not verify signatures.", "product": "Tailspin Relaywire Client", "version": "10.14"}
+{"cve_id": "CVE-2098-0436", "text": "Helix Chat Client versions 1.16.18 and earlier contain an authentication bypass.", "product": "Helix Chat Client", "version": "1.16.18"}
+{"cve_id": "CVE-2098-0437", "text": "A buffer overflow in ZetaDB 11.12.15 allows attackers to gain privileges.", "product": "ZetaDB", "version": "11.12.15"}
+{"cve_id": "CVE-2098-0438", "text": "Northwind Mailflow Gateway 20.2 and below is vulnerable to cross-site scripting in the settings page.", "product": "Northwind Mailflow Gateway", "version": "20.2"}
+{"cve_id": "CVE-2098-0439", "text": "An issue was discovered in Helix Chat Client through 10.13 where sessions are not invalidated.", "product": "Helix Chat Client", "version": "10.13"}
+{"cve_id": "CVE-2098-0440", "text": "Helix Chat Client before 14.4.19.8 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Helix Chat Client", "version": "14.4.19.8"}
+{"cve_id": "CVE-2098-0441", "text": "Northwind Mailflow Gateway up to 14.15 stores credentials in plain text.", "product": "Northwind Mailflow Gateway", "version": "14.15"}
+{"cve_id": "CVE-2098-0442", "text": "Use after free in Lumen Office Suite prior to 3.16.9 allowed a remote attacker to exploit heap corruption.", "product": "Lumen Office Suite", "version": "3.16.9"}
+{"cve_id": "CVE-2098-0443", "text": "An issue was discovered in Northwind Mailflow Gateway through 1.19.15 where sessions are not invalidated.", "product": "Northwind Mailflow Gateway", "version": "1.19.15"}
+{"cve_id": "CVE-2098-0444", "text": "Helix Chat Client up to 15.15.7 stores credentials in plain text.", "product": "Helix Chat Client", "version": "15.15.7"}
+{"cve_id": "CVE-2098-0445", "text": "Vortex PDF Reader versions 0.3.13 and earlier contain an authentication bypass.", "product": "Vortex PDF Reader", "version": "0.3.13"}
+{"cve_id": "CVE-2098-0446", "text": "Lumen Office Suite versions 18.12 and earlier contain an authentication bypass.", "product": "Lumen Office Suite", "version": "18.12"}
+{"cve_id": "CVE-2098-0447", "text": "Orbital Browser before 12.6 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Orbital Browser", "version": "12.6"}
+{"cve_id": "CVE-2098-0448", "text": "The update mechanism of Tailspin Relaywire Client 5.8.8 does not verify signatures.", "product": "Tailspin Relaywire Client", "version": "5.8.8"}
+{"cve_id": "CVE-2098-0449", "text": "A buffer overflow in Vortex PDF Reader 1.11.3.19 allows attackers to gain privileges.", "product": "Vortex PDF Reader", "version": "1.11.3.19"}
+{"cve_id": "CVE-2098-0450", "text": "An issue was discovered in Tailspin Relaywire Client through 1.12.12 where sessions are not invalidated.", "product": "Tailspin Relaywire Client", "version": "1.12.12"}
+{"cve_id": "CVE-2098-0451", "text": "Fabrikam Ledgerly Server prior to 19.15.15 mishandles input, allowing a denial of service.", "product": "Fabrikam Ledgerly Server", "version": "19.15.15"}
+{"cve_id": "CVE-2098-0452", "text": "Improper certificate validation in Quartz Media Player before 11.20.0 allows a man-in-the-middle attack.", "product": "Quartz Media Player", "version": "11.20.0"}
+{"cve_id": "CVE-2098-0453", "text": "Contoso Photolens Viewer before 16.4.5 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Contoso Photolens Viewer", "version": "16.4.5"}
+{"cve_id": "CVE-2098-0454", "text": "An issue was discovered in Orbital Browser through 17.18.0 where sessions are not invalidated.", "product": "Orbital Browser", "version": "17.18.0"}
+{"cve_id": "CVE-2098-0455", "text": "Pioneer Backup Agent up to 1.10 stores credentials in plain text.", "product": "Pioneer Backup Agent", "version": "1.10"}
+{"cve_id": "CVE-2098-0456", "text": "Use after free in Helix Chat Client prior to 6.2.3.19 allowed a remote attacker to exploit heap corruption.", "product": "Helix Chat Client", "version": "6.2.3.19"}
+{"cve_id": "CVE-2098-0457", "text": "Acme Ledgerly Server versions 5.7.15 and earlier contain an authentication bypass.", "product": "Acme Ledgerly Server", "version": "5.7.15"}
+{"cve_id": "CVE-2098-0458", "text": "Helix Chat Client prior to 14.16.17 mishandles input, allowing a denial of service.", "product": "Helix Chat Client", "version": "14.16.17"}
+{"cve_id": "CVE-2098-0459", "text": "Vortex PDF Reader before 13.1.14 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Vortex PDF Reader", "version": "13.1.14"}
+{"cve_id": "CVE-2098-0460", "text": "Contoso Photolens Viewer 2.3.4 and below is vulnerable to cross-site scripting in the settings page.", "product": "Contoso Photolens Viewer", "version": "2.3.4"}
+{"cve_id": "CVE-2098-0461", "text": "The update mechanism of Fabrikam Ledgerly Server 12.3.2 does not verify signatures.", "product": "Fabrikam Ledgerly Server", "version": "12.3.2"}
+{"cve_id": "CVE-2098-0462", "text": "Pioneer Backup Agent prior to 16.19.11.12 mishandles input, allowing a denial of service.", "product": "Pioneer Backup Agent", "version": "16.19.11.12"}
+{"cve_id": "CVE-2098-0463", "text": "A buffer overflow in ZetaDB 6.7 allows attackers to gain privileges.", "product": "ZetaDB", "version": "6.7"}
+{"cve_id": "CVE-2098-0464", "text": "A buffer overflow in Orbital Browser 7.18.19 allows attackers to gain privileges.", "product": "Orbital Browser", "version": "7.18.19"}
+{"cve_id": "CVE-2098-0465", "text": "Quartz Media Player before 16.1.17 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Quartz Media Player", "version": "16.1.17"}
+{"cve_id": "CVE-2098-0466", "text": "Contoso Photolens Viewer before 1.0.0 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Contoso Photolens Viewer", "version": "1.0.0"}
+{"cve_id": "CVE-2098-0467", "text": "Contoso Photolens Viewer up to 16.3.4 stores credentials in plain text.", "product": "Contoso Photolens Viewer", "version": "16.3.4"}
+{"cve_id": "CVE-2098-0468", "text": "Improper certificate validation in Contoso Photolens Viewer before 14.15.20 allows a man-in-the-middle attack.", "product": "Contoso Photolens Viewer", "version": "14.15.20"}
+{"cve_id": "CVE-2098-0469", "text": "Improper certificate validation in Tailspin Relaywire Client before 5.9 allows a man-in-the-middle attack.", "product": "Tailspin Relaywire Client", "version": "5.9"}
+{"cve_id": "CVE-2098-0470", "text": "Helix Chat Client versions 5.10.20.10 and earlier contain an authentication bypass.", "product": "Helix Chat Client", "version": "5.10.20.10"}
+{"cve_id": "CVE-2098-0471", "text": "Acme Ledgerly Server before 15.2.2.3 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Acme Ledgerly Server", "version": "15.2.2.3"}
+{"cve_id": "CVE-2098-0472", "text": "Quartz Media Player before 4.5 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Quartz Media Player", "version": "4.5"}
+{"cve_id": "CVE-2098-0473", "text": "The update mechanism of Contoso Photolens Viewer 15.9.14 does not verify signatures.", "product": "Contoso Photolens Viewer", "version": "15.9.14"}
+{"cve_id": "CVE-2098-0474", "text": "A buffer overflow in Quartz Media Player 12.18.10 allows attackers to gain privileges.", "product": "Quartz Media Player", "version": "12.18.10"}
+{"cve_id": "CVE-2098-0475", "text": "Use after free in Acme Ledgerly Server prior to 19.17.6 allowed a remote attacker to exploit heap corruption.", "product": "Acme Ledgerly Server", "version": "19.17.6"}
+{"cve_id": "CVE-2098-0476", "text": "Orbital Browser versions 17.19.16.3 and earlier contain an authentication bypass.", "product": "Orbital Browser", "version": "17.19.16.3"}
+{"cve_id": "CVE-2098-0477", "text": "Orbital Browser before 18.12.7.17 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Orbital Browser", "version": "18.12.7.17"}
+{"cve_id": "CVE-2098-0478", "text": "ZetaDB up to 17.0.4.19 stores credentials in plain text.", "product": "ZetaDB", "version": "17.0.4.19"}
+{"cve_id": "CVE-2098-0479", "text": "Fabrikam Ledgerly Server before 17.16.19 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Fabrikam Ledgerly Server", "version": "17.16.19"}
+{"cve_id": "CVE-2098-0480", "text": "The update mechanism of Tailspin Relaywire Client 10.8.8 does not verify signatures.", "product": "Tailspin Relaywire Client", "version": "10.8.8"}
+{"cve_id": "CVE-2098-0481", "text": "Use after free in Contoso Photolens Viewer prior to 19.15 allowed a remote attacker to exploit heap corruption.", "product": "Contoso Photolens Viewer", "version": "19.15"}
+{"cve_id": "CVE-2098-0482", "text": "An issue was discovered in Acme Ledgerly Server through 18.9.1 where sessions are not invalidated.", "product": "Acme Ledgerly Server", "version": "18.9.1"}
+{"cve_id": "CVE-2098-0483", "text": "An issue was discovered in Acme Ledgerly Server through 18.18.17 where sessions are not invalidated.", "product": "Acme Ledgerly Server", "version": "18.18.17"}
+{"cve_id": "CVE-2098-0484", "text": "ZetaDB versions 15.11.17 and earlier contain an authentication bypass.", "product": "ZetaDB", "version": "15.11.17"}
+{"cve_id": "CVE-2098-0485", "text": "Quartz Media Player 11.12.12 and below is vulnerable to cross-site scripting in the settings page.", "product": "Quartz Media Player", "version": "11.12.12"}
+{"cve_id": "CVE-2098-0486", "text": "Fabrikam Ledgerly Server before 20.19.1.14 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Fabrikam Ledgerly Server", "version": "20.19.1.14"}
+{"cve_id": "CVE-2098-0487", "text": "Use after free in Northwind Mailflow Gateway prior to 14.15.8 allowed a remote attacker to exploit heap corruption.", "product": "Northwind Mailflow Gateway", "version": "14.15.8"}
+{"cve_id": "CVE-2098-0488", "text": "Acme Ledgerly Server before 12.4 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Acme Ledgerly Server", "version": "12.4"}
+{"cve_id": "CVE-2098-0489", "text": "Use after free in Orbital Browser prior to 7.20 allowed a remote attacker to exploit heap corruption.", "product": "Orbital Browser", "version": "7.20"}
+{"cve_id": "CVE-2098-0490", "text": "Contoso Photolens Viewer versions 3.9 and earlier contain an authentication bypass.", "product": "Contoso Photolens Viewer", "version": "3.9"}
+{"cve_id": "CVE-2098-0491", "text": "An issue was discovered in Vortex PDF Reader through 0.17.18 where sessions are not invalidated.", "product": "Vortex PDF Reader", "version": "0.17.18"}
+{"cve_id": "CVE-2098-0492", "text": "Tailspin Relaywire Client prior to 6.18.18 mishandles input, allowing a denial of service.", "product": "Tailspin Relaywire Client", "version": "6.18.18"}
+{"cve_id": "CVE-2098-0493", "text": "Improper certificate validation in Acme Ledgerly Server before 6.18 allows a man-in-the-middle attack.", "product": "Acme Ledgerly Server", "version": "6.18"}
+{"cve_id": "CVE-2098-0494", "text": "Orbital Browser prior to 10.0 mishandles input, allowing a denial of service.", "product": "Orbital Browser", "version": "10.0"}
+{"cve_id": "CVE-2098-0495", "text": "Orbital Browser before 19.4.4 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Orbital Browser", "version": "19.4.4"}
+{"cve_id": "CVE-2098-0496", "text": "An issue was discovered in Acme Ledgerly Server through 6.7 where sessions are not invalidated.", "product": "Acme Ledgerly Server", "version": "6.7"}
+{"cve_id": "CVE-2098-0497", "text": "Contoso Photolens Viewer prior to 16.19.0 mishandles input, allowing a denial of service.", "product": "Contoso Photolens Viewer", "version": "16.19.0"}
+{"cve_id": "CVE-2098-0498", "text": "Improper certificate validation in Vortex PDF Reader before 13.11.14 allows a man-in-the-middle attack.", "product": "Vortex PDF Reader", "version": "13.11.14"}
+{"cve_id": "CVE-2098-0499", "text": "Pioneer Backup Agent 4.12.13 and below is vulnerable to cross-site scripting in the settings page.", "product": "Pioneer Backup Agent", "version": "4.12.13"}
+{"cve_id": "CVE-2098-0500", "text": "An issue was discovered in ZetaDB through 20.14.15 where sessions are not invalidated.", "product": "ZetaDB", "version": "20.14.15"}
+{"cve_id": "CVE-2098-0501", "text": "A buffer overflow in Pioneer Backup Agent 18.16.7 allows attackers to gain privileges.", "product": "Pioneer Backup Agent", "version": "18.16.7"}
+{"cve_id": "CVE-2098-0502", "text": "The update mechanism of Tailspin Relaywire Client 3.18 does not verify signatures.", "product": "Tailspin Relaywire Client", "version": "3.18"}
+{"cve_id": "CVE-2098-0503", "text": "Pioneer Backup Agent versions 6.5.3 and earlier contain an authentication bypass.", "product": "Pioneer Backup Agent", "version": "6.5.3"}
+{"cve_id": "CVE-2098-0504", "text": "Tailspin Relaywire Client versions 5.8.5 and earlier contain an authentication bypass.", "product": "Tailspin Relaywire Client", "version": "5.8.5"}
+{"cve_id": "CVE-2098-0505", "text": "ZetaDB up to 2.2.10 stores credentials in plain text.", "product": "ZetaDB", "version": "2.2.10"}
+{"cve_id": "CVE-2098-0506", "text": "Helix Chat Client prior to 6.20.3 mishandles input, allowing a denial of service.", "product": "Helix Chat Client", "version": "6.20.3"}
+{"cve_id": "CVE-2098-0507", "text": "The update mechanism of Vortex PDF Reader 3.2.3 does not verify signatures.", "product": "Vortex PDF Reader", "version": "3.2.3"}
+{"cve_id": "CVE-2098-0508", "text": "Pioneer Backup Agent before 8.7.12 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Pioneer Backup Agent", "version": "8.7.12"}
+{"cve_id": "CVE-2098-0509", "text": "Use after free in Helix Chat Client prior to 17.6.1 allowed a remote attacker to exploit heap corruption.", "product": "Helix Chat Client", "version": "17.6.1"}
+{"cve_id": "CVE-2098-0510", "text": "Fabrikam Ledgerly Server prior to 0.7.13 mishandles input, allowing a denial of service.", "product": "Fabrikam Ledgerly Server", "version": "0.7.13"}
+{"cve_id": "CVE-2098-0511", "text": "Fabrikam Ledgerly Server prior to 20.10.20 mishandles input, allowing a denial of service.", "product": "Fabrikam Ledgerly Server", "version": "20.10.20"}
+{"cve_id": "CVE-2098-0512", "text": "Lumen Office Suite versions 9.8.5 and earlier contain an authentication bypass.", "product": "Lumen Office Suite", "version": "9.8.5"}
+{"cve_id": "CVE-2098-0513", "text": "Helix Chat Client versions 8.15.4.16 and earlier contain an authentication bypass.", "product": "Helix Chat Client", "version": "8.15.4.16"}
+{"cve_id": "CVE-2098-0514", "text": "Helix Chat Client 2.1.12.6 and below is vulnerable to cross-site scripting in the settings page.", "product": "Helix Chat Client", "version": "2.1.12.6"}
+{"cve_id": "CVE-2098-0515", "text": "ZetaDB versions 8.0.11.2 and earlier contain an authentication bypass.", "product": "ZetaDB", "version": "8.0.11.2"}
+{"cve_id": "CVE-2098-0516", "text": "Acme Ledgerly Server up to 10.10 stores credentials in plain text.", "product": "Acme Ledgerly Server", "version": "10.10"}
+{"cve_id": "CVE-2098-0517", "text": "Improper certificate validation in Quartz Media Player before 18.12.19 allows a man-in-the-middle attack.", "product": "Quartz Media Player", "version": "18.12.19"}
+{"cve_id": "CVE-2098-0518", "text": "Pioneer Backup Agent up to 19.7 stores credentials in plain text.", "product": "Pioneer Backup Agent", "version": "19.7"}
+{"cve_id": "CVE-2098-0519", "text": "Quartz Media Player prior to 2.19.17 mishandles input, allowing a denial of service.", "product": "Quartz Media Player", "version": "2.19.17"}
+{"cve_id": "CVE-2098-0520", "text": "Fabrikam Ledgerly Server before 14.18.15 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Fabrikam Ledgerly Server", "version": "14.18.15"}
+{"cve_id": "CVE-2098-0521", "text": "Quartz Media Player before 10.1.18 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Quartz Media Player", "version": "10.1.18"}
+{"cve_id": "CVE-2098-0522", "text": "Helix Chat Client before 4.5.11 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Helix Chat Client", "version": "4.5.11"}
+{"cve_id": "CVE-2098-0523", "text": "Helix Chat Client before 18.10 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Helix Chat Client", "version": "18.10"}
+{"cve_id": "CVE-2098-0524", "text": "An issue was discovered in Lumen Office Suite through 6.13.20 where sessions are not invalidated.", "product": "Lumen Office Suite", "version": "6.13.20"}
+{"cve_id": "CVE-2098-0525", "text": "Improper certificate validation in Vortex PDF Reader before 10.17.14 allows a man-in-the-middle attack.", "product": "Vortex PDF Reader", "version": "10.17.14"}
+{"cve_id": "CVE-2098-0526", "text": "A buffer overflow in Orbital Browser 5.16.1.7 allows attackers to gain privileges.", "product": "Orbital Browser", "version": "5.16.1.7"}
+{"cve_id": "CVE-2098-0527", "text": "ZetaDB up to 14.18.20 stores credentials in plain text.", "product": "ZetaDB", "version": "14.18.20"}
+{"cve_id": "CVE-2098-0528", "text": "Orbital Browser prior to 10.5.0 mishandles input, allowing a denial of service.", "product": "Orbital Browser", "version": "10.5.0"}
+{"cve_id": "CVE-2098-0529", "text": "The update mechanism of Helix Chat Client 11.5.10 does not verify signatures.", "product": "Helix Chat Client", "version": "11.5.10"}
+{"cve_id": "CVE-2098-0530", "text": "Orbital Browser up to 11.17.1 stores credentials in plain text.", "product": "Orbital Browser", "version": "11.17.1"}
+{"cve_id": "CVE-2098-0531", "text": "The update mechanism of Fabrikam Ledgerly Server 0.16.13 does not verify signatures.", "product": "Fabrikam Ledgerly Server", "version": "0.16.13"}
+{"cve_id": "CVE-2098-0532", "text": "Fabrikam Ledgerly Server versions 3.5 and earlier contain an authentication bypass.", "product": "Fabrikam Ledgerly Server", "version": "3.5"}
+{"cve_id": "CVE-2098-0533", "text": "The update mechanism of Helix Chat Client 8.0.8 does not verify signatures.", "product": "Helix Chat Client", "version": "8.0.8"}
+{"cve_id": "CVE-2098-0534", "text": "The update mechanism of Quartz Media Player 16.3.11 does not verify signatures.", "product": "Quartz Media Player", "version": "16.3.11"}
+{"cve_id": "CVE-2098-0535", "text": "A buffer overflow in Tailspin Relaywire Client 13.19.6.20 allows attackers to gain privileges.", "product": "Tailspin Relaywire Client", "version": "13.19.6.20"}
+{"cve_id": "CVE-2098-0536", "text": "An issue was discovered in Orbital Browser through 12.11.2.14 where sessions are not invalidated.", "product": "Orbital Browser", "version": "12.11.2.14"}
+{"cve_id": "CVE-2098-0537", "text": "Acme Ledgerly Server up to 9.20.8 stores credentials in plain text.", "product": "Acme Ledgerly Server", "version": "9.20.8"}
+{"cve_id": "CVE-2098-0538", "text": "A buffer overflow in ZetaDB 19.12.15 allows attackers to gain privileges.", "product": "ZetaDB", "version": "19.12.15"}
+{"cve_id": "CVE-2098-0539", "text": "ZetaDB up to 5.14.1 stores credentials in plain text.", "product": "ZetaDB", "version": "5.14.1"}
+{"cve_id": "CVE-2098-0540", "text": "An issue was discovered in Tailspin Relaywire Client through 3.3.14 where sessions are not invalidated.", "product": "Tailspin Relaywire Client", "version": "3.3.14"}
+{"cve_id": "CVE-2098-0541", "text": "Quartz Media Player prior to 2.2.3 mishandles input, allowing a denial of service.", "product": "Quartz Media Player", "version": "2.2.3"}
+{"cve_id": "CVE-2098-0542", "text": "Vortex PDF Reader 5.2.11 and below is vulnerable to cross-site scripting in the settings page.", "product": "Vortex PDF Reader", "version": "5.2.11"}
+{"cve_id": "CVE-2098-0543", "text": "Lumen Office Suite before 4.9.9 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Lumen Office Suite", "version": "4.9.9"}
+{"cve_id": "CVE-2098-0544", "text": "An issue was discovered in Northwind Mailflow Gateway through 7.6.12 where sessions are not invalidated.", "product": "Northwind Mailflow Gateway", "version": "7.6.12"}
+{"cve_id": "CVE-2098-0545", "text": "Use after free in Tailspin Relaywire Client prior to 11.14.9 allowed a remote attacker to exploit heap corruption.", "product": "Tailspin Relaywire Client", "version": "11.14.9"}
+{"cve_id": "CVE-2098-0546", "text": "A buffer overflow in Quartz Media Player 16.17 allows attackers to gain privileges.", "product": "Quartz Media Player", "version": "16.17"}
+{"cve_id": "CVE-2098-0547", "text": "An issue was discovered in Fabrikam Ledgerly Server through 3.19.18 where sessions are not invalidated.", "product": "Fabrikam Ledgerly Server", "version": "3.19.18"}
+{"cve_id": "CVE-2098-0548", "text": "Improper certificate validation in Fabrikam Ledgerly Server before 14.15.20 allows a man-in-the-middle attack.", "product": "Fabrikam Ledgerly Server", "version": "14.15.20"}
+{"cve_id": "CVE-2098-0549", "text": "A buffer overflow in Quartz Media Player 0.2.19.10 allows attackers to gain privileges.", "product": "Quartz Media Player", "version": "0.2.19.10"}
+{"cve_id": "CVE-2098-0550", "text": "Pioneer Backup Agent 17.0.14 and below is vulnerable to cross-site scripting in the settings page.", "product": "Pioneer Backup Agent", "version": "17.0.14"}
+{"cve_id": "CVE-2098-0551", "text": "The update mechanism of Vortex PDF Reader 2.12.13 does not verify signatures.", "product": "Vortex PDF Reader", "version": "2.12.13"}
+{"cve_id": "CVE-2098-0552", "text": "Fabrikam Ledgerly Server prior to 15.20.12.15 mishandles input, allowing a denial of service.", "product": "Fabrikam Ledgerly Server", "version": "15.20.12.15"}
+{"cve_id": "CVE-2098-0553", "text": "Improper certificate validation in Northwind Mailflow Gateway before 1.14.17 allows a man-in-the-middle attack.", "product": "Northwind Mailflow Gateway", "version": "1.14.17"}
+{"cve_id": "CVE-2098-0554", "text": "Tailspin Relaywire Client 9.12.11.1 and below is vulnerable to cross-site scripting in the settings page.", "product": "Tailspin Relaywire Client", "version": "9.12.11.1"}
+{"cve_id": "CVE-2098-0555", "text": "A buffer overflow in Pioneer Backup Agent 4.8.15 allows attackers to gain privileges.", "product": "Pioneer Backup Agent", "version": "4.8.15"}
+{"cve_id": "CVE-2098-0556", "text": "Orbital Browser prior to 11.20.13.8 mishandles input, allowing a denial of service.", "product": "Orbital Browser", "version": "11.20.13.8"}
+{"cve_id": "CVE-2098-0557", "text": "A buffer overflow in ZetaDB 16.11.17 allows attackers to gain privileges.", "product": "ZetaDB", "version": "16.11.17"}
+{"cve_id": "CVE-2098-0558", "text": "Improper certificate validation in Contoso Photolens Viewer before 3.19.17 allows a man-in-the-middle attack.", "product": "Contoso Photolens Viewer", "version": "3.19.17"}
+{"cve_id": "CVE-2098-0559", "text": "A buffer overflow in Vortex PDF Reader 14.7.16 allows attackers to gain privileges.", "product": "Vortex PDF Reader", "version": "14.7.16"}
+{"cve_id": "CVE-2098-0560", "text": "Use after free in Helix Chat Client prior to 13.0.1 allowed a remote attacker to exploit heap corruption.", "product": "Helix Chat Client", "version": "13.0.1"}
+{"cve_id": "CVE-2098-0561", "text": "A buffer overflow in Lumen Office Suite 5.10 allows attackers to gain privileges.", "product": "Lumen Office Suite", "version": "5.10"}
+{"cve_id": "CVE-2098-0562", "text": "Use after free in Helix Chat Client prior to 8.9.4 allowed a remote attacker to exploit heap corruption.", "product": "Helix Chat Client", "version": "8.9.4"}
+{"cve_id": "CVE-2098-0563", "text": "Improper certificate validation in Pioneer Backup Agent before 1.19.15.11 allows a man-in-the-middle attack.", "product": "Pioneer Backup Agent", "version": "1.19.15.11"}
+{"cve_id": "CVE-2098-0564", "text": "Acme Ledgerly Server versions 15.2.3 and earlier contain an authentication bypass.", "product": "Acme Ledgerly Server", "version": "15.2.3"}
+{"cve_id": "CVE-2098-0565", "text": "Northwind Mailflow Gateway prior to 19.4.12 mishandles input, allowing a denial of service.", "product": "Northwind Mailflow Gateway", "version": "19.4.12"}
+{"cve_id": "CVE-2098-0566", "text": "Helix Chat Client 15.13 and below is vulnerable to cross-site scripting in the settings page.", "product": "Helix Chat Client", "version": "15.13"}
+{"cve_id": "CVE-2098-0567", "text": "The update mechanism of Fabrikam Ledgerly Server 6.4.17 does not verify signatures.", "product": "Fabrikam Ledgerly Server", "version": "6.4.17"}
+{"cve_id": "CVE-2098-0568", "text": "Lumen Office Suite up to 6.7.11 stores credentials in plain text.", "product": "Lumen Office Suite", "version": "6.7.11"}
+{"cve_id": "CVE-2098-0569", "text": "Quartz Media Player 1.5.8 and below is vulnerable to cross-site scripting in the settings page.", "product": "Quartz Media Player", "version": "1.5.8"}
+{"cve_id": "CVE-2098-0570", "text": "Improper certificate validation in ZetaDB before 8.13.17.1 allows a man-in-the-middle attack.", "product": "ZetaDB", "version": "8.13.17.1"}
+{"cve_id": "CVE-2098-0571", "text": "Improper certificate validation in Helix Chat Client before 9.10.15.0 allows a man-in-the-middle attack.", "product": "Helix Chat Client", "version": "9.10.15.0"}
+{"cve_id": "CVE-2098-0572", "text": "A buffer overflow in Fabrikam Ledgerly Server 20.20.12.6 allows attackers to gain privileges.", "product": "Fabrikam Ledgerly Server", "version": "20.20.12.6"}
+{"cve_id": "CVE-2098-0573", "text": "Acme Ledgerly Server versions 2.16 and earlier contain an authentication bypass.", "product": "Acme Ledgerly Server", "version": "2.16"}
+{"cve_id": "CVE-2098-0574", "text": "Helix Chat Client prior to 16.0 mishandles input, allowing a denial of service.", "product": "Helix Chat Client", "version": "16.0"}
+{"cve_id": "CVE-2098-0575", "text": "Fabrikam Ledgerly Server 7.18.14 and below is vulnerable to cross-site scripting in the settings page.", "product": "Fabrikam Ledgerly Server", "version": "7.18.14"}
+{"cve_id": "CVE-2098-0576", "text": "Improper certificate validation in Contoso Photolens Viewer before 4.0.16 allows a man-in-the-middle attack.", "product": "Contoso Photolens Viewer", "version": "4.0.16"}
+{"cve_id": "CVE-2098-0577", "text": "Northwind Mailflow Gateway prior to 14.16 mishandles input, allowing a denial of service.", "product": "Northwind Mailflow Gateway", "version": "14.16"}
+{"cve_id": "CVE-2098-0578", "text": "The update mechanism of Vortex PDF Reader 18.7.14 does not verify signatures.", "product": "Vortex PDF Reader", "version": "18.7.14"}
+{"cve_id": "CVE-2098-0579", "text": "The update mechanism of Fabrikam Ledgerly Server 14.3.12 does not verify signatures.", "product": "Fabrikam Ledgerly Server", "version": "14.3.12"}
+{"cve_id": "CVE-2098-0580", "text": "Fabrikam Ledgerly Server before 1.5 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Fabrikam Ledgerly Server", "version": "1.5"}
+{"cve_id": "CVE-2098-0581", "text": "Vortex PDF Reader up to 10.10.12 stores credentials in plain text.", "product": "Vortex PDF Reader", "version": "10.10.12"}
+{"cve_id": "CVE-2098-0582", "text": "A buffer overflow in Fabrikam Ledgerly Server 16.6.12 allows attackers to gain privileges.", "product": "Fabrikam Ledgerly Server", "version": "16.6.12"}
+{"cve_id": "CVE-2098-0583", "text": "Pioneer Backup Agent prior to 20.12.9 mishandles input, allowing a denial of service.", "product": "Pioneer Backup Agent", "version": "20.12.9"}
+{"cve_id": "CVE-2098-0584", "text": "An issue was discovered in Lumen Office Suite through 19.12 where sessions are not invalidated.", "product": "Lumen Office Suite", "version": "19.12"}
+{"cve_id": "CVE-2098-0585", "text": "Improper certificate validation in Orbital Browser before 4.11.4 allows a man-in-the-middle attack.", "product": "Orbital Browser", "version": "4.11.4"}
+{"cve_id": "CVE-2098-0586", "text": "ZetaDB versions 3.18 and earlier contain an authentication bypass.", "product": "ZetaDB", "version": "3.18"}
+{"cve_id": "CVE-2098-0587", "text": "Tailspin Relaywire Client before 0.3 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Tailspin Relaywire Client", "version": "0.3"}
+{"cve_id": "CVE-2098-0588", "text": "Lumen Office Suite up to 17.17.14 stores credentials in plain text.", "product": "Lumen Office Suite", "version": "17.17.14"}
+{"cve_id": "CVE-2098-0589", "text": "A buffer overflow in Acme Ledgerly Server 18.8.17 allows attackers to gain privileges.", "product": "Acme Ledgerly Server", "version": "18.8.17"}
+{"cve_id": "CVE-2098-0590", "text": "Vortex PDF Reader prior to 19.4 mishandles input, allowing a denial of service.", "product": "Vortex PDF Reader", "version": "19.4"}
+{"cve_id": "CVE-2098-0591", "text": "Improper certificate validation in Contoso Photolens Viewer before 1.0.7 allows a man-in-the-middle attack.", "product": "Contoso Photolens Viewer", "version": "1.0.7"}
+{"cve_id": "CVE-2098-0592", "text": "The update mechanism of Vortex PDF Reader 18.15.14 does not verify signatures.", "product": "Vortex PDF Reader", "version": "18.15.14"}
+{"cve_id": "CVE-2098-0593", "text": "Improper certificate validation in Fabrikam Ledgerly Server before 2.8.19 allows a man-in-the-middle attack.", "product": "Fabrikam Ledgerly Server", "version": "2.8.19"}
+{"cve_id": "CVE-2098-0594", "text": "Northwind Mailflow Gateway before 18.3.15.12 allows remote attackers to execute arbitrary code via a crafted request.", "product": "Northwind Mailflow Gateway", "version": "18.3.15.12"}
+{"cve_id": "CVE-2098-0595", "text": "Contoso Photolens Viewer versions 1.15.4 and earlier contain an authentication bypass.", "product": "Contoso Photolens Viewer", "version": "1.15.4"}
+{"cve_id": "CVE-2098-0596", "text": "Orbital Browser up to 11.7 stores credentials in plain text.", "product": "Orbital Browser", "version": "11.7"}
+{"cve_id": "CVE-2098-0597", "text": "A buffer overflow in Northwind Mailflow Gateway 20.16.8.5 allows attackers to gain privileges.", "product": "Northwind Mailflow Gateway", "version": "20.16.8.5"}
+{"cve_id": "CVE-2098-0598", "text": "Improper certificate validation in Helix Chat Client before 8.18.19 allows a man-in-the-middle attack.", "product": "Helix Chat Client", "version": "8.18.19"}
+{"cve_id": "CVE-2098-0599", "text": "Quartz Media Player up to 11.8.16 stores credentials in plain text.", "product": "Quartz Media Player", "version": "11.8.16"}

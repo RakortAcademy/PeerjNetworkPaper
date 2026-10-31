@@ -1,0 +1,8 @@
+# Reference implementation — Python 3.10+ (tested with 3.10)
+numpy>=1.24,<2
+torch>=2.0
+pytorch-crf>=0.7.2
+snowballstemmer>=2.2      # Snowball English stemmer (PostgreSQL english_stem equivalent) for the in-memory corpus
+onnx>=1.14                # tagger export
+onnxruntime>=1.16         # CPU inference over the exported graph (host-side CRF decoding path)
+pytest>=8.0

@@ -1,7 +1,7 @@
 % Table 19: Estate scan time under three scheduling policies (projections).
 \begin{table}[htbp]
 \centering
-\caption{Estate scan time under three scheduling policies, at the conservative 1.6 items/s load-test rate. These are projections: measured throughput applied to measured workload, not end-to-end estate measurements. Section~\ref{sec:e2e} reports a measured scan at 2.4 times this rate.}
+\caption{Projected estate scan times. The per-row and per-item columns apply the conservative 1.6 items/s load-test rate to $R$ and $U$; the per-group column is a separate analytic estimate, $G \times c_{\text{prep}}$ with $G$ from Table~\ref{tab:redundancy} and $c_{\text{prep}} = 2.38$ s from Table~\ref{tab:single-product}, assuming no cache reuse. The columns rest on different assumptions and do not rank the three policies; none is an end-to-end estate measurement. Section~\ref{sec:e2e} reports a measured scan at about 2.4 times the 1.6 items/s rate.}
 \label{tab:projected}
 \footnotesize
 \begin{tabular}{l r r r r r}
