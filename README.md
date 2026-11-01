@@ -483,7 +483,10 @@ a TeX distribution; writes the git-ignored `main.pdf`).
 ## 13. Generative AI use
 
 The reproducibility scripts, verification and figure tooling and the documentation were
-prepared with the assistance of Claude Code (Anthropic), including rerunning the
+prepared with the assistance of Claude Code (Anthropic; https://claude.com/claude-code;
+command-line tool, version 2.1.316 at the time of the v1.1.0 release and the final
+manuscript revision; earlier versions of the same tool were used during development),
+including rerunning the
 authors' analysis scripts on the study exports and checking the regenerated outputs
 against the original analysis and the manuscript, and preparing `reference_implementation/`
 from the authors' research code (rewriting imports, replacing production couplings with
@@ -491,6 +494,8 @@ in-process providers, removing internal identifiers, writing its tests and
 documentation; `reference_implementation/MAPPING.md` lists the code edits file by file and the substituted content by category). The
 experimental design, analysis definitions, measurements and conclusions are the authors'
 own; the authors reviewed all AI-assisted material and take responsibility for it.
+The full disclosure for the manuscript, which also covers language editing and LaTeX
+formatting, is its "Declaration of Generative AI Use" (`paper/latex/main.tex`).
 
 ## 14. Citation, license, contributions
 
