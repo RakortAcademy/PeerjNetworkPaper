@@ -504,7 +504,7 @@ Licences differ by component:
 |---|---|---|
 | `reproducibility/` (Section 4 analysis scripts, release verification, figure regeneration, and the aggregate, figure and synthetic data in it) and the repository documentation | MIT License, as released in v1.0.0 (that release and its DOI are unchanged) | `LICENSE`, `reproducibility/LICENSE` |
 | `reference_implementation/` (Python reference implementation, Go engine source, service tier, their tests and the synthetic data in `reference_implementation/example_data/`) | PolyForm Noncommercial License 1.0.0 (SPDX `PolyForm-Noncommercial-1.0.0`) | `reference_implementation/LICENSE`, `reference_implementation/NOTICE` |
-| `paper/` (manuscript text, figures, tables) | Neither software licence; the article's licence is the one stated by PeerJ on publication (the authors have requested CC BY-NC 4.0). `paper/latex/wlpeerj.cls` is the third-party PeerJ/Overleaf template class under its own terms | — |
+| `paper/` (manuscript text, figures, tables) | Neither software licence. The article's publication licence is CC BY 4.0, as selected in the PeerJ submission system. `paper/latex/wlpeerj.cls` is the third-party PeerJ/Overleaf template class under its own terms | — |
 
 The **MIT License** permits anyone, including for commercial purposes, to use, modify and
 redistribute the covered code, provided the copyright and licence notice are retained.
