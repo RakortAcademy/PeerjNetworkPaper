@@ -12,18 +12,24 @@ license:
   - MIT
   - PolyForm-Noncommercial-1.0.0
 repository-code: "https://github.com/RakortAcademy/PeerjNetworkPaper"
-version: "1.1.0"
+version: "1.1.1"
 doi: 10.5281/zenodo.23122100
 identifiers:
   - type: doi
     value: 10.5281/zenodo.23122101
     description: "Version DOI of the archived v1.0.0 release"
   - type: doi
+    value: 10.5281/zenodo.23840722
+    description: "Version DOI of the archived v1.1.0 release"
+  - type: doi
     value: 10.5281/zenodo.23122100
-    description: "Concept DOI covering all versions"
+    description: "Concept DOI covering all versions (resolves to the latest archived version)"
   - type: url
     value: "https://github.com/RakortAcademy/PeerjNetworkPaper/releases/tag/v1.0.0"
     description: "GitHub release v1.0.0"
+  - type: url
+    value: "https://github.com/RakortAcademy/PeerjNetworkPaper/releases/tag/v1.1.0"
+    description: "GitHub release v1.1.0"
 preferred-citation:
   type: article
   title: "Learning-Assisted Exposure Assessment at Estate Scale: Constraint Recovery, Inventory Redundancy, and Engine Placement in Managed Enterprise Networks"

@@ -13,7 +13,7 @@ What this reproduces
 
 Table 6 (lexical features) and Table 7 (CPE-dictionary route) are produced by
 the sibling scripts ``lexical_features.py`` and ``cpe_route.py`` in this same
-directory; see the repository ``README.md``, section 6.
+directory; see the repository ``README.md``, sections 4.5 and 5.6.
 
 An export that is present but unreadable (see ``common._CORRUPT_MARKERS``) is
 excluded and the exclusion is printed and written into every output file's

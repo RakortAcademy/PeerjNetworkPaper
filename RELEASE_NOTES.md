@@ -1,9 +1,48 @@
 # Release notes
 
+## v1.1.1 — documentation release (PeerJ second technical check)
+
+Version DOI: assigned by Zenodo when this version is archived; the concept DOI
+https://doi.org/10.5281/zenodo.23122100 resolves to the latest archived version.
+Supersedes v1.1.0 as the package accompanying the manuscript. No code, data or scientific
+result changed. Under `reference_implementation/` and `reproducibility/`, only documentation
+and comment text changed: `reproducibility/README.md`, `reproducibility/docs/release_checklist.md`,
+`reference_implementation/MAPPING.md`, `reference_implementation/compiled_engine/goscan/README.md`,
+and the README section numbers cited in one docstring or comment each of
+`reproducibility/analysis/estate_structure.py`, `reproducibility/verify_release.py` and
+`reference_implementation/service_tier/__init__.py`. Every other file there is byte-identical
+to v1.1.0.
+
+Why: PeerJ's technical check of the resubmission reported "README file is INCOMPLETE" and asked
+for a README with Title, Description, Dataset Information, Code Information, Usage
+Instructions, Requirements, Methodology, Citations, and License & Contribution Guidelines.
+
+Changed
+- `README.md` reorganised under those nine items (numbered Sections 1–9, with an index at the
+  top); added dataset schemas, a module-by-module code description, mandatory versus optional
+  requirements, configuration variables, a CPU-only installation option, a copy-and-paste
+  end-to-end example, troubleshooting, and a methodology section per pipeline stage. Commands
+  and expected outputs are those of v1.1.0, plus three new commands (the optional CPU-only
+  `torch` installation, backgrounding and stopping the engine shim, and removing the PostgreSQL
+  container); all were re-executed.
+- `REPRODUCIBILITY_REPORT.md` added: clean-environment execution of every README command
+  (environment, commands, results, expected versus observed, limitations).
+- `CITATION.cff`: version 1.1.1; v1.1.0 version DOI (10.5281/zenodo.23840722) and release URL
+  added.
+- `CODE_AVAILABILITY.md`, `DATA_AVAILABILITY.md`: v1.1.0 version DOI filled in (it was
+  "assigned on publication"); pointers to the README sections and the report.
+- `reproducibility/README.md`: the description of the repository README's section structure
+  corrected (it described the v1.0.0 README).
+- `paper/`: manuscript revision M43 — the Data Availability statement now points to the
+  README and `REPRODUCIBILITY_REPORT.md` and names release v1.1.1; the Declaration of
+  Generative AI Use names the tool version of this revision. No scientific content, value,
+  table or figure changed.
+
 ## v1.1.0 — research reference implementation (PeerJ resubmission)
 
-Version DOI: assigned by Zenodo on publication; the concept DOI
-https://doi.org/10.5281/zenodo.23122100 resolves to the latest archived version.
+Published 2026-10-31 (commit `106eee0`). Version DOI: 10.5281/zenodo.23840722
+(https://doi.org/10.5281/zenodo.23840722). README section numbers in this entry refer to the
+v1.1.0 README (§14 = now Section 9, §8–9 = now Section 10).
 
 Added
 - `reference_implementation/`: the authors' research code of Sections 5–7 from the

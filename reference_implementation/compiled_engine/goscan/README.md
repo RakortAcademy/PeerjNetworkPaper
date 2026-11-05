@@ -93,7 +93,7 @@ Two porting pitfalls illustrate why the rules are tested on both sides:
 Because of these differences the two released engines are **not** in full verdict
 parity, and the Python engine is the reference. The parity reported in the
 manuscript (§9) was measured on the deployed build, which post-dates this snapshot
-and is not released (repository `README.md`, "Restricted components").
+and is not released (repository `README.md`, Section 10, "Restricted components").
 
 ## When changing a rule
 

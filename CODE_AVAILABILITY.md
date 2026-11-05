@@ -7,8 +7,15 @@ Recovery, Inventory Redundancy, and Engine Placement in Managed Enterprise Netwo
 **Concept DOI (all versions):** https://doi.org/10.5281/zenodo.23122100
 **Archived releases:** v1.0.0 (commit `b51f048`, as originally submitted; version DOI
 https://doi.org/10.5281/zenodo.23122101); v1.1.0 (adds `reference_implementation/`;
-version DOI assigned by Zenodo on publication — see `README.md`, "Versions"). The same
-content is supplied to PeerJ as a supplemental archive with the manuscript.
+version DOI https://doi.org/10.5281/zenodo.23840722); v1.1.1 (documentation release that
+supersedes v1.1.0 as the package accompanying the revised manuscript; no code or data change;
+version DOI assigned by Zenodo when archived — see `README.md`, Section 12 "Versions"). The
+same content is supplied to PeerJ as a supplemental archive with the manuscript
+(`PeerjNetworkPaper_v1.1.1.zip`).
+
+How to install and run every public component, the requirements, dataset schemas and the
+methodology are in `README.md` (Sections 3–7); the clean-environment execution record of those
+instructions is `REPRODUCIBILITY_REPORT.md`.
 
 The public code and derived data described below are available from the repository and,
 in archived form, from Zenodo. Each archive contains exactly the repository at that tag;
@@ -39,12 +46,12 @@ boundary does not have to be reverse-engineered from the archive.
 | Golden-set metrics, engine-parity comparator, promotion gate, prioritisation | **Public** (PolyForm Noncommercial 1.0.0) | `reference_implementation/refimpl/evaluation/`, `prioritization.py` | |
 | Synthetic corpus, inventory, training and golden data; reviewer example | **Public** (PolyForm Noncommercial 1.0.0) | `reference_implementation/example_data/`, `examples/run_pipeline.py`, `tests/` | 12 fictional advisories; no real product or customer data |
 | Compiled concurrent decision engine (Go), worker pool, phase-timing instrumentation, local benchmark mode | **Inspectable** (PolyForm Noncommercial 1.0.0) | `reference_implementation/compiled_engine/goscan/` | Research-snapshot source; `go vet`/`go test` pass; end-to-end run needs a populated store and ONNX Runtime |
-| In-memory candidate index and start-up equivalence self-check (§9) | **Not in this release** | — | Post-dates the source snapshot; not included in this release (`README.md`, "Restricted components") |
-| Trained production tagger weights (8.8M) | **Not in this release** | — | Not included in this release; the training corpus is derived from the production advisory store (`README.md`, "Restricted components") |
+| In-memory candidate index and start-up equivalence self-check (§9) | **Not in this release** | — | Post-dates the source snapshot; not included in this release (`README.md`, Section 10, "Restricted components") |
+| Trained production tagger weights (8.8M) | **Not in this release** | — | Not included in this release; the training corpus is derived from the production advisory store (`README.md`, Section 10, "Restricted components") |
 | Service tier of the research snapshot: HTTP API (submission/retrieval split, blocking cap), authentication, durable job queue + worker, verdict cache (scope + engine identity), extraction-cache table, store-side pagination, engine client, feed scheduler, migrations, proxy limits, load-test harness | **Public** (PolyForm Noncommercial 1.0.0) | `reference_implementation/service_tier/` | Research-snapshot code with imports rewritten and six documented seams (`reference_implementation/MAPPING.md`, "Service tier"); runs on a local PostgreSQL with the engine shim; 60 tests without a database, 8 more with one |
-| Item-metered allowance (§7.3) and per-feed refresh scheduler with skip reasons (§7.6) | **Not in this release** | — | Post-date the source snapshot (`README.md`, "Restricted components") |
+| Item-metered allowance (§7.3) and per-feed refresh scheduler with skip reasons (§7.6) | **Not in this release** | — | Post-date the source snapshot (`README.md`, Section 10, "Restricted components") |
 | Feed acquisition modules, management panel, deployment units, TLS material, credentials | **Not released** | — | Data acquisition into the store, operator console, secrets |
-| Repetition / latency-distribution / CPU-counter measurement harnesses of §7–9 | **Not in this release** | — | Part of the deployed service; not included in this release (`README.md`, "Restricted components") |
+| Repetition / latency-distribution / CPU-counter measurement harnesses of §7–9 | **Not in this release** | — | Part of the deployed service; not included in this release (`README.md`, Section 10, "Restricted components") |
 
 ## What the public code does and does not establish
 

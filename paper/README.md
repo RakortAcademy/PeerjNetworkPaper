@@ -7,7 +7,7 @@ Application article.
 
 | Path | What it is |
 |---|---|
-| [`PeerJ_Manuscript.pdf`](PeerJ_Manuscript.pdf) | The compiled manuscript (33 pages, peer-review layout with line numbers), as revised for the PeerJ resubmission (v1.1.0). The version as originally submitted is preserved unchanged in release v1.0.0. Start here to read the paper. |
+| [`PeerJ_Manuscript.pdf`](PeerJ_Manuscript.pdf) | The compiled manuscript (33 pages, peer-review layout with line numbers), as revised for the PeerJ resubmission (revision M43, release v1.1.1). The version as originally submitted is preserved unchanged in release v1.0.0. Start here to read the paper. |
 | [`latex/main.tex`](latex/main.tex) | Full LaTeX source of the manuscript. |
 | [`latex/references.bib`](latex/references.bib) | Bibliography (BibTeX). |
 | [`latex/wlpeerj.cls`](latex/wlpeerj.cls) | PeerJ's LaTeX class file, from PeerJ's official template. |
@@ -35,4 +35,4 @@ files). `PeerJ_Manuscript.pdf` in this directory is built from this source; the 
 | Table 1 | Qualitative positioning table; no code |
 | Tables 8–19, Figures 2–5 (Sections 5–9) | Measured on the deployed production service, which is not part of this repository — see [`../CODE_AVAILABILITY.md`](../CODE_AVAILABILITY.md). The research reference implementation in [`../reference_implementation/`](../reference_implementation/) implements the method but reproduces none of these measurements |
 
-The manuscript text, figures and tables are not covered by the repository's software licences; see `../README.md`, section 14.
+The manuscript text, figures and tables are not covered by the repository's software licences; see `../README.md`, Section 9.

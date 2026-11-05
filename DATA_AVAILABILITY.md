@@ -6,8 +6,10 @@ Recovery, Inventory Redundancy, and Engine Placement in Managed Enterprise Netwo
 **Target journal:** PeerJ Computer Science (AI Application)
 **Repository:** https://github.com/RakortAcademy/PeerjNetworkPaper (archived release v1.0.0,
 DOI https://doi.org/10.5281/zenodo.23122101; the archive contains the public files only).
-This version is v1.1.0 (concept DOI https://doi.org/10.5281/zenodo.23122100); it is also
-supplied to PeerJ as a supplemental archive.
+v1.1.0: DOI https://doi.org/10.5281/zenodo.23840722. This version is v1.1.1 (concept DOI
+https://doi.org/10.5281/zenodo.23122100, which resolves to the latest archived version); it is
+also supplied to PeerJ as a supplemental archive. Dataset schemas and loading instructions:
+`README.md`, Section 3 "Dataset Information".
 
 PeerJ requires that raw data and/or code be made available whenever possible, and
 that where third-party data cannot be shared for confidentiality or security reasons
@@ -26,7 +28,7 @@ corresponding split for **code** is in `CODE_AVAILABILITY.md`.
 | Manuscript figures | `paper/latex/figures/Figure_1.pdf` … `Figure_7.pdf` | Vector PDF crops of the submitted figures (Figures 1, 4, 6 and 7 re-written on 2026-10-31 to remove page content lying outside the visible figure area; visible content and plotted data unchanged); no TikZ/PGFPlots source exists |
 
 The public figure data support Figures 1 and 6 only partially or fully as stated in
-`README.md` (sections 6 and 8); Figure 7 cannot be regenerated from them.
+`README.md` (Sections 5.6 and 10); Figure 7 cannot be regenerated from them.
 
 **Provenance.** The Table 2–6 CSVs and `figure1_fanout.csv` are the unmodified output
 of the public scripts on the study exports (2026-10-03), checked value by value against

@@ -33,7 +33,7 @@ No DOI, URL or accession number is written into any file until it exists.
 9. **Obtain the real DOI** from Zenodo (concept DOI for all versions and the
    version DOI for v1.0.0).
 10. **Insert the real DOI / repository citation** into:
-    - `README.md` (Citations section),
+    - `README.md` (Section 8, Citations),
     - `CITATION.cff` (`doi:`, `date-released:`, `repository-code:`),
     - `CODE_AVAILABILITY.md`,
     - `DATA_AVAILABILITY.md` (if the data citation is separate),

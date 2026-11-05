@@ -130,7 +130,7 @@ def check_required_files(rep: Report) -> None:
 def check_forbidden_content(rep: Report) -> None:
     bad_files, bad_text = [], []
     for dirpath, dirnames, filenames in os.walk(ROOT):
-        # `tiny_model` is the git-ignored output of the reviewer example (README section 3.1);
+        # `tiny_model` is the git-ignored output of the reviewer example (README section 5.3);
         # it holds a checkpoint by design and is never part of a checkout.
         dirnames[:] = [d for d in dirnames if d not in (".git", "__pycache__", "out", ".venv", "venv", "tiny_model")]
         for fn in filenames:
